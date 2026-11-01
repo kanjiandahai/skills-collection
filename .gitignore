@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python (catalog / tooling)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Node (optional tooling)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Local scratch
+.tmp/
+.cache/
