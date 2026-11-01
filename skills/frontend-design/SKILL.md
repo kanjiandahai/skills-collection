@@ -2,6 +2,10 @@
 name: frontend-design
 description: 做有辨识度的前端视觉与界面，避免千篇一律的 AI 默认审美。新建页面、改版 UI、落地页、仪表盘皮肤，或用户抱怨「看起来像模板」时使用。
 tags: [frontend, ui, design, css, web]
+category: design
+source: anthropics/skills
+rank: 15
+installs: 1058803
 ---
 
 # frontend-design

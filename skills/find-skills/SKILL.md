@@ -2,6 +2,10 @@
 name: find-skills
 description: 发现、筛选并安装合适的 Agent Skill。用户说找不到 skill、有没有某某能力、帮我搜 skill、skills.sh / npx skills、或不知道该装哪个 skill 时使用。
 tags: [skills, discovery, catalog, install]
+category: discovery
+source: vercel-labs/skills
+rank: 1
+installs: 4143610
 ---
 
 # find-skills

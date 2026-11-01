@@ -2,6 +2,7 @@
 name: pptx-deck
 description: 制作或改写 PowerPoint / .pptx 幻灯片（路演、汇报、培训、方案）。用户提到做 PPT、幻灯片、presentation、deck、pitch，或要生成/修改 .pptx 时使用。
 tags: [pptx, powerpoint, slides, presentation, deck]
+category: documents
 ---
 
 # pptx-deck

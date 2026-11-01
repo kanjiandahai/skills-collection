@@ -2,6 +2,7 @@
 name: poster-design
 description: 设计海报、静态视觉稿、活动宣传图或单页艺术构图。用户提到做海报、宣传图、视觉设计、静态画面、PNG/PDF 海报时使用；输出以画面为主，文案极少。
 tags: [poster, design, visual, png, pdf]
+category: documents
 ---
 
 # poster-design

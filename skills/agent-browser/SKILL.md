@@ -2,6 +2,10 @@
 name: agent-browser
 description: 指导助手用浏览器完成页面操作、抓取与验证（打开、点击、填写、截图、断言）。用户要自动化网页流程、检查线上 UI、登录后操作站点、或用无头/有头浏览器跑任务时使用。
 tags: [browser, automation, testing, scraping]
+category: browser
+source: vercel-labs/agent-browser
+rank: 4
+installs: 1324536
 ---
 
 # agent-browser

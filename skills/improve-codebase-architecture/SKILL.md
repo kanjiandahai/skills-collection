@@ -2,6 +2,10 @@
 name: improve-codebase-architecture
 description: 诊断并改进代码库架构：边界、模块化、依赖方向与可测性。用户说架构混乱、拆模块、减耦合、理清分层、改进 codebase architecture 时使用。
 tags: [architecture, refactor, modularity]
+category: planning
+source: mattpocock/skills
+rank: 8
+installs: 1204860
 ---
 
 # improve-codebase-architecture

@@ -2,6 +2,7 @@
 name: webapp-testing
 description: 为 Web 应用设计并运行可靠的 UI/端到端测试与冒烟检查。用户要测页面、写 Playwright/Cypress 测试、加回归、验证修复是否生效时使用。
 tags: [testing, e2e, playwright, webapp]
+category: engineering
 ---
 
 # webapp-testing

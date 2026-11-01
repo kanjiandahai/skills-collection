@@ -2,6 +2,7 @@
 name: spreadsheet-xlsx
 description: 创建、编辑、分析或美化电子表格（.xlsx / .csv / .tsv）。用户提到做表、改 Excel、透视、公式、清洗脏表、从数据出报表或图表时使用。
 tags: [xlsx, excel, spreadsheet, csv, data]
+category: documents
 ---
 
 # spreadsheet-xlsx

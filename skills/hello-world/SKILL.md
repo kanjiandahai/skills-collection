@@ -2,6 +2,7 @@
 name: hello-world
 description: 示例技能：演示 skills-collection 的目录与 frontmatter 约定；新技能可复制此模板改写。
 tags: [example, starter]
+category: meta
 ---
 
 # hello-world

@@ -2,6 +2,10 @@
 name: grill-me
 description: 对计划或设计做高压追问，直到决策树走通、双方理解一致。用户说 grill me、拷问一下方案、帮我抠需求、压力测试设计、把计划问清楚时使用。
 tags: [requirements, planning, interview, design]
+category: planning
+source: mattpocock/skills
+rank: 2
+installs: 1472219
 ---
 
 # grill-me

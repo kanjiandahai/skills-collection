@@ -2,6 +2,10 @@
 name: tdd
 description: 用测试驱动实现功能：先写失败测试，再写最小实现，再重构。用户要求 TDD、先写测试、红绿重构、或实现前先定行为规格时使用。
 tags: [tdd, testing, red-green-refactor]
+category: planning
+source: mattpocock/skills
+rank: 10
+installs: 1178984
 ---
 
 # tdd

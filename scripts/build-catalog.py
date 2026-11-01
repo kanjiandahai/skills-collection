@@ -42,19 +42,27 @@ def main() -> None:
     for skill_md in sorted(SKILLS_DIR.glob("*/SKILL.md")):
         skill_id = skill_md.parent.name
         meta = parse_frontmatter(skill_md.read_text(encoding="utf-8"))
-        entries.append(
-            {
-                "id": skill_id,
-                "name": meta.get("name", skill_id),
-                "description": meta.get("description", ""),
-                "tags": meta.get("tags", []),
-                "path": str(skill_md.relative_to(ROOT).as_posix()),
-            }
-        )
+        entry = {
+            "id": skill_id,
+            "name": meta.get("name", skill_id),
+            "description": meta.get("description", ""),
+            "tags": meta.get("tags", []),
+            "category": meta.get("category", "meta"),
+            "path": str(skill_md.relative_to(ROOT).as_posix()),
+        }
+        if "source" in meta:
+            entry["source"] = meta["source"]
+        for key in ("rank", "installs"):
+            if key in meta:
+                try:
+                    entry[key] = int(meta[key])
+                except (TypeError, ValueError):
+                    entry[key] = meta[key]
+        entries.append(entry)
 
     catalog = {
         "name": "skills-collection",
-        "description": "Public index of reusable agent skills",
+        "description": "Public index of reusable agent skills (skills.sh Top100 + extras)",
         "skills": entries,
     }
     OUT.write_text(

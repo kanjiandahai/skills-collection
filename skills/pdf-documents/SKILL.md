@@ -2,6 +2,7 @@
 name: pdf-documents
 description: 创建、阅读、拆合或填写 PDF。用户提到 PDF、导出说明书、合并拆分页面、提取表格/文字、加水印、填表时使用。
 tags: [pdf, documents]
+category: documents
 ---
 
 # pdf-documents

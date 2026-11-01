@@ -2,6 +2,7 @@
 name: flowchart-mermaid
 description: 用 Mermaid 画清晰、可渲染的流程图与相关示意图。用户提到画流程图、流程、决策树、工作流、架构示意、时序图、状态机、ER/类图，或要把过程可视化成 diagram-as-code 时使用。
 tags: [mermaid, flowchart, diagram, visualization]
+category: documents
 ---
 
 # flowchart-mermaid

@@ -1,6 +1,6 @@
 {
   "name": "skills-collection",
-  "description": "Public index of reusable agent skills",
+  "description": "Public index of reusable agent skills (skills.sh Top100 + extras)",
   "skills": [
     {
       "id": "agent-browser",
@@ -12,7 +12,395 @@
         "testing",
         "scraping"
       ],
-      "path": "skills/agent-browser/SKILL.md"
+      "category": "browser",
+      "path": "skills/agent-browser/SKILL.md",
+      "source": "vercel-labs/agent-browser",
+      "rank": 4,
+      "installs": 1324536
+    },
+    {
+      "id": "ai-avatar-video",
+      "name": "ai-avatar-video",
+      "description": "生成数字人/口播类 Avatar 视频。用户要数字人讲解视频时使用。",
+      "tags": [
+        "media",
+        "101-skills",
+        "avatar",
+        "video"
+      ],
+      "category": "media",
+      "path": "skills/ai-avatar-video/SKILL.md",
+      "source": "101-skills/superpowers",
+      "rank": 24,
+      "installs": 917307
+    },
+    {
+      "id": "ai-image-generation",
+      "name": "ai-image-generation",
+      "description": "用 AI 生成或迭代图像。用户要文生图、改图、出视觉稿时使用。",
+      "tags": [
+        "media",
+        "101-skills",
+        "image",
+        "generation"
+      ],
+      "category": "media",
+      "path": "skills/ai-image-generation/SKILL.md",
+      "source": "101-skills/superpowers",
+      "rank": 22,
+      "installs": 917955
+    },
+    {
+      "id": "ai-video-generation",
+      "name": "ai-video-generation",
+      "description": "用 AI 生成视频成片或片段。用户要文生视频/脚本转视频时使用。",
+      "tags": [
+        "media",
+        "101-skills",
+        "video",
+        "generation"
+      ],
+      "category": "media",
+      "path": "skills/ai-video-generation/SKILL.md",
+      "source": "101-skills/superpowers",
+      "rank": 21,
+      "installs": 919308
+    },
+    {
+      "id": "appinsights-instrumentation",
+      "name": "appinsights-instrumentation",
+      "description": "云平台与基础设施相关技能 `appinsights-instrumentation`。当任务匹配该上游 skill 名称与场景时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "appinsights",
+        "instrumentation"
+      ],
+      "category": "cloud",
+      "path": "skills/appinsights-instrumentation/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 90,
+      "installs": 572490
+    },
+    {
+      "id": "ask-matt",
+      "name": "ask-matt",
+      "description": "以 Matt 风格答疑或给工程建议。用户要该系列方法论建议时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "ask",
+        "matt"
+      ],
+      "category": "planning",
+      "path": "skills/ask-matt/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 63,
+      "installs": 799120
+    },
+    {
+      "id": "azure-ai",
+      "name": "azure-ai",
+      "description": "Azure 云场景：ai。用户要在 Azure 上完成相关配置、部署或排查时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "azure"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-ai/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 85,
+      "installs": 574510
+    },
+    {
+      "id": "azure-aigateway",
+      "name": "azure-aigateway",
+      "description": "Azure 云场景：aigateway。用户要在 Azure 上完成相关配置、部署或排查时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "azure",
+        "aigateway"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-aigateway/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 95,
+      "installs": 571711
+    },
+    {
+      "id": "azure-compliance",
+      "name": "azure-compliance",
+      "description": "Azure 云场景：compliance。用户要在 Azure 上完成相关配置、部署或排查时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "azure",
+        "compliance"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-compliance/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 89,
+      "installs": 572695
+    },
+    {
+      "id": "azure-compute",
+      "name": "azure-compute",
+      "description": "Azure 云场景：compute。用户要在 Azure 上完成相关配置、部署或排查时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "azure",
+        "compute"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-compute/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 112,
+      "installs": 528193
+    },
+    {
+      "id": "azure-deploy",
+      "name": "azure-deploy",
+      "description": "Azure 云场景：deploy。用户要在 Azure 上完成相关配置、部署或排查时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "azure",
+        "deploy"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-deploy/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 86,
+      "installs": 574261
+    },
+    {
+      "id": "azure-diagnostics",
+      "name": "azure-diagnostics",
+      "description": "Azure 云场景：diagnostics。用户要在 Azure 上完成相关配置、部署或排查时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "azure",
+        "diagnostics"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-diagnostics/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 83,
+      "installs": 576049
+    },
+    {
+      "id": "azure-kusto",
+      "name": "azure-kusto",
+      "description": "Azure 云场景：kusto。用户要在 Azure 上完成相关配置、部署或排查时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "azure",
+        "kusto"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-kusto/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 94,
+      "installs": 572108
+    },
+    {
+      "id": "azure-messaging",
+      "name": "azure-messaging",
+      "description": "Azure 云场景：messaging。用户要在 Azure 上完成相关配置、部署或排查时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "azure",
+        "messaging"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-messaging/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 96,
+      "installs": 563365
+    },
+    {
+      "id": "azure-prepare",
+      "name": "azure-prepare",
+      "description": "Azure 云场景：prepare。用户要在 Azure 上完成相关配置、部署或排查时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "azure",
+        "prepare"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-prepare/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 84,
+      "installs": 575222
+    },
+    {
+      "id": "azure-resource-lookup",
+      "name": "azure-resource-lookup",
+      "description": "Azure 云场景：resource lookup。用户要在 Azure 上完成相关配置、部署或排查时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "azure",
+        "resource",
+        "lookup"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-resource-lookup/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 91,
+      "installs": 572439
+    },
+    {
+      "id": "azure-resource-visualizer",
+      "name": "azure-resource-visualizer",
+      "description": "Azure 云场景：resource visualizer。用户要在 Azure 上完成相关配置、部署或排查时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "azure",
+        "resource",
+        "visualizer"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-resource-visualizer/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 92,
+      "installs": 572399
+    },
+    {
+      "id": "azure-storage",
+      "name": "azure-storage",
+      "description": "Azure 云场景：storage。用户要在 Azure 上完成相关配置、部署或排查时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "azure",
+        "storage"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-storage/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 88,
+      "installs": 573090
+    },
+    {
+      "id": "azure-validate",
+      "name": "azure-validate",
+      "description": "Azure 云场景：validate。用户要在 Azure 上完成相关配置、部署或排查时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "azure",
+        "validate"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-validate/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 87,
+      "installs": 573818
+    },
+    {
+      "id": "caveman",
+      "name": "caveman",
+      "description": "Caveman：极简/直给的工程沟通与实现风格。用户要该技能工作流时使用。",
+      "tags": [
+        "engineering",
+        "juliusbrussee",
+        "caveman"
+      ],
+      "category": "engineering",
+      "path": "skills/caveman/SKILL.md",
+      "source": "juliusbrussee/caveman",
+      "rank": 76,
+      "installs": 603221
+    },
+    {
+      "id": "code-review",
+      "name": "code-review",
+      "description": "结构化代码审查。用户要 review PR/改动时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "code",
+        "review"
+      ],
+      "category": "planning",
+      "path": "skills/code-review/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 54,
+      "installs": 829992
+    },
+    {
+      "id": "codebase-design",
+      "name": "codebase-design",
+      "description": "从零或重构时设计代码库结构。用户要定目录/模块边界时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "codebase",
+        "design"
+      ],
+      "category": "planning",
+      "path": "skills/codebase-design/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 28,
+      "installs": 891203
+    },
+    {
+      "id": "design-mobile-apps",
+      "name": "design-mobile-apps",
+      "description": "移动端 App UI/交互设计指导。用户做 iOS/Android/跨端界面时使用。",
+      "tags": [
+        "design",
+        "designed-by-ai",
+        "mobile",
+        "apps"
+      ],
+      "category": "design",
+      "path": "skills/design-mobile-apps/SKILL.md",
+      "source": "designed-by-ai/skills",
+      "rank": 11,
+      "installs": 1152654
+    },
+    {
+      "id": "design-taste-frontend",
+      "name": "design-taste-frontend",
+      "description": "设计与前端体验相关技能 `design-taste-frontend`。当任务匹配该上游 skill 名称与场景时使用。",
+      "tags": [
+        "design",
+        "leonxlnx",
+        "taste",
+        "frontend"
+      ],
+      "category": "design",
+      "path": "skills/design-taste-frontend/SKILL.md",
+      "source": "leonxlnx/taste-skill",
+      "rank": 72,
+      "installs": 711387
+    },
+    {
+      "id": "diagnosing-bugs",
+      "name": "diagnosing-bugs",
+      "description": "系统化定位缺陷根因。用户卡在诡异 bug 时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "diagnosing",
+        "bugs"
+      ],
+      "category": "planning",
+      "path": "skills/diagnosing-bugs/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 30,
+      "installs": 872766
     },
     {
       "id": "docx-documents",
@@ -23,7 +411,41 @@
         "word",
         "documents"
       ],
+      "category": "documents",
       "path": "skills/docx-documents/SKILL.md"
+    },
+    {
+      "id": "domain-modeling",
+      "name": "domain-modeling",
+      "description": "梳理领域模型与边界上下文。用户要 DDD/领域语言/模型图时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "domain",
+        "modeling"
+      ],
+      "category": "planning",
+      "path": "skills/domain-modeling/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 26,
+      "installs": 915974
+    },
+    {
+      "id": "entra-app-registration",
+      "name": "entra-app-registration",
+      "description": "云平台与基础设施相关技能 `entra-app-registration`。当任务匹配该上游 skill 名称与场景时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "entra",
+        "app",
+        "registration"
+      ],
+      "category": "cloud",
+      "path": "skills/entra-app-registration/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 93,
+      "installs": 572356
     },
     {
       "id": "find-skills",
@@ -35,7 +457,11 @@
         "catalog",
         "install"
       ],
-      "path": "skills/find-skills/SKILL.md"
+      "category": "discovery",
+      "path": "skills/find-skills/SKILL.md",
+      "source": "vercel-labs/skills",
+      "rank": 1,
+      "installs": 4143610
     },
     {
       "id": "flowchart-mermaid",
@@ -47,6 +473,7 @@
         "diagram",
         "visualization"
       ],
+      "category": "documents",
       "path": "skills/flowchart-mermaid/SKILL.md"
     },
     {
@@ -60,7 +487,139 @@
         "css",
         "web"
       ],
-      "path": "skills/frontend-design/SKILL.md"
+      "category": "design",
+      "path": "skills/frontend-design/SKILL.md",
+      "source": "anthropics/skills",
+      "rank": 15,
+      "installs": 1058803
+    },
+    {
+      "id": "general-video",
+      "name": "general-video",
+      "description": "音视频与媒体生成相关技能 `general-video`。当任务匹配该上游 skill 名称与场景时使用。",
+      "tags": [
+        "media",
+        "heygen-com",
+        "general",
+        "video"
+      ],
+      "category": "media",
+      "path": "skills/general-video/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 74,
+      "installs": 661428
+    },
+    {
+      "id": "google-agents-cli-adk-code",
+      "name": "google-agents-cli-adk-code",
+      "description": "用 Google Agents CLI / ADK 编写 Agent 代码。用户做 ADK 开发时使用。",
+      "tags": [
+        "engineering",
+        "google",
+        "agents",
+        "cli"
+      ],
+      "category": "engineering",
+      "path": "skills/google-agents-cli-adk-code/SKILL.md",
+      "source": "google/agents-cli",
+      "rank": 104,
+      "installs": 532028
+    },
+    {
+      "id": "google-agents-cli-deploy",
+      "name": "google-agents-cli-deploy",
+      "description": "部署 Google Agents CLI 相关 Agent。用户要发布到运行环境时使用。",
+      "tags": [
+        "engineering",
+        "google",
+        "agents",
+        "cli"
+      ],
+      "category": "engineering",
+      "path": "skills/google-agents-cli-deploy/SKILL.md",
+      "source": "google/agents-cli",
+      "rank": 105,
+      "installs": 531355
+    },
+    {
+      "id": "google-agents-cli-eval",
+      "name": "google-agents-cli-eval",
+      "description": "评估 Agent 质量。用户要 eval/打分时使用。",
+      "tags": [
+        "engineering",
+        "google",
+        "agents",
+        "cli"
+      ],
+      "category": "engineering",
+      "path": "skills/google-agents-cli-eval/SKILL.md",
+      "source": "google/agents-cli",
+      "rank": 108,
+      "installs": 530507
+    },
+    {
+      "id": "google-agents-cli-observability",
+      "name": "google-agents-cli-observability",
+      "description": "为 Agent 加观测（日志/追踪/指标）。用户要可观测性时使用。",
+      "tags": [
+        "engineering",
+        "google",
+        "agents",
+        "cli"
+      ],
+      "category": "engineering",
+      "path": "skills/google-agents-cli-observability/SKILL.md",
+      "source": "google/agents-cli",
+      "rank": 110,
+      "installs": 530360
+    },
+    {
+      "id": "google-agents-cli-publish",
+      "name": "google-agents-cli-publish",
+      "description": "发布 Agent 包或制品。用户要 publish 时使用。",
+      "tags": [
+        "engineering",
+        "google",
+        "agents",
+        "cli"
+      ],
+      "category": "engineering",
+      "path": "skills/google-agents-cli-publish/SKILL.md",
+      "source": "google/agents-cli",
+      "rank": 106,
+      "installs": 531146
+    },
+    {
+      "id": "google-agents-cli-scaffold",
+      "name": "google-agents-cli-scaffold",
+      "description": "脚手架生成 Agent 项目。用户要快速起项目时使用。",
+      "tags": [
+        "engineering",
+        "google",
+        "agents",
+        "cli"
+      ],
+      "category": "engineering",
+      "path": "skills/google-agents-cli-scaffold/SKILL.md",
+      "source": "google/agents-cli",
+      "rank": 109,
+      "installs": 530391
+    },
+    {
+      "id": "google-agents-cli-workflow",
+      "name": "google-agents-cli-workflow",
+      "description": "编排 Agents CLI 工作流。用户要多步 Agent 流水线时使用。",
+      "tags": [
+        "engineering",
+        "google",
+        "agents",
+        "cli"
+      ],
+      "category": "engineering",
+      "path": "skills/google-agents-cli-workflow/SKILL.md",
+      "source": "google/agents-cli",
+      "rank": 107,
+      "installs": 530523
     },
     {
       "id": "grill-me",
@@ -72,7 +631,58 @@
         "interview",
         "design"
       ],
-      "path": "skills/grill-me/SKILL.md"
+      "category": "planning",
+      "path": "skills/grill-me/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 2,
+      "installs": 1472219
+    },
+    {
+      "id": "grill-with-docs",
+      "name": "grill-with-docs",
+      "description": "结合文档资料做高压方案追问。用户要边读文档边拷问设计时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "grill",
+        "with",
+        "docs"
+      ],
+      "category": "planning",
+      "path": "skills/grill-with-docs/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 6,
+      "installs": 1260788
+    },
+    {
+      "id": "grilling",
+      "name": "grilling",
+      "description": "持续追问以澄清模糊需求（grilling 流程）。用户要被系统化拷问时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "grilling"
+      ],
+      "category": "planning",
+      "path": "skills/grilling/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 16,
+      "installs": 1028898
+    },
+    {
+      "id": "handoff",
+      "name": "handoff",
+      "description": "把上下文整理成可交接的 handoff 文档。用户换人/换会话继续做时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "handoff"
+      ],
+      "category": "planning",
+      "path": "skills/handoff/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 14,
+      "installs": 1077247
     },
     {
       "id": "hello-world",
@@ -82,7 +692,150 @@
         "example",
         "starter"
       ],
+      "category": "meta",
       "path": "skills/hello-world/SKILL.md"
+    },
+    {
+      "id": "hyperframes",
+      "name": "hyperframes",
+      "description": "Hyperframes 视频创作总技能。用户要做 AI 视频/成片流水线且提到 Hyperframes 时使用。",
+      "tags": [
+        "media",
+        "heygen-com",
+        "hyperframes"
+      ],
+      "category": "media",
+      "path": "skills/hyperframes/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 5,
+      "installs": 1319943
+    },
+    {
+      "id": "hyperframes-animation",
+      "name": "hyperframes-animation",
+      "description": "Hyperframes 动画时间线与动效相关工作。用户要调动画时使用。",
+      "tags": [
+        "media",
+        "heygen-com",
+        "hyperframes",
+        "animation"
+      ],
+      "category": "media",
+      "path": "skills/hyperframes-animation/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 19,
+      "installs": 1005059
+    },
+    {
+      "id": "hyperframes-audio",
+      "name": "hyperframes-audio",
+      "description": "Hyperframes 体系技能 `hyperframes-audio`。用户在 Hyperframes 视频工作流中需要该能力时使用。",
+      "tags": [
+        "media",
+        "heygen-com",
+        "hyperframes",
+        "audio"
+      ],
+      "category": "media",
+      "path": "skills/hyperframes-audio/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 73,
+      "installs": 663547
+    },
+    {
+      "id": "hyperframes-cli",
+      "name": "hyperframes-cli",
+      "description": "通过 Hyperframes CLI 创建/渲染视频相关工作流。用户提到 Hyperframes 命令行时使用。",
+      "tags": [
+        "media",
+        "heygen-com",
+        "hyperframes",
+        "cli"
+      ],
+      "category": "media",
+      "path": "skills/hyperframes-cli/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 3,
+      "installs": 1357195
+    },
+    {
+      "id": "hyperframes-core",
+      "name": "hyperframes-core",
+      "description": "Hyperframes 核心概念与基础构图。用户入门或排查基础能力时使用。",
+      "tags": [
+        "media",
+        "heygen-com",
+        "hyperframes",
+        "core"
+      ],
+      "category": "media",
+      "path": "skills/hyperframes-core/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 20,
+      "installs": 930744
+    },
+    {
+      "id": "hyperframes-creative",
+      "name": "hyperframes-creative",
+      "description": "Hyperframes 创意方向与叙事包装。用户要定视频创意时使用。",
+      "tags": [
+        "media",
+        "heygen-com",
+        "hyperframes",
+        "creative"
+      ],
+      "category": "media",
+      "path": "skills/hyperframes-creative/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 25,
+      "installs": 916794
+    },
+    {
+      "id": "hyperframes-keyframes",
+      "name": "hyperframes-keyframes",
+      "description": "Hyperframes 体系技能 `hyperframes-keyframes`。用户在 Hyperframes 视频工作流中需要该能力时使用。",
+      "tags": [
+        "media",
+        "heygen-com",
+        "hyperframes",
+        "keyframes"
+      ],
+      "category": "media",
+      "path": "skills/hyperframes-keyframes/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 65,
+      "installs": 754477
+    },
+    {
+      "id": "hyperframes-registry",
+      "name": "hyperframes-registry",
+      "description": "查找与复用 Hyperframes 注册表中的模板/组件。用户要选 Hyperframes 资源时使用。",
+      "tags": [
+        "media",
+        "heygen-com",
+        "hyperframes",
+        "registry"
+      ],
+      "category": "media",
+      "path": "skills/hyperframes-registry/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 12,
+      "installs": 1116775
+    },
+    {
+      "id": "implement",
+      "name": "implement",
+      "description": "把已澄清的规格落地为实现。用户说「按方案实现」时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "implement"
+      ],
+      "category": "planning",
+      "path": "skills/implement/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 58,
+      "installs": 808925
     },
     {
       "id": "improve-codebase-architecture",
@@ -93,7 +846,448 @@
         "refactor",
         "modularity"
       ],
-      "path": "skills/improve-codebase-architecture/SKILL.md"
+      "category": "planning",
+      "path": "skills/improve-codebase-architecture/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 8,
+      "installs": 1204860
+    },
+    {
+      "id": "lark-approval",
+      "name": "lark-approval",
+      "description": "飞书/Lark OpenAPI 场景：approval。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "approval"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-approval/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 39,
+      "installs": 836415
+    },
+    {
+      "id": "lark-apps",
+      "name": "lark-apps",
+      "description": "飞书/Lark OpenAPI 场景：apps。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "apps"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-apps/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 69,
+      "installs": 746736
+    },
+    {
+      "id": "lark-attendance",
+      "name": "lark-attendance",
+      "description": "飞书/Lark OpenAPI 场景：attendance。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "attendance"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-attendance/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 48,
+      "installs": 834696
+    },
+    {
+      "id": "lark-base",
+      "name": "lark-base",
+      "description": "飞书/Lark OpenAPI 场景：base。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "base"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-base/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 33,
+      "installs": 837904
+    },
+    {
+      "id": "lark-calendar",
+      "name": "lark-calendar",
+      "description": "飞书/Lark OpenAPI 场景：calendar。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "calendar"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-calendar/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 37,
+      "installs": 836540
+    },
+    {
+      "id": "lark-contact",
+      "name": "lark-contact",
+      "description": "飞书/Lark OpenAPI 场景：contact。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "contact"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-contact/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 41,
+      "installs": 835567
+    },
+    {
+      "id": "lark-doc",
+      "name": "lark-doc",
+      "description": "飞书/Lark OpenAPI 场景：doc。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "doc"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-doc/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 32,
+      "installs": 838580
+    },
+    {
+      "id": "lark-drive",
+      "name": "lark-drive",
+      "description": "飞书/Lark OpenAPI 场景：drive。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "drive"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-drive/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 34,
+      "installs": 837894
+    },
+    {
+      "id": "lark-event",
+      "name": "lark-event",
+      "description": "飞书/Lark OpenAPI 场景：event。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "event"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-event/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 46,
+      "installs": 835035
+    },
+    {
+      "id": "lark-im",
+      "name": "lark-im",
+      "description": "飞书/Lark OpenAPI 场景：im。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-im/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 36,
+      "installs": 836933
+    },
+    {
+      "id": "lark-mail",
+      "name": "lark-mail",
+      "description": "飞书/Lark OpenAPI 场景：mail。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "mail"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-mail/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 44,
+      "installs": 835281
+    },
+    {
+      "id": "lark-markdown",
+      "name": "lark-markdown",
+      "description": "飞书/Lark OpenAPI 场景：markdown。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "markdown"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-markdown/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 62,
+      "installs": 801529
+    },
+    {
+      "id": "lark-minutes",
+      "name": "lark-minutes",
+      "description": "飞书/Lark OpenAPI 场景：minutes。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "minutes"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-minutes/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 51,
+      "installs": 833986
+    },
+    {
+      "id": "lark-note",
+      "name": "lark-note",
+      "description": "飞书/Lark OpenAPI 场景：note。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "note"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-note/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 75,
+      "installs": 618126
+    },
+    {
+      "id": "lark-okr",
+      "name": "lark-okr",
+      "description": "飞书/Lark OpenAPI 场景：okr。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "okr"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-okr/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 55,
+      "installs": 815656
+    },
+    {
+      "id": "lark-openapi-explorer",
+      "name": "lark-openapi-explorer",
+      "description": "飞书/Lark OpenAPI 场景：openapi explorer。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "openapi",
+        "explorer"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-openapi-explorer/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 47,
+      "installs": 834796
+    },
+    {
+      "id": "lark-shared",
+      "name": "lark-shared",
+      "description": "飞书/Lark OpenAPI 场景：shared。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "shared"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-shared/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 35,
+      "installs": 837674
+    },
+    {
+      "id": "lark-sheets",
+      "name": "lark-sheets",
+      "description": "飞书/Lark OpenAPI 场景：sheets。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "sheets"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-sheets/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 38,
+      "installs": 836441
+    },
+    {
+      "id": "lark-skill-maker",
+      "name": "lark-skill-maker",
+      "description": "飞书/Lark OpenAPI 场景：skill maker。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "skill",
+        "maker"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-skill-maker/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 49,
+      "installs": 834326
+    },
+    {
+      "id": "lark-slides",
+      "name": "lark-slides",
+      "description": "飞书/Lark OpenAPI 场景：slides。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "slides"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-slides/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 43,
+      "installs": 835323
+    },
+    {
+      "id": "lark-task",
+      "name": "lark-task",
+      "description": "飞书/Lark OpenAPI 场景：task。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "task"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-task/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 42,
+      "installs": 835460
+    },
+    {
+      "id": "lark-vc",
+      "name": "lark-vc",
+      "description": "飞书/Lark OpenAPI 场景：vc。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-vc/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 53,
+      "installs": 833251
+    },
+    {
+      "id": "lark-vc-agent",
+      "name": "lark-vc-agent",
+      "description": "飞书/Lark OpenAPI 场景：vc agent。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "agent"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-vc-agent/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 64,
+      "installs": 777869
+    },
+    {
+      "id": "lark-whiteboard",
+      "name": "lark-whiteboard",
+      "description": "飞书/Lark OpenAPI 场景：whiteboard。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "whiteboard"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-whiteboard/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 45,
+      "installs": 835125
+    },
+    {
+      "id": "lark-wiki",
+      "name": "lark-wiki",
+      "description": "飞书/Lark OpenAPI 场景：wiki。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "wiki"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-wiki/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 40,
+      "installs": 836338
+    },
+    {
+      "id": "lark-workflow-meeting-summary",
+      "name": "lark-workflow-meeting-summary",
+      "description": "飞书/Lark OpenAPI 场景：workflow meeting summary。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "workflow",
+        "meeting"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-workflow-meeting-summary/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 50,
+      "installs": 834184
+    },
+    {
+      "id": "lark-workflow-standup-report",
+      "name": "lark-workflow-standup-report",
+      "description": "飞书/Lark OpenAPI 场景：workflow standup report。用户要在飞书生态完成相关自动化或集成时使用。",
+      "tags": [
+        "collaboration",
+        "lark",
+        "workflow",
+        "standup"
+      ],
+      "category": "collaboration",
+      "path": "skills/lark-workflow-standup-report/SKILL.md",
+      "source": "open.feishu.cn",
+      "rank": 52,
+      "installs": 833899
+    },
+    {
+      "id": "media-use",
+      "name": "media-use",
+      "description": "选择与运用媒体资源（图/音/视频）完成创作任务。用户纠结媒体素材用法时使用。",
+      "tags": [
+        "media",
+        "heygen-com",
+        "use"
+      ],
+      "category": "media",
+      "path": "skills/media-use/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 7,
+      "installs": 1228258
+    },
+    {
+      "id": "microsoft-foundry",
+      "name": "microsoft-foundry",
+      "description": "Microsoft Foundry / Azure AI 相关项目引导。用户提到 Foundry 时使用。",
+      "tags": [
+        "cloud",
+        "microsoft",
+        "foundry"
+      ],
+      "category": "cloud",
+      "path": "skills/microsoft-foundry/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 81,
+      "installs": 585309
     },
     {
       "id": "pdf-documents",
@@ -103,6 +1297,7 @@
         "pdf",
         "documents"
       ],
+      "category": "documents",
       "path": "skills/pdf-documents/SKILL.md"
     },
     {
@@ -116,6 +1311,7 @@
         "png",
         "pdf"
       ],
+      "category": "documents",
       "path": "skills/poster-design/SKILL.md"
     },
     {
@@ -129,7 +1325,138 @@
         "presentation",
         "deck"
       ],
+      "category": "documents",
       "path": "skills/pptx-deck/SKILL.md"
+    },
+    {
+      "id": "product-launch-video",
+      "name": "product-launch-video",
+      "description": "音视频与媒体生成相关技能 `product-launch-video`。当任务匹配该上游 skill 名称与场景时使用。",
+      "tags": [
+        "media",
+        "heygen-com",
+        "product",
+        "launch",
+        "video"
+      ],
+      "category": "media",
+      "path": "skills/product-launch-video/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 103,
+      "installs": 538990
+    },
+    {
+      "id": "prototype",
+      "name": "prototype",
+      "description": "快速做出可验证原型。用户要先跑通 demo 再谈完美实现时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "prototype"
+      ],
+      "category": "planning",
+      "path": "skills/prototype/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 18,
+      "installs": 1021735
+    },
+    {
+      "id": "reddit-automation",
+      "name": "reddit-automation",
+      "description": "自动化 Reddit 浏览、发帖或互动流程（需遵守平台规则）。用户要 Reddit 代理操作时使用。",
+      "tags": [
+        "browser",
+        "flowkit-labs",
+        "reddit",
+        "automation"
+      ],
+      "category": "browser",
+      "path": "skills/reddit-automation/SKILL.md",
+      "source": "flowkit-labs/skills",
+      "rank": 9,
+      "installs": 1186465
+    },
+    {
+      "id": "remotion-best-practices",
+      "name": "remotion-best-practices",
+      "description": "音视频与媒体生成相关技能 `remotion-best-practices`。当任务匹配该上游 skill 名称与场景时使用。",
+      "tags": [
+        "media",
+        "remotion-dev",
+        "remotion",
+        "best",
+        "practices"
+      ],
+      "category": "media",
+      "path": "skills/remotion-best-practices/SKILL.md",
+      "source": "remotion-dev/skills",
+      "rank": 71,
+      "installs": 722049
+    },
+    {
+      "id": "remotion-to-hyperframes",
+      "name": "remotion-to-hyperframes",
+      "description": "音视频与媒体生成相关技能 `remotion-to-hyperframes`。当任务匹配该上游 skill 名称与场景时使用。",
+      "tags": [
+        "media",
+        "heygen-com",
+        "remotion",
+        "hyperframes"
+      ],
+      "category": "media",
+      "path": "skills/remotion-to-hyperframes/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 98,
+      "installs": 548464
+    },
+    {
+      "id": "research",
+      "name": "research",
+      "description": "针对技术/产品问题做有出处的调研。用户要调研对比时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "research"
+      ],
+      "category": "planning",
+      "path": "skills/research/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 68,
+      "installs": 747235
+    },
+    {
+      "id": "resolving-merge-conflicts",
+      "name": "resolving-merge-conflicts",
+      "description": "解决 Git 合并冲突。用户遇到 conflict 时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "resolving",
+        "merge",
+        "conflicts"
+      ],
+      "category": "planning",
+      "path": "skills/resolving-merge-conflicts/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 97,
+      "installs": 551138
+    },
+    {
+      "id": "setup-matt-pocock-skills",
+      "name": "setup-matt-pocock-skills",
+      "description": "安装/配置 Matt Pocock 技能包。用户要启用该套 skills 时使用。",
+      "tags": [
+        "discovery",
+        "mattpocock",
+        "setup",
+        "matt",
+        "pocock"
+      ],
+      "category": "discovery",
+      "path": "skills/setup-matt-pocock-skills/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 13,
+      "installs": 1090554
     },
     {
       "id": "skill-creator",
@@ -140,6 +1467,7 @@
         "authoring",
         "eval"
       ],
+      "category": "discovery",
       "path": "skills/skill-creator/SKILL.md"
     },
     {
@@ -153,6 +1481,7 @@
         "csv",
         "data"
       ],
+      "category": "documents",
       "path": "skills/spreadsheet-xlsx/SKILL.md"
     },
     {
@@ -164,7 +1493,164 @@
         "testing",
         "red-green-refactor"
       ],
-      "path": "skills/tdd/SKILL.md"
+      "category": "planning",
+      "path": "skills/tdd/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 10,
+      "installs": 1178984
+    },
+    {
+      "id": "teach",
+      "name": "teach",
+      "description": "把复杂主题教给用户或写成教程。用户说「教我」「讲清楚」时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "teach"
+      ],
+      "category": "planning",
+      "path": "skills/teach/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 27,
+      "installs": 896162
+    },
+    {
+      "id": "to-questionnaire",
+      "name": "to-questionnaire",
+      "description": "把模糊需求变成问卷/检查表。用户要收集决策信息时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "questionnaire"
+      ],
+      "category": "planning",
+      "path": "skills/to-questionnaire/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 111,
+      "installs": 528458
+    },
+    {
+      "id": "to-spec",
+      "name": "to-spec",
+      "description": "把讨论收敛成规格说明。用户要写 spec 时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "spec"
+      ],
+      "category": "planning",
+      "path": "skills/to-spec/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 67,
+      "installs": 749744
+    },
+    {
+      "id": "to-tickets",
+      "name": "to-tickets",
+      "description": "把规格拆成可执行工单。用户要拆任务/issue 时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "tickets"
+      ],
+      "category": "planning",
+      "path": "skills/to-tickets/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 70,
+      "installs": 746330
+    },
+    {
+      "id": "triage",
+      "name": "triage",
+      "description": "对问题/任务做分流定级。用户一堆 issue/bug 不知先做哪个时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "triage"
+      ],
+      "category": "planning",
+      "path": "skills/triage/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 17,
+      "installs": 1022814
+    },
+    {
+      "id": "twitter-automation",
+      "name": "twitter-automation",
+      "description": "自动化 X/Twitter 浏览与操作（遵守平台规则）。用户要推特代理流程时使用。",
+      "tags": [
+        "browser",
+        "101-skills",
+        "twitter",
+        "automation"
+      ],
+      "category": "browser",
+      "path": "skills/twitter-automation/SKILL.md",
+      "source": "101-skills/superpowers",
+      "rank": 23,
+      "installs": 917570
+    },
+    {
+      "id": "ui-taste",
+      "name": "ui-taste",
+      "description": "提升 UI 品味与细节一致性。用户觉得界面「土/乱/廉价」时使用。",
+      "tags": [
+        "design",
+        "taste"
+      ],
+      "category": "design",
+      "path": "skills/ui-taste/SKILL.md",
+      "source": "uizze.sh",
+      "rank": 29,
+      "installs": 874987
+    },
+    {
+      "id": "vercel-react-best-practices",
+      "name": "vercel-react-best-practices",
+      "description": "按 Vercel 倡导的 React/Next 最佳实践检查与改写。用户做 React/Next 优化时使用。",
+      "tags": [
+        "design",
+        "vercel-labs",
+        "vercel",
+        "react",
+        "best"
+      ],
+      "category": "design",
+      "path": "skills/vercel-react-best-practices/SKILL.md",
+      "source": "vercel-labs/agent-skills",
+      "rank": 31,
+      "installs": 858669
+    },
+    {
+      "id": "wayfinder",
+      "name": "wayfinder",
+      "description": "在未知代码库里找路：定位模块与改动点。用户「从哪改」时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "wayfinder"
+      ],
+      "category": "planning",
+      "path": "skills/wayfinder/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 66,
+      "installs": 754357
+    },
+    {
+      "id": "web-design-guidelines",
+      "name": "web-design-guidelines",
+      "description": "对照现代 Web 设计准则检查页面。用户要可用性/无障碍/视觉规范时使用。",
+      "tags": [
+        "design",
+        "vercel-labs",
+        "web",
+        "guidelines"
+      ],
+      "category": "design",
+      "path": "skills/web-design-guidelines/SKILL.md",
+      "source": "vercel-labs/agent-skills",
+      "rank": 57,
+      "installs": 809234
     },
     {
       "id": "webapp-testing",
@@ -176,7 +1662,23 @@
         "playwright",
         "webapp"
       ],
+      "category": "engineering",
       "path": "skills/webapp-testing/SKILL.md"
+    },
+    {
+      "id": "wizard",
+      "name": "wizard",
+      "description": "用向导式步骤带用户做完复杂配置。用户要一步步引导时使用。",
+      "tags": [
+        "planning",
+        "mattpocock",
+        "wizard"
+      ],
+      "category": "planning",
+      "path": "skills/wizard/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 82,
+      "installs": 584449
     }
   ]
 }

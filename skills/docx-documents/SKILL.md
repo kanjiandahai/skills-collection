@@ -2,6 +2,7 @@
 name: docx-documents
 description: 创建或编辑 Word 文档（.docx）：正文样式、标题层级、目录、表格、页眉页脚、批注与修订。用户提到 Word、docx、写公文/方案文档时使用。
 tags: [docx, word, documents]
+category: documents
 ---
 
 # docx-documents
