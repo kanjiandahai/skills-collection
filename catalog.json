@@ -1,6 +1,6 @@
 {
   "name": "skills-collection",
-  "description": "Public index of reusable agent skills (skills.sh Top100 + extras)",
+  "description": "Growing public index of reusable agent skills (aggregated from skills.sh signals + manual contrib; categories)",
   "skills": [
     {
       "id": "agent-browser",
@@ -130,6 +130,21 @@
       "installs": 571711
     },
     {
+      "id": "azure-cloud-migrate",
+      "name": "azure-cloud-migrate",
+      "description": "来自 skills.sh 的 cloud 向 skill「azure-cloud-migrate」。安装量信号约 520,963；详情见上游 microsoft/azure-skills。",
+      "tags": [
+        "cloud",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-cloud-migrate/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 115,
+      "installs": 520963
+    },
+    {
       "id": "azure-compliance",
       "name": "azure-compliance",
       "description": "Azure 云场景：compliance。用户要在 Azure 上完成相关配置、部署或排查时使用。",
@@ -194,6 +209,36 @@
       "installs": 576049
     },
     {
+      "id": "azure-enterprise-infra-planner",
+      "name": "azure-enterprise-infra-planner",
+      "description": "来自 skills.sh 的 cloud 向 skill「azure-enterprise-infra-planner」。安装量信号约 446,495；详情见上游 microsoft/azure-skills。",
+      "tags": [
+        "cloud",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-enterprise-infra-planner/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 162,
+      "installs": 446495
+    },
+    {
+      "id": "azure-kubernetes",
+      "name": "azure-kubernetes",
+      "description": "来自 skills.sh 的 cloud 向 skill「azure-kubernetes」。安装量信号约 440,788；详情见上游 microsoft/azure-skills。",
+      "tags": [
+        "cloud",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-kubernetes/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 166,
+      "installs": 440788
+    },
+    {
       "id": "azure-kusto",
       "name": "azure-kusto",
       "description": "Azure 云场景：kusto。用户要在 Azure 上完成相关配置、部署或排查时使用。",
@@ -240,6 +285,21 @@
       "source": "microsoft/azure-skills",
       "rank": 84,
       "installs": 575222
+    },
+    {
+      "id": "azure-quotas",
+      "name": "azure-quotas",
+      "description": "来自 skills.sh 的 cloud 向 skill「azure-quotas」。安装量信号约 476,733；详情见上游 microsoft/azure-skills。",
+      "tags": [
+        "cloud",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-quotas/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 135,
+      "installs": 476733
     },
     {
       "id": "azure-resource-lookup",
@@ -292,6 +352,21 @@
       "installs": 573090
     },
     {
+      "id": "azure-upgrade",
+      "name": "azure-upgrade",
+      "description": "来自 skills.sh 的 cloud 向 skill「azure-upgrade」。安装量信号约 469,874；详情见上游 microsoft/azure-skills。",
+      "tags": [
+        "cloud",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "cloud",
+      "path": "skills/azure-upgrade/SKILL.md",
+      "source": "microsoft/azure-skills",
+      "rank": 146,
+      "installs": 469874
+    },
+    {
       "id": "azure-validate",
       "name": "azure-validate",
       "description": "Azure 云场景：validate。用户要在 Azure 上完成相关配置、部署或排查时使用。",
@@ -321,6 +396,66 @@
       "source": "juliusbrussee/caveman",
       "rank": 76,
       "installs": 603221
+    },
+    {
+      "id": "caveman-commit",
+      "name": "caveman-commit",
+      "description": "来自 skills.sh 的 engineering 向 skill「caveman-commit」。安装量信号约 422,405；详情见上游 juliusbrussee/caveman。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/caveman-commit/SKILL.md",
+      "source": "juliusbrussee/caveman",
+      "rank": 185,
+      "installs": 422405
+    },
+    {
+      "id": "caveman-compress",
+      "name": "caveman-compress",
+      "description": "来自 skills.sh 的 engineering 向 skill「caveman-compress」。安装量信号约 418,533；详情见上游 juliusbrussee/caveman。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/caveman-compress/SKILL.md",
+      "source": "juliusbrussee/caveman",
+      "rank": 189,
+      "installs": 418533
+    },
+    {
+      "id": "caveman-review",
+      "name": "caveman-review",
+      "description": "来自 skills.sh 的 engineering 向 skill「caveman-review」。安装量信号约 418,371；详情见上游 juliusbrussee/caveman。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/caveman-review/SKILL.md",
+      "source": "juliusbrussee/caveman",
+      "rank": 190,
+      "installs": 418371
+    },
+    {
+      "id": "claude-handoff",
+      "name": "claude-handoff",
+      "description": "来自 skills.sh 的 planning 向 skill「claude-handoff」。安装量信号约 444,437；详情见上游 mattpocock/skills。",
+      "tags": [
+        "planning",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "planning",
+      "path": "skills/claude-handoff/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 164,
+      "installs": 444437
     },
     {
       "id": "code-review",
@@ -431,6 +566,21 @@
       "installs": 915974
     },
     {
+      "id": "embedded-captions",
+      "name": "embedded-captions",
+      "description": "来自 skills.sh 的 media 向 skill「embedded-captions」。安装量信号约 453,600；详情见上游 heygen-com/hyperframes。",
+      "tags": [
+        "media",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "media",
+      "path": "skills/embedded-captions/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 155,
+      "installs": 453600
+    },
+    {
       "id": "entra-app-registration",
       "name": "entra-app-registration",
       "description": "云平台与基础设施相关技能 `entra-app-registration`。当任务匹配该上游 skill 名称与场景时使用。",
@@ -446,6 +596,36 @@
       "source": "microsoft/azure-skills",
       "rank": 93,
       "installs": 572356
+    },
+    {
+      "id": "env-and-assets-bootstrap",
+      "name": "env-and-assets-bootstrap",
+      "description": "来自 skills.sh 的 engineering 向 skill「env-and-assets-bootstrap」。安装量信号约 482,769；详情见上游 lllllllama/rigorpilot-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/env-and-assets-bootstrap/SKILL.md",
+      "source": "lllllllama/rigorpilot-skills",
+      "rank": 128,
+      "installs": 482769
+    },
+    {
+      "id": "faceless-explainer",
+      "name": "faceless-explainer",
+      "description": "来自 skills.sh 的 media 向 skill「faceless-explainer」。安装量信号约 521,688；详情见上游 heygen-com/hyperframes。",
+      "tags": [
+        "media",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "media",
+      "path": "skills/faceless-explainer/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 114,
+      "installs": 521688
     },
     {
       "id": "find-skills",
@@ -475,6 +655,36 @@
       ],
       "category": "documents",
       "path": "skills/flowchart-mermaid/SKILL.md"
+    },
+    {
+      "id": "flux-2-klein",
+      "name": "flux-2-klein",
+      "description": "来自 skills.sh 的 engineering 向 skill「flux-2-klein」。安装量信号约 438,466；详情见上游 prime-skills/runcomfy-agent-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/flux-2-klein/SKILL.md",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "rank": 176,
+      "installs": 438466
+    },
+    {
+      "id": "flux-kontext",
+      "name": "flux-kontext",
+      "description": "来自 skills.sh 的 engineering 向 skill「flux-kontext」。安装量信号约 439,432；详情见上游 prime-skills/runcomfy-agent-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/flux-kontext/SKILL.md",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "rank": 171,
+      "installs": 439432
     },
     {
       "id": "frontend-design",
@@ -508,6 +718,21 @@
       "source": "heygen-com/hyperframes",
       "rank": 74,
       "installs": 661428
+    },
+    {
+      "id": "git-guardrails-claude-code",
+      "name": "git-guardrails-claude-code",
+      "description": "来自 skills.sh 的 planning 向 skill「git-guardrails-claude-code」。安装量信号约 522,531；详情见上游 mattpocock/skills。",
+      "tags": [
+        "planning",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "planning",
+      "path": "skills/git-guardrails-claude-code/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 113,
+      "installs": 522531
     },
     {
       "id": "google-agents-cli-adk-code",
@@ -622,6 +847,21 @@
       "installs": 530523
     },
     {
+      "id": "gpt-image-edit",
+      "name": "gpt-image-edit",
+      "description": "来自 skills.sh 的 engineering 向 skill「gpt-image-edit」。安装量信号约 438,712；详情见上游 prime-skills/runcomfy-agent-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/gpt-image-edit/SKILL.md",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "rank": 174,
+      "installs": 438712
+    },
+    {
       "id": "grill-me",
       "name": "grill-me",
       "description": "对计划或设计做高压追问，直到决策树走通、双方理解一致。用户说 grill me、拷问一下方案、帮我抠需求、压力测试设计、把计划问清楚时使用。",
@@ -683,6 +923,36 @@
       "source": "mattpocock/skills",
       "rank": 14,
       "installs": 1077247
+    },
+    {
+      "id": "happyhorse-1-0",
+      "name": "happyhorse-1-0",
+      "description": "来自 skills.sh 的 engineering 向 skill「happyhorse-1-0」。安装量信号约 438,632；详情见上游 prime-skills/runcomfy-agent-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/happyhorse-1-0/SKILL.md",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "rank": 175,
+      "installs": 438632
+    },
+    {
+      "id": "high-end-visual-design",
+      "name": "high-end-visual-design",
+      "description": "来自 skills.sh 的 design 向 skill「high-end-visual-design」。安装量信号约 458,850；详情见上游 leonxlnx/taste-skill。",
+      "tags": [
+        "design",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "design",
+      "path": "skills/high-end-visual-design/SKILL.md",
+      "source": "leonxlnx/taste-skill",
+      "rank": 152,
+      "installs": 458850
     },
     {
       "id": "hyperframes",
@@ -812,6 +1082,51 @@
       "installs": 1116775
     },
     {
+      "id": "hyperframes-studio",
+      "name": "hyperframes-studio",
+      "description": "来自 skills.sh 的 media 向 skill「hyperframes-studio」。安装量信号约 451,321；详情见上游 heygen-com/hyperframes。",
+      "tags": [
+        "media",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "media",
+      "path": "skills/hyperframes-studio/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 156,
+      "installs": 451321
+    },
+    {
+      "id": "image-edit",
+      "name": "image-edit",
+      "description": "来自 skills.sh 的 engineering 向 skill「image-edit」。安装量信号约 439,802；详情见上游 prime-skills/runcomfy-agent-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/image-edit/SKILL.md",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "rank": 169,
+      "installs": 439802
+    },
+    {
+      "id": "image-to-video",
+      "name": "image-to-video",
+      "description": "来自 skills.sh 的 media 向 skill「image-to-video」。安装量信号约 440,560；详情见上游 prime-skills/runcomfy-agent-skills。",
+      "tags": [
+        "media",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "media",
+      "path": "skills/image-to-video/SKILL.md",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "rank": 167,
+      "installs": 440560
+    },
+    {
       "id": "implement",
       "name": "implement",
       "description": "把已澄清的规格落地为实现。用户说「按方案实现」时使用。",
@@ -840,6 +1155,36 @@
       "source": "mattpocock/skills",
       "rank": 8,
       "installs": 1204860
+    },
+    {
+      "id": "ios-design",
+      "name": "ios-design",
+      "description": "来自 skills.sh 的 design 向 skill「ios-design」。安装量信号约 417,203；详情见上游 uizze.sh。",
+      "tags": [
+        "design",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "design",
+      "path": "skills/ios-design/SKILL.md",
+      "source": "uizze.sh",
+      "rank": 191,
+      "installs": 417203
+    },
+    {
+      "id": "kling-3-0",
+      "name": "kling-3-0",
+      "description": "来自 skills.sh 的 engineering 向 skill「kling-3-0」。安装量信号约 415,690；详情见上游 prime-skills/runcomfy-agent-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/kling-3-0/SKILL.md",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "rank": 192,
+      "installs": 415690
     },
     {
       "id": "lark-approval",
@@ -1249,6 +1594,21 @@
       "installs": 833899
     },
     {
+      "id": "loop-me",
+      "name": "loop-me",
+      "description": "来自 skills.sh 的 planning 向 skill「loop-me」。安装量信号约 462,645；详情见上游 mattpocock/skills。",
+      "tags": [
+        "planning",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "planning",
+      "path": "skills/loop-me/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 151,
+      "installs": 462645
+    },
+    {
       "id": "media-use",
       "name": "media-use",
       "description": "选择与运用媒体资源（图/音/视频）完成创作任务。用户纠结媒体素材用法时使用。",
@@ -1277,6 +1637,126 @@
       "source": "microsoft/azure-skills",
       "rank": 81,
       "installs": 585309
+    },
+    {
+      "id": "migrate-to-shoehorn",
+      "name": "migrate-to-shoehorn",
+      "description": "来自 skills.sh 的 planning 向 skill「migrate-to-shoehorn」。安装量信号约 498,439；详情见上游 mattpocock/skills。",
+      "tags": [
+        "planning",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "planning",
+      "path": "skills/migrate-to-shoehorn/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 123,
+      "installs": 498439
+    },
+    {
+      "id": "minimal-run-and-audit",
+      "name": "minimal-run-and-audit",
+      "description": "来自 skills.sh 的 engineering 向 skill「minimal-run-and-audit」。安装量信号约 482,882；详情见上游 lllllllama/rigorpilot-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/minimal-run-and-audit/SKILL.md",
+      "source": "lllllllama/rigorpilot-skills",
+      "rank": 127,
+      "installs": 482882
+    },
+    {
+      "id": "minimalist-ui",
+      "name": "minimalist-ui",
+      "description": "来自 skills.sh 的 engineering 向 skill「minimalist-ui」。安装量信号约 425,120；详情见上游 leonxlnx/taste-skill。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/minimalist-ui/SKILL.md",
+      "source": "leonxlnx/taste-skill",
+      "rank": 184,
+      "installs": 425120
+    },
+    {
+      "id": "motion-graphics",
+      "name": "motion-graphics",
+      "description": "来自 skills.sh 的 media 向 skill「motion-graphics」。安装量信号约 514,007；详情见上游 heygen-com/hyperframes。",
+      "tags": [
+        "media",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "media",
+      "path": "skills/motion-graphics/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 116,
+      "installs": 514007
+    },
+    {
+      "id": "music-to-video",
+      "name": "music-to-video",
+      "description": "来自 skills.sh 的 media 向 skill「music-to-video」。安装量信号约 418,974；详情见上游 heygen-com/hyperframes。",
+      "tags": [
+        "media",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "media",
+      "path": "skills/music-to-video/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 188,
+      "installs": 418974
+    },
+    {
+      "id": "nano-banana-2",
+      "name": "nano-banana-2",
+      "description": "来自 skills.sh 的 engineering 向 skill「nano-banana-2」。安装量信号约 440,246；详情见上游 prime-skills/runcomfy-agent-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/nano-banana-2/SKILL.md",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "rank": 168,
+      "installs": 440246
+    },
+    {
+      "id": "nano-banana-edit",
+      "name": "nano-banana-edit",
+      "description": "来自 skills.sh 的 engineering 向 skill「nano-banana-edit」。安装量信号约 439,642；详情见上游 prime-skills/runcomfy-agent-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/nano-banana-edit/SKILL.md",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "rank": 170,
+      "installs": 439642
+    },
+    {
+      "id": "paper-context-resolver",
+      "name": "paper-context-resolver",
+      "description": "来自 skills.sh 的 engineering 向 skill「paper-context-resolver」。安装量信号约 483,766；详情见上游 lllllllama/rigorpilot-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/paper-context-resolver/SKILL.md",
+      "source": "lllllllama/rigorpilot-skills",
+      "rank": 124,
+      "installs": 483766
     },
     {
       "id": "pdf-documents",
@@ -1316,6 +1796,21 @@
       ],
       "category": "documents",
       "path": "skills/pptx-deck/SKILL.md"
+    },
+    {
+      "id": "pr-to-video",
+      "name": "pr-to-video",
+      "description": "来自 skills.sh 的 media 向 skill「pr-to-video」。安装量信号约 448,935；详情见上游 heygen-com/hyperframes。",
+      "tags": [
+        "media",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "media",
+      "path": "skills/pr-to-video/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 161,
+      "installs": 448935
     },
     {
       "id": "product-launch-video",
@@ -1366,6 +1861,21 @@
       "installs": 1186465
     },
     {
+      "id": "redesign-existing-projects",
+      "name": "redesign-existing-projects",
+      "description": "来自 skills.sh 的 design 向 skill「redesign-existing-projects」。安装量信号约 458,719；详情见上游 leonxlnx/taste-skill。",
+      "tags": [
+        "design",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "design",
+      "path": "skills/redesign-existing-projects/SKILL.md",
+      "source": "leonxlnx/taste-skill",
+      "rank": 153,
+      "installs": 458719
+    },
+    {
       "id": "remotion-best-practices",
       "name": "remotion-best-practices",
       "description": "音视频与媒体生成相关技能 `remotion-best-practices`。当任务匹配该上游 skill 名称与场景时使用。",
@@ -1397,6 +1907,21 @@
       "source": "heygen-com/hyperframes",
       "rank": 98,
       "installs": 548464
+    },
+    {
+      "id": "repo-intake-and-plan",
+      "name": "repo-intake-and-plan",
+      "description": "来自 skills.sh 的 engineering 向 skill「repo-intake-and-plan」。安装量信号约 482,959；详情见上游 lllllllama/rigorpilot-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/repo-intake-and-plan/SKILL.md",
+      "source": "lllllllama/rigorpilot-skills",
+      "rank": 126,
+      "installs": 482959
     },
     {
       "id": "research",
@@ -1431,6 +1956,36 @@
       "installs": 551138
     },
     {
+      "id": "scaffold-exercises",
+      "name": "scaffold-exercises",
+      "description": "来自 skills.sh 的 planning 向 skill「scaffold-exercises」。安装量信号约 502,451；详情见上游 mattpocock/skills。",
+      "tags": [
+        "planning",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "planning",
+      "path": "skills/scaffold-exercises/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 121,
+      "installs": 502451
+    },
+    {
+      "id": "seedance-v2",
+      "name": "seedance-v2",
+      "description": "来自 skills.sh 的 engineering 向 skill「seedance-v2」。安装量信号约 438,719；详情见上游 prime-skills/runcomfy-agent-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/seedance-v2/SKILL.md",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "rank": 173,
+      "installs": 438719
+    },
+    {
       "id": "setup-matt-pocock-skills",
       "name": "setup-matt-pocock-skills",
       "description": "安装/配置 Matt Pocock 技能包。用户要启用该套 skills 时使用。",
@@ -1448,6 +2003,21 @@
       "installs": 1090554
     },
     {
+      "id": "setup-pre-commit",
+      "name": "setup-pre-commit",
+      "description": "来自 skills.sh 的 discovery 向 skill「setup-pre-commit」。安装量信号约 511,903；详情见上游 mattpocock/skills。",
+      "tags": [
+        "discovery",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "discovery",
+      "path": "skills/setup-pre-commit/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 117,
+      "installs": 511903
+    },
+    {
       "id": "skill-creator",
       "name": "skill-creator",
       "description": "从零编写、改写并打磨 Agent Skill（SKILL.md）。用户要创建 skill、优化 description 触发、给 skill 加评测、或把一段工作流沉淀成 skill 时使用。",
@@ -1457,7 +2027,25 @@
         "eval"
       ],
       "category": "discovery",
-      "path": "skills/skill-creator/SKILL.md"
+      "path": "skills/skill-creator/SKILL.md",
+      "source": "anthropics/skills",
+      "rank": 187,
+      "installs": 420614
+    },
+    {
+      "id": "slideshow",
+      "name": "slideshow",
+      "description": "来自 skills.sh 的 media 向 skill「slideshow」。安装量信号约 455,786；详情见上游 heygen-com/hyperframes。",
+      "tags": [
+        "media",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "media",
+      "path": "skills/slideshow/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "rank": 154,
+      "installs": 455786
     },
     {
       "id": "spreadsheet-xlsx",
@@ -1472,6 +2060,21 @@
       ],
       "category": "documents",
       "path": "skills/spreadsheet-xlsx/SKILL.md"
+    },
+    {
+      "id": "supabase-postgres-best-practices",
+      "name": "supabase-postgres-best-practices",
+      "description": "来自 skills.sh 的 engineering 向 skill「supabase-postgres-best-practices」。安装量信号约 468,744；详情见上游 supabase/agent-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/supabase-postgres-best-practices/SKILL.md",
+      "source": "supabase/agent-skills",
+      "rank": 150,
+      "installs": 468744
     },
     {
       "id": "tdd",
@@ -1594,6 +2197,36 @@
       "installs": 874987
     },
     {
+      "id": "ui-ux-pro-max",
+      "name": "ui-ux-pro-max",
+      "description": "来自 skills.sh 的 engineering 向 skill「ui-ux-pro-max」。安装量信号约 427,165；详情见上游 nextlevelbuilder/ui-ux-pro-max-skill。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/ui-ux-pro-max/SKILL.md",
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "rank": 182,
+      "installs": 427165
+    },
+    {
+      "id": "vercel-composition-patterns",
+      "name": "vercel-composition-patterns",
+      "description": "来自 skills.sh 的 engineering 向 skill「vercel-composition-patterns」。安装量信号约 430,333；详情见上游 vercel-labs/agent-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/vercel-composition-patterns/SKILL.md",
+      "source": "vercel-labs/agent-skills",
+      "rank": 181,
+      "installs": 430333
+    },
+    {
       "id": "vercel-react-best-practices",
       "name": "vercel-react-best-practices",
       "description": "按 Vercel 倡导的 React/Next 最佳实践检查与改写。用户做 React/Next 优化时使用。",
@@ -1609,6 +2242,51 @@
       "source": "vercel-labs/agent-skills",
       "rank": 31,
       "installs": 858669
+    },
+    {
+      "id": "video-edit",
+      "name": "video-edit",
+      "description": "来自 skills.sh 的 media 向 skill「video-edit」。安装量信号约 442,344；详情见上游 prime-skills/runcomfy-agent-skills。",
+      "tags": [
+        "media",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "media",
+      "path": "skills/video-edit/SKILL.md",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "rank": 165,
+      "installs": 442344
+    },
+    {
+      "id": "wait-what",
+      "name": "wait-what",
+      "description": "来自 skills.sh 的 planning 向 skill「wait-what」。安装量信号约 479,572；详情见上游 mattpocock/skills。",
+      "tags": [
+        "planning",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "planning",
+      "path": "skills/wait-what/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 131,
+      "installs": 479572
+    },
+    {
+      "id": "wan-2-7",
+      "name": "wan-2-7",
+      "description": "来自 skills.sh 的 engineering 向 skill「wan-2-7」。安装量信号约 438,872；详情见上游 prime-skills/runcomfy-agent-skills。",
+      "tags": [
+        "engineering",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "engineering",
+      "path": "skills/wan-2-7/SKILL.md",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "rank": 172,
+      "installs": 438872
     },
     {
       "id": "wayfinder",
@@ -1668,6 +2346,66 @@
       "source": "mattpocock/skills",
       "rank": 82,
       "installs": 584449
+    },
+    {
+      "id": "writing-beats",
+      "name": "writing-beats",
+      "description": "来自 skills.sh 的 planning 向 skill「writing-beats」。安装量信号约 505,261；详情见上游 mattpocock/skills。",
+      "tags": [
+        "planning",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "planning",
+      "path": "skills/writing-beats/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 118,
+      "installs": 505261
+    },
+    {
+      "id": "writing-for-agents",
+      "name": "writing-for-agents",
+      "description": "来自 skills.sh 的 planning 向 skill「writing-for-agents」。安装量信号约 500,813；详情见上游 mattpocock/skills。",
+      "tags": [
+        "planning",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "planning",
+      "path": "skills/writing-for-agents/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 122,
+      "installs": 500813
+    },
+    {
+      "id": "writing-fragments",
+      "name": "writing-fragments",
+      "description": "来自 skills.sh 的 planning 向 skill「writing-fragments」。安装量信号约 504,164；详情见上游 mattpocock/skills。",
+      "tags": [
+        "planning",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "planning",
+      "path": "skills/writing-fragments/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 120,
+      "installs": 504164
+    },
+    {
+      "id": "writing-shape",
+      "name": "writing-shape",
+      "description": "来自 skills.sh 的 planning 向 skill「writing-shape」。安装量信号约 504,850；详情见上游 mattpocock/skills。",
+      "tags": [
+        "planning",
+        "skills-sh",
+        "stub"
+      ],
+      "category": "planning",
+      "path": "skills/writing-shape/SKILL.md",
+      "source": "mattpocock/skills",
+      "rank": 119,
+      "installs": 504850
     }
   ]
 }

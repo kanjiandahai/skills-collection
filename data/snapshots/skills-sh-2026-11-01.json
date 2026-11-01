@@ -1,0 +1,1210 @@
+{
+  "fetched_from": "latest",
+  "view": "all-time",
+  "deduped_by": "name",
+  "top": 150,
+  "min_installs": 0,
+  "generated_at": "2026-11-01T11:53:57.431337+00:00",
+  "candidates": [
+    {
+      "rank": 1,
+      "name": "find-skills",
+      "source": "vercel-labs/skills",
+      "installs": 4143610,
+      "id": "find-skills",
+      "category": "discovery"
+    },
+    {
+      "rank": 2,
+      "name": "grill-me",
+      "source": "mattpocock/skills",
+      "installs": 1472219,
+      "id": "grill-me",
+      "category": "planning"
+    },
+    {
+      "rank": 3,
+      "name": "hyperframes-cli",
+      "source": "heygen-com/hyperframes",
+      "installs": 1357195,
+      "id": "hyperframes-cli",
+      "category": "media"
+    },
+    {
+      "rank": 4,
+      "name": "agent-browser",
+      "source": "vercel-labs/agent-browser",
+      "installs": 1324536,
+      "id": "agent-browser",
+      "category": "browser"
+    },
+    {
+      "rank": 5,
+      "name": "hyperframes",
+      "source": "heygen-com/hyperframes",
+      "installs": 1319943,
+      "id": "hyperframes",
+      "category": "media"
+    },
+    {
+      "rank": 6,
+      "name": "grill-with-docs",
+      "source": "mattpocock/skills",
+      "installs": 1260788,
+      "id": "grill-with-docs",
+      "category": "planning"
+    },
+    {
+      "rank": 7,
+      "name": "media-use",
+      "source": "heygen-com/hyperframes",
+      "installs": 1228258,
+      "id": "media-use",
+      "category": "media"
+    },
+    {
+      "rank": 8,
+      "name": "improve-codebase-architecture",
+      "source": "mattpocock/skills",
+      "installs": 1204860,
+      "id": "improve-codebase-architecture",
+      "category": "planning"
+    },
+    {
+      "rank": 9,
+      "name": "reddit-automation",
+      "source": "flowkit-labs/skills",
+      "installs": 1186465,
+      "id": "reddit-automation",
+      "category": "browser"
+    },
+    {
+      "rank": 10,
+      "name": "tdd",
+      "source": "mattpocock/skills",
+      "installs": 1178984,
+      "id": "tdd",
+      "category": "planning"
+    },
+    {
+      "rank": 11,
+      "name": "design-mobile-apps",
+      "source": "designed-by-ai/skills",
+      "installs": 1152654,
+      "id": "design-mobile-apps",
+      "category": "design"
+    },
+    {
+      "rank": 12,
+      "name": "hyperframes-registry",
+      "source": "heygen-com/hyperframes",
+      "installs": 1116775,
+      "id": "hyperframes-registry",
+      "category": "media"
+    },
+    {
+      "rank": 13,
+      "name": "setup-matt-pocock-skills",
+      "source": "mattpocock/skills",
+      "installs": 1090554,
+      "id": "setup-matt-pocock-skills",
+      "category": "discovery"
+    },
+    {
+      "rank": 14,
+      "name": "handoff",
+      "source": "mattpocock/skills",
+      "installs": 1077247,
+      "id": "handoff",
+      "category": "planning"
+    },
+    {
+      "rank": 15,
+      "name": "frontend-design",
+      "source": "anthropics/skills",
+      "installs": 1058803,
+      "id": "frontend-design",
+      "category": "design"
+    },
+    {
+      "rank": 16,
+      "name": "grilling",
+      "source": "mattpocock/skills",
+      "installs": 1028898,
+      "id": "grilling",
+      "category": "planning"
+    },
+    {
+      "rank": 17,
+      "name": "triage",
+      "source": "mattpocock/skills",
+      "installs": 1022814,
+      "id": "triage",
+      "category": "planning"
+    },
+    {
+      "rank": 18,
+      "name": "prototype",
+      "source": "mattpocock/skills",
+      "installs": 1021735,
+      "id": "prototype",
+      "category": "planning"
+    },
+    {
+      "rank": 19,
+      "name": "hyperframes-animation",
+      "source": "heygen-com/hyperframes",
+      "installs": 1005059,
+      "id": "hyperframes-animation",
+      "category": "media"
+    },
+    {
+      "rank": 20,
+      "name": "hyperframes-core",
+      "source": "heygen-com/hyperframes",
+      "installs": 930744,
+      "id": "hyperframes-core",
+      "category": "media"
+    },
+    {
+      "rank": 21,
+      "name": "ai-video-generation",
+      "source": "101-skills/superpowers",
+      "installs": 919308,
+      "id": "ai-video-generation",
+      "category": "media"
+    },
+    {
+      "rank": 22,
+      "name": "ai-image-generation",
+      "source": "101-skills/superpowers",
+      "installs": 917955,
+      "id": "ai-image-generation",
+      "category": "media"
+    },
+    {
+      "rank": 23,
+      "name": "twitter-automation",
+      "source": "101-skills/superpowers",
+      "installs": 917570,
+      "id": "twitter-automation",
+      "category": "browser"
+    },
+    {
+      "rank": 24,
+      "name": "ai-avatar-video",
+      "source": "101-skills/superpowers",
+      "installs": 917307,
+      "id": "ai-avatar-video",
+      "category": "media"
+    },
+    {
+      "rank": 25,
+      "name": "hyperframes-creative",
+      "source": "heygen-com/hyperframes",
+      "installs": 916794,
+      "id": "hyperframes-creative",
+      "category": "media"
+    },
+    {
+      "rank": 26,
+      "name": "domain-modeling",
+      "source": "mattpocock/skills",
+      "installs": 915974,
+      "id": "domain-modeling",
+      "category": "planning"
+    },
+    {
+      "rank": 27,
+      "name": "teach",
+      "source": "mattpocock/skills",
+      "installs": 896162,
+      "id": "teach",
+      "category": "planning"
+    },
+    {
+      "rank": 28,
+      "name": "codebase-design",
+      "source": "mattpocock/skills",
+      "installs": 891203,
+      "id": "codebase-design",
+      "category": "design"
+    },
+    {
+      "rank": 29,
+      "name": "ui-taste",
+      "source": "uizze.sh",
+      "installs": 874987,
+      "id": "ui-taste",
+      "category": "design"
+    },
+    {
+      "rank": 30,
+      "name": "diagnosing-bugs",
+      "source": "mattpocock/skills",
+      "installs": 872766,
+      "id": "diagnosing-bugs",
+      "category": "planning"
+    },
+    {
+      "rank": 31,
+      "name": "vercel-react-best-practices",
+      "source": "vercel-labs/agent-skills",
+      "installs": 858669,
+      "id": "vercel-react-best-practices",
+      "category": "design"
+    },
+    {
+      "rank": 32,
+      "name": "lark-doc",
+      "source": "open.feishu.cn",
+      "installs": 838580,
+      "id": "lark-doc",
+      "category": "collaboration"
+    },
+    {
+      "rank": 33,
+      "name": "lark-base",
+      "source": "open.feishu.cn",
+      "installs": 837904,
+      "id": "lark-base",
+      "category": "collaboration"
+    },
+    {
+      "rank": 34,
+      "name": "lark-drive",
+      "source": "open.feishu.cn",
+      "installs": 837894,
+      "id": "lark-drive",
+      "category": "collaboration"
+    },
+    {
+      "rank": 35,
+      "name": "lark-shared",
+      "source": "open.feishu.cn",
+      "installs": 837674,
+      "id": "lark-shared",
+      "category": "collaboration"
+    },
+    {
+      "rank": 36,
+      "name": "lark-im",
+      "source": "open.feishu.cn",
+      "installs": 836933,
+      "id": "lark-im",
+      "category": "collaboration"
+    },
+    {
+      "rank": 37,
+      "name": "lark-calendar",
+      "source": "open.feishu.cn",
+      "installs": 836540,
+      "id": "lark-calendar",
+      "category": "collaboration"
+    },
+    {
+      "rank": 38,
+      "name": "lark-sheets",
+      "source": "open.feishu.cn",
+      "installs": 836441,
+      "id": "lark-sheets",
+      "category": "collaboration"
+    },
+    {
+      "rank": 39,
+      "name": "lark-approval",
+      "source": "open.feishu.cn",
+      "installs": 836415,
+      "id": "lark-approval",
+      "category": "collaboration"
+    },
+    {
+      "rank": 40,
+      "name": "lark-wiki",
+      "source": "open.feishu.cn",
+      "installs": 836338,
+      "id": "lark-wiki",
+      "category": "collaboration"
+    },
+    {
+      "rank": 41,
+      "name": "lark-contact",
+      "source": "open.feishu.cn",
+      "installs": 835567,
+      "id": "lark-contact",
+      "category": "collaboration"
+    },
+    {
+      "rank": 42,
+      "name": "lark-task",
+      "source": "open.feishu.cn",
+      "installs": 835460,
+      "id": "lark-task",
+      "category": "collaboration"
+    },
+    {
+      "rank": 43,
+      "name": "lark-slides",
+      "source": "open.feishu.cn",
+      "installs": 835323,
+      "id": "lark-slides",
+      "category": "collaboration"
+    },
+    {
+      "rank": 44,
+      "name": "lark-mail",
+      "source": "open.feishu.cn",
+      "installs": 835281,
+      "id": "lark-mail",
+      "category": "collaboration"
+    },
+    {
+      "rank": 45,
+      "name": "lark-whiteboard",
+      "source": "open.feishu.cn",
+      "installs": 835125,
+      "id": "lark-whiteboard",
+      "category": "collaboration"
+    },
+    {
+      "rank": 46,
+      "name": "lark-event",
+      "source": "open.feishu.cn",
+      "installs": 835035,
+      "id": "lark-event",
+      "category": "collaboration"
+    },
+    {
+      "rank": 47,
+      "name": "lark-openapi-explorer",
+      "source": "open.feishu.cn",
+      "installs": 834796,
+      "id": "lark-openapi-explorer",
+      "category": "collaboration"
+    },
+    {
+      "rank": 48,
+      "name": "lark-attendance",
+      "source": "open.feishu.cn",
+      "installs": 834696,
+      "id": "lark-attendance",
+      "category": "collaboration"
+    },
+    {
+      "rank": 49,
+      "name": "lark-skill-maker",
+      "source": "open.feishu.cn",
+      "installs": 834326,
+      "id": "lark-skill-maker",
+      "category": "collaboration"
+    },
+    {
+      "rank": 50,
+      "name": "lark-workflow-meeting-summary",
+      "source": "open.feishu.cn",
+      "installs": 834184,
+      "id": "lark-workflow-meeting-summary",
+      "category": "collaboration"
+    },
+    {
+      "rank": 51,
+      "name": "lark-minutes",
+      "source": "open.feishu.cn",
+      "installs": 833986,
+      "id": "lark-minutes",
+      "category": "collaboration"
+    },
+    {
+      "rank": 52,
+      "name": "lark-workflow-standup-report",
+      "source": "open.feishu.cn",
+      "installs": 833899,
+      "id": "lark-workflow-standup-report",
+      "category": "collaboration"
+    },
+    {
+      "rank": 53,
+      "name": "lark-vc",
+      "source": "open.feishu.cn",
+      "installs": 833251,
+      "id": "lark-vc",
+      "category": "collaboration"
+    },
+    {
+      "rank": 54,
+      "name": "code-review",
+      "source": "mattpocock/skills",
+      "installs": 829992,
+      "id": "code-review",
+      "category": "planning"
+    },
+    {
+      "rank": 55,
+      "name": "lark-okr",
+      "source": "open.feishu.cn",
+      "installs": 815656,
+      "id": "lark-okr",
+      "category": "collaboration"
+    },
+    {
+      "rank": 57,
+      "name": "web-design-guidelines",
+      "source": "vercel-labs/agent-skills",
+      "installs": 809234,
+      "id": "web-design-guidelines",
+      "category": "design"
+    },
+    {
+      "rank": 58,
+      "name": "implement",
+      "source": "mattpocock/skills",
+      "installs": 808925,
+      "id": "implement",
+      "category": "planning"
+    },
+    {
+      "rank": 62,
+      "name": "lark-markdown",
+      "source": "open.feishu.cn",
+      "installs": 801529,
+      "id": "lark-markdown",
+      "category": "collaboration"
+    },
+    {
+      "rank": 63,
+      "name": "ask-matt",
+      "source": "mattpocock/skills",
+      "installs": 799120,
+      "id": "ask-matt",
+      "category": "planning"
+    },
+    {
+      "rank": 64,
+      "name": "lark-vc-agent",
+      "source": "open.feishu.cn",
+      "installs": 777869,
+      "id": "lark-vc-agent",
+      "category": "collaboration"
+    },
+    {
+      "rank": 65,
+      "name": "hyperframes-keyframes",
+      "source": "heygen-com/hyperframes",
+      "installs": 754477,
+      "id": "hyperframes-keyframes",
+      "category": "media"
+    },
+    {
+      "rank": 66,
+      "name": "wayfinder",
+      "source": "mattpocock/skills",
+      "installs": 754357,
+      "id": "wayfinder",
+      "category": "planning"
+    },
+    {
+      "rank": 67,
+      "name": "to-spec",
+      "source": "mattpocock/skills",
+      "installs": 749744,
+      "id": "to-spec",
+      "category": "planning"
+    },
+    {
+      "rank": 68,
+      "name": "research",
+      "source": "mattpocock/skills",
+      "installs": 747235,
+      "id": "research",
+      "category": "planning"
+    },
+    {
+      "rank": 69,
+      "name": "lark-apps",
+      "source": "open.feishu.cn",
+      "installs": 746736,
+      "id": "lark-apps",
+      "category": "collaboration"
+    },
+    {
+      "rank": 70,
+      "name": "to-tickets",
+      "source": "mattpocock/skills",
+      "installs": 746330,
+      "id": "to-tickets",
+      "category": "planning"
+    },
+    {
+      "rank": 71,
+      "name": "remotion-best-practices",
+      "source": "remotion-dev/skills",
+      "installs": 722049,
+      "id": "remotion-best-practices",
+      "category": "media"
+    },
+    {
+      "rank": 72,
+      "name": "design-taste-frontend",
+      "source": "leonxlnx/taste-skill",
+      "installs": 711387,
+      "id": "design-taste-frontend",
+      "category": "design"
+    },
+    {
+      "rank": 73,
+      "name": "hyperframes-audio",
+      "source": "heygen-com/hyperframes",
+      "installs": 663547,
+      "id": "hyperframes-audio",
+      "category": "media"
+    },
+    {
+      "rank": 74,
+      "name": "general-video",
+      "source": "heygen-com/hyperframes",
+      "installs": 661428,
+      "id": "general-video",
+      "category": "media"
+    },
+    {
+      "rank": 75,
+      "name": "lark-note",
+      "source": "open.feishu.cn",
+      "installs": 618126,
+      "id": "lark-note",
+      "category": "collaboration"
+    },
+    {
+      "rank": 76,
+      "name": "caveman",
+      "source": "juliusbrussee/caveman",
+      "installs": 603221,
+      "id": "caveman",
+      "category": "engineering"
+    },
+    {
+      "rank": 81,
+      "name": "microsoft-foundry",
+      "source": "microsoft/azure-skills",
+      "installs": 585309,
+      "id": "microsoft-foundry",
+      "category": "cloud"
+    },
+    {
+      "rank": 82,
+      "name": "wizard",
+      "source": "mattpocock/skills",
+      "installs": 584449,
+      "id": "wizard",
+      "category": "planning"
+    },
+    {
+      "rank": 83,
+      "name": "azure-diagnostics",
+      "source": "microsoft/azure-skills",
+      "installs": 576049,
+      "id": "azure-diagnostics",
+      "category": "cloud"
+    },
+    {
+      "rank": 84,
+      "name": "azure-prepare",
+      "source": "microsoft/azure-skills",
+      "installs": 575222,
+      "id": "azure-prepare",
+      "category": "cloud"
+    },
+    {
+      "rank": 85,
+      "name": "azure-ai",
+      "source": "microsoft/azure-skills",
+      "installs": 574510,
+      "id": "azure-ai",
+      "category": "cloud"
+    },
+    {
+      "rank": 86,
+      "name": "azure-deploy",
+      "source": "microsoft/azure-skills",
+      "installs": 574261,
+      "id": "azure-deploy",
+      "category": "cloud"
+    },
+    {
+      "rank": 87,
+      "name": "azure-validate",
+      "source": "microsoft/azure-skills",
+      "installs": 573818,
+      "id": "azure-validate",
+      "category": "cloud"
+    },
+    {
+      "rank": 88,
+      "name": "azure-storage",
+      "source": "microsoft/azure-skills",
+      "installs": 573090,
+      "id": "azure-storage",
+      "category": "cloud"
+    },
+    {
+      "rank": 89,
+      "name": "azure-compliance",
+      "source": "microsoft/azure-skills",
+      "installs": 572695,
+      "id": "azure-compliance",
+      "category": "cloud"
+    },
+    {
+      "rank": 90,
+      "name": "appinsights-instrumentation",
+      "source": "microsoft/azure-skills",
+      "installs": 572490,
+      "id": "appinsights-instrumentation",
+      "category": "cloud"
+    },
+    {
+      "rank": 91,
+      "name": "azure-resource-lookup",
+      "source": "microsoft/azure-skills",
+      "installs": 572439,
+      "id": "azure-resource-lookup",
+      "category": "cloud"
+    },
+    {
+      "rank": 92,
+      "name": "azure-resource-visualizer",
+      "source": "microsoft/azure-skills",
+      "installs": 572399,
+      "id": "azure-resource-visualizer",
+      "category": "cloud"
+    },
+    {
+      "rank": 93,
+      "name": "entra-app-registration",
+      "source": "microsoft/azure-skills",
+      "installs": 572356,
+      "id": "entra-app-registration",
+      "category": "cloud"
+    },
+    {
+      "rank": 94,
+      "name": "azure-kusto",
+      "source": "microsoft/azure-skills",
+      "installs": 572108,
+      "id": "azure-kusto",
+      "category": "cloud"
+    },
+    {
+      "rank": 95,
+      "name": "azure-aigateway",
+      "source": "microsoft/azure-skills",
+      "installs": 571711,
+      "id": "azure-aigateway",
+      "category": "cloud"
+    },
+    {
+      "rank": 96,
+      "name": "azure-messaging",
+      "source": "microsoft/azure-skills",
+      "installs": 563365,
+      "id": "azure-messaging",
+      "category": "cloud"
+    },
+    {
+      "rank": 97,
+      "name": "resolving-merge-conflicts",
+      "source": "mattpocock/skills",
+      "installs": 551138,
+      "id": "resolving-merge-conflicts",
+      "category": "planning"
+    },
+    {
+      "rank": 98,
+      "name": "remotion-to-hyperframes",
+      "source": "heygen-com/hyperframes",
+      "installs": 548464,
+      "id": "remotion-to-hyperframes",
+      "category": "media"
+    },
+    {
+      "rank": 103,
+      "name": "product-launch-video",
+      "source": "heygen-com/hyperframes",
+      "installs": 538990,
+      "id": "product-launch-video",
+      "category": "media"
+    },
+    {
+      "rank": 104,
+      "name": "google-agents-cli-adk-code",
+      "source": "google/agents-cli",
+      "installs": 532028,
+      "id": "google-agents-cli-adk-code",
+      "category": "engineering"
+    },
+    {
+      "rank": 105,
+      "name": "google-agents-cli-deploy",
+      "source": "google/agents-cli",
+      "installs": 531355,
+      "id": "google-agents-cli-deploy",
+      "category": "engineering"
+    },
+    {
+      "rank": 106,
+      "name": "google-agents-cli-publish",
+      "source": "google/agents-cli",
+      "installs": 531146,
+      "id": "google-agents-cli-publish",
+      "category": "engineering"
+    },
+    {
+      "rank": 107,
+      "name": "google-agents-cli-workflow",
+      "source": "google/agents-cli",
+      "installs": 530523,
+      "id": "google-agents-cli-workflow",
+      "category": "engineering"
+    },
+    {
+      "rank": 108,
+      "name": "google-agents-cli-eval",
+      "source": "google/agents-cli",
+      "installs": 530507,
+      "id": "google-agents-cli-eval",
+      "category": "engineering"
+    },
+    {
+      "rank": 109,
+      "name": "google-agents-cli-scaffold",
+      "source": "google/agents-cli",
+      "installs": 530391,
+      "id": "google-agents-cli-scaffold",
+      "category": "engineering"
+    },
+    {
+      "rank": 110,
+      "name": "google-agents-cli-observability",
+      "source": "google/agents-cli",
+      "installs": 530360,
+      "id": "google-agents-cli-observability",
+      "category": "engineering"
+    },
+    {
+      "rank": 111,
+      "name": "to-questionnaire",
+      "source": "mattpocock/skills",
+      "installs": 528458,
+      "id": "to-questionnaire",
+      "category": "planning"
+    },
+    {
+      "rank": 112,
+      "name": "azure-compute",
+      "source": "microsoft/azure-skills",
+      "installs": 528193,
+      "id": "azure-compute",
+      "category": "cloud"
+    },
+    {
+      "rank": 113,
+      "name": "git-guardrails-claude-code",
+      "source": "mattpocock/skills",
+      "installs": 522531,
+      "id": "git-guardrails-claude-code",
+      "category": "planning"
+    },
+    {
+      "rank": 114,
+      "name": "faceless-explainer",
+      "source": "heygen-com/hyperframes",
+      "installs": 521688,
+      "id": "faceless-explainer",
+      "category": "media"
+    },
+    {
+      "rank": 115,
+      "name": "azure-cloud-migrate",
+      "source": "microsoft/azure-skills",
+      "installs": 520963,
+      "id": "azure-cloud-migrate",
+      "category": "cloud"
+    },
+    {
+      "rank": 116,
+      "name": "motion-graphics",
+      "source": "heygen-com/hyperframes",
+      "installs": 514007,
+      "id": "motion-graphics",
+      "category": "media"
+    },
+    {
+      "rank": 117,
+      "name": "setup-pre-commit",
+      "source": "mattpocock/skills",
+      "installs": 511903,
+      "id": "setup-pre-commit",
+      "category": "discovery"
+    },
+    {
+      "rank": 118,
+      "name": "writing-beats",
+      "source": "mattpocock/skills",
+      "installs": 505261,
+      "id": "writing-beats",
+      "category": "planning"
+    },
+    {
+      "rank": 119,
+      "name": "writing-shape",
+      "source": "mattpocock/skills",
+      "installs": 504850,
+      "id": "writing-shape",
+      "category": "planning"
+    },
+    {
+      "rank": 120,
+      "name": "writing-fragments",
+      "source": "mattpocock/skills",
+      "installs": 504164,
+      "id": "writing-fragments",
+      "category": "planning"
+    },
+    {
+      "rank": 121,
+      "name": "scaffold-exercises",
+      "source": "mattpocock/skills",
+      "installs": 502451,
+      "id": "scaffold-exercises",
+      "category": "planning"
+    },
+    {
+      "rank": 122,
+      "name": "writing-for-agents",
+      "source": "mattpocock/skills",
+      "installs": 500813,
+      "id": "writing-for-agents",
+      "category": "planning"
+    },
+    {
+      "rank": 123,
+      "name": "migrate-to-shoehorn",
+      "source": "mattpocock/skills",
+      "installs": 498439,
+      "id": "migrate-to-shoehorn",
+      "category": "planning"
+    },
+    {
+      "rank": 124,
+      "name": "paper-context-resolver",
+      "source": "lllllllama/rigorpilot-skills",
+      "installs": 483766,
+      "id": "paper-context-resolver",
+      "category": "engineering"
+    },
+    {
+      "rank": 126,
+      "name": "repo-intake-and-plan",
+      "source": "lllllllama/rigorpilot-skills",
+      "installs": 482959,
+      "id": "repo-intake-and-plan",
+      "category": "engineering"
+    },
+    {
+      "rank": 127,
+      "name": "minimal-run-and-audit",
+      "source": "lllllllama/rigorpilot-skills",
+      "installs": 482882,
+      "id": "minimal-run-and-audit",
+      "category": "engineering"
+    },
+    {
+      "rank": 128,
+      "name": "env-and-assets-bootstrap",
+      "source": "lllllllama/rigorpilot-skills",
+      "installs": 482769,
+      "id": "env-and-assets-bootstrap",
+      "category": "engineering"
+    },
+    {
+      "rank": 131,
+      "name": "wait-what",
+      "source": "mattpocock/skills",
+      "installs": 479572,
+      "id": "wait-what",
+      "category": "planning"
+    },
+    {
+      "rank": 135,
+      "name": "azure-quotas",
+      "source": "microsoft/azure-skills",
+      "installs": 476733,
+      "id": "azure-quotas",
+      "category": "cloud"
+    },
+    {
+      "rank": 146,
+      "name": "azure-upgrade",
+      "source": "microsoft/azure-skills",
+      "installs": 469874,
+      "id": "azure-upgrade",
+      "category": "cloud"
+    },
+    {
+      "rank": 150,
+      "name": "supabase-postgres-best-practices",
+      "source": "supabase/agent-skills",
+      "installs": 468744,
+      "id": "supabase-postgres-best-practices",
+      "category": "engineering"
+    },
+    {
+      "rank": 151,
+      "name": "loop-me",
+      "source": "mattpocock/skills",
+      "installs": 462645,
+      "id": "loop-me",
+      "category": "planning"
+    },
+    {
+      "rank": 152,
+      "name": "high-end-visual-design",
+      "source": "leonxlnx/taste-skill",
+      "installs": 458850,
+      "id": "high-end-visual-design",
+      "category": "design"
+    },
+    {
+      "rank": 153,
+      "name": "redesign-existing-projects",
+      "source": "leonxlnx/taste-skill",
+      "installs": 458719,
+      "id": "redesign-existing-projects",
+      "category": "design"
+    },
+    {
+      "rank": 154,
+      "name": "slideshow",
+      "source": "heygen-com/hyperframes",
+      "installs": 455786,
+      "id": "slideshow",
+      "category": "media"
+    },
+    {
+      "rank": 155,
+      "name": "embedded-captions",
+      "source": "heygen-com/hyperframes",
+      "installs": 453600,
+      "id": "embedded-captions",
+      "category": "media"
+    },
+    {
+      "rank": 156,
+      "name": "hyperframes-studio",
+      "source": "heygen-com/hyperframes",
+      "installs": 451321,
+      "id": "hyperframes-studio",
+      "category": "media"
+    },
+    {
+      "rank": 161,
+      "name": "pr-to-video",
+      "source": "heygen-com/hyperframes",
+      "installs": 448935,
+      "id": "pr-to-video",
+      "category": "media"
+    },
+    {
+      "rank": 162,
+      "name": "azure-enterprise-infra-planner",
+      "source": "microsoft/azure-skills",
+      "installs": 446495,
+      "id": "azure-enterprise-infra-planner",
+      "category": "cloud"
+    },
+    {
+      "rank": 164,
+      "name": "claude-handoff",
+      "source": "mattpocock/skills",
+      "installs": 444437,
+      "id": "claude-handoff",
+      "category": "planning"
+    },
+    {
+      "rank": 165,
+      "name": "video-edit",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "installs": 442344,
+      "id": "video-edit",
+      "category": "media"
+    },
+    {
+      "rank": 166,
+      "name": "azure-kubernetes",
+      "source": "microsoft/azure-skills",
+      "installs": 440788,
+      "id": "azure-kubernetes",
+      "category": "cloud"
+    },
+    {
+      "rank": 167,
+      "name": "image-to-video",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "installs": 440560,
+      "id": "image-to-video",
+      "category": "media"
+    },
+    {
+      "rank": 168,
+      "name": "nano-banana-2",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "installs": 440246,
+      "id": "nano-banana-2",
+      "category": "engineering"
+    },
+    {
+      "rank": 169,
+      "name": "image-edit",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "installs": 439802,
+      "id": "image-edit",
+      "category": "engineering"
+    },
+    {
+      "rank": 170,
+      "name": "nano-banana-edit",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "installs": 439642,
+      "id": "nano-banana-edit",
+      "category": "engineering"
+    },
+    {
+      "rank": 171,
+      "name": "flux-kontext",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "installs": 439432,
+      "id": "flux-kontext",
+      "category": "engineering"
+    },
+    {
+      "rank": 172,
+      "name": "wan-2-7",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "installs": 438872,
+      "id": "wan-2-7",
+      "category": "engineering"
+    },
+    {
+      "rank": 173,
+      "name": "seedance-v2",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "installs": 438719,
+      "id": "seedance-v2",
+      "category": "engineering"
+    },
+    {
+      "rank": 174,
+      "name": "gpt-image-edit",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "installs": 438712,
+      "id": "gpt-image-edit",
+      "category": "engineering"
+    },
+    {
+      "rank": 175,
+      "name": "happyhorse-1-0",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "installs": 438632,
+      "id": "happyhorse-1-0",
+      "category": "engineering"
+    },
+    {
+      "rank": 176,
+      "name": "flux-2-klein",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "installs": 438466,
+      "id": "flux-2-klein",
+      "category": "engineering"
+    },
+    {
+      "rank": 181,
+      "name": "vercel-composition-patterns",
+      "source": "vercel-labs/agent-skills",
+      "installs": 430333,
+      "id": "vercel-composition-patterns",
+      "category": "engineering"
+    },
+    {
+      "rank": 182,
+      "name": "ui-ux-pro-max",
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "installs": 427165,
+      "id": "ui-ux-pro-max",
+      "category": "engineering"
+    },
+    {
+      "rank": 184,
+      "name": "minimalist-ui",
+      "source": "leonxlnx/taste-skill",
+      "installs": 425120,
+      "id": "minimalist-ui",
+      "category": "engineering"
+    },
+    {
+      "rank": 185,
+      "name": "caveman-commit",
+      "source": "juliusbrussee/caveman",
+      "installs": 422405,
+      "id": "caveman-commit",
+      "category": "engineering"
+    },
+    {
+      "rank": 187,
+      "name": "skill-creator",
+      "source": "anthropics/skills",
+      "installs": 420614,
+      "id": "skill-creator",
+      "category": "discovery"
+    },
+    {
+      "rank": 188,
+      "name": "music-to-video",
+      "source": "heygen-com/hyperframes",
+      "installs": 418974,
+      "id": "music-to-video",
+      "category": "media"
+    },
+    {
+      "rank": 189,
+      "name": "caveman-compress",
+      "source": "juliusbrussee/caveman",
+      "installs": 418533,
+      "id": "caveman-compress",
+      "category": "engineering"
+    },
+    {
+      "rank": 190,
+      "name": "caveman-review",
+      "source": "juliusbrussee/caveman",
+      "installs": 418371,
+      "id": "caveman-review",
+      "category": "engineering"
+    },
+    {
+      "rank": 191,
+      "name": "ios-design",
+      "source": "uizze.sh",
+      "installs": 417203,
+      "id": "ios-design",
+      "category": "design"
+    },
+    {
+      "rank": 192,
+      "name": "kling-3-0",
+      "source": "prime-skills/runcomfy-agent-skills",
+      "installs": 415690,
+      "id": "kling-3-0",
+      "category": "engineering"
+    }
+  ]
+}

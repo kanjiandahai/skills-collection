@@ -1,16 +1,49 @@
 #!/usr/bin/env python3
-"""Scan skills/*/SKILL.md and write catalog.json at the repo root."""
+"""Scan skills/*/SKILL.md, write catalog.json, refresh README browse tables."""
 
 from __future__ import annotations
 
 import json
 import re
+from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS_DIR = ROOT / "skills"
 OUT = ROOT / "catalog.json"
+README = ROOT / "README.md"
 FRONTMATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*\n?", re.DOTALL)
+
+CATEGORY_ORDER = [
+    "discovery",
+    "planning",
+    "browser",
+    "design",
+    "media",
+    "collaboration",
+    "cloud",
+    "documents",
+    "engineering",
+    "meta",
+]
+
+CATEGORY_LABELS = {
+    "discovery": "发现与安装",
+    "planning": "规划 / 澄清 / 工程决策",
+    "browser": "浏览器与社交自动化",
+    "design": "设计与前端体验",
+    "media": "媒体与视频",
+    "collaboration": "协作套件（飞书 / Lark）",
+    "cloud": "云平台（Azure / Foundry 等）",
+    "documents": "文档与办公格式",
+    "engineering": "工程实现",
+    "meta": "元 / 其它",
+}
+
+BEGIN = "<!-- BEGIN_CATALOG_BROWSE -->"
+END = "<!-- END_CATALOG_BROWSE -->"
+COUNT_BEGIN = "<!-- BEGIN_SKILL_COUNT -->"
+COUNT_END = "<!-- END_SKILL_COUNT -->"
 
 
 def parse_frontmatter(text: str) -> dict:
@@ -37,7 +70,7 @@ def parse_frontmatter(text: str) -> dict:
     return data
 
 
-def main() -> None:
+def load_entries() -> list[dict]:
     entries = []
     for skill_md in sorted(SKILLS_DIR.glob("*/SKILL.md")):
         skill_id = skill_md.parent.name
@@ -59,17 +92,117 @@ def main() -> None:
                 except (TypeError, ValueError):
                     entry[key] = meta[key]
         entries.append(entry)
+    return entries
 
+
+def fmt_int(n) -> str:
+    if isinstance(n, int):
+        return f"{n:,}"
+    return "—"
+
+
+def render_browse(entries: list[dict]) -> str:
+    by_cat: dict[str, list[dict]] = defaultdict(list)
+    for e in entries:
+        by_cat[e.get("category") or "meta"].append(e)
+
+    lines: list[str] = []
+    lines.append("## 分类一览")
+    lines.append("")
+    lines.append("| 分类 | 数量 | 说明 |")
+    lines.append("|------|------|------|")
+    for cat in CATEGORY_ORDER:
+        items = by_cat.get(cat, [])
+        if not items and cat == "meta":
+            continue
+        label = CATEGORY_LABELS.get(cat, cat)
+        if items:
+            lines.append(
+                f"| [`{cat}`](#category-{cat}) | **{len(items)}** | {label} |"
+            )
+        else:
+            lines.append(f"| `{cat}` | 0 | {label} |")
+    for cat in sorted(by_cat.keys()):
+        if cat not in CATEGORY_ORDER:
+            items = by_cat[cat]
+            lines.append(
+                f"| [`{cat}`](#category-{cat}) | **{len(items)}** | {cat} |"
+            )
+    lines.append("")
+    lines.append(
+        f"合计：**{len(entries)}** 个 skill。完整机器索引见 [`catalog.json`](catalog.json)。"
+    )
+    lines.append("")
+    lines.append("## 按分类浏览")
+    lines.append("")
+
+    cats = [c for c in CATEGORY_ORDER if by_cat.get(c)]
+    cats += sorted(c for c in by_cat if c not in CATEGORY_ORDER)
+    for cat in cats:
+        items = by_cat[cat]
+        items.sort(
+            key=lambda e: (
+                e["rank"] if isinstance(e.get("rank"), int) else 10**9,
+                -(e["installs"] if isinstance(e.get("installs"), int) else -1),
+                e["id"],
+            )
+        )
+        label = CATEGORY_LABELS.get(cat, cat)
+        lines.append(f'<a id="category-{cat}"></a>')
+        lines.append(f"### `{cat}` · {label}（{len(items)}）")
+        lines.append("")
+        lines.append("| Rank | Skill | Source | Installs |")
+        lines.append("|-----:|-------|--------|---------:|")
+        for e in items:
+            rank = e["rank"] if isinstance(e.get("rank"), int) else "—"
+            source = f"`{e['source']}`" if e.get("source") else "—"
+            installs = fmt_int(e.get("installs"))
+            lines.append(
+                f"| {rank} | [`{e['id']}`]({e['path']}) | {source} | {installs} |"
+            )
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def update_readme(entries: list[dict]) -> None:
+    if not README.exists():
+        return
+    text = README.read_text(encoding="utf-8")
+    browse = render_browse(entries)
+
+    if BEGIN in text and END in text:
+        pre, rest = text.split(BEGIN, 1)
+        _, post = rest.split(END, 1)
+        text = pre + BEGIN + "\n" + browse + END + post
+    else:
+        text = text.rstrip() + "\n\n" + BEGIN + "\n" + browse + END + "\n"
+
+    count_bit = str(len(entries))
+    if COUNT_BEGIN in text and COUNT_END in text:
+        pre, rest = text.split(COUNT_BEGIN, 1)
+        _, post = rest.split(COUNT_END, 1)
+        text = pre + COUNT_BEGIN + count_bit + COUNT_END + post
+
+    README.write_text(text, encoding="utf-8")
+
+
+def main() -> None:
+    entries = load_entries()
     catalog = {
         "name": "skills-collection",
-        "description": "Public index of reusable agent skills (skills.sh Top100 + extras)",
+        "description": (
+            "Growing public index of reusable agent skills "
+            "(aggregated from skills.sh signals + manual contrib; categories)"
+        ),
         "skills": entries,
     }
     OUT.write_text(
         json.dumps(catalog, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    update_readme(entries)
     print(f"Wrote {OUT.relative_to(ROOT)} ({len(entries)} skills)")
+    print(f"Updated {README.relative_to(ROOT)} browse tables")
 
 
 if __name__ == "__main__":
