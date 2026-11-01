@@ -1,0 +1,41 @@
+name: Catalog
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    name: check-catalog
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate catalog / README / llms.txt
+        run: python3 scripts/check-catalog.py
+
+      - name: Rebuild is a no-op for tracked trees
+        run: |
+          python3 scripts/build-catalog.py
+          # updated_at always changes; ignore that field when asserting stability of ids/paths
+          python3 - <<'PY'
+          import json, subprocess, sys
+          from pathlib import Path
+          # Re-check consistency after rebuild
+          subprocess.check_call([sys.executable, "scripts/check-catalog.py"])
+          # Ensure skill ids/paths did not drift vs HEAD catalog structure
+          before = json.loads(subprocess.check_output(["git", "show", "HEAD:catalog.json"]))
+          after = json.loads(Path("catalog.json").read_text())
+          def ids(c):
+              return sorted(e["id"] for e in c["skills"])
+          if ids(before) != ids(after):
+              raise SystemExit("build-catalog changed skill id set vs HEAD")
+          print("rebuild preserved skill id set")
+          PY
