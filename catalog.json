@@ -3,6 +3,41 @@
   "description": "Public index of reusable agent skills",
   "skills": [
     {
+      "id": "agent-browser",
+      "name": "agent-browser",
+      "description": "指导助手用浏览器完成页面操作、抓取与验证（打开、点击、填写、截图、断言）。用户要自动化网页流程、检查线上 UI、登录后操作站点、或用无头/有头浏览器跑任务时使用。",
+      "tags": [
+        "browser",
+        "automation",
+        "testing",
+        "scraping"
+      ],
+      "path": "skills/agent-browser/SKILL.md"
+    },
+    {
+      "id": "docx-documents",
+      "name": "docx-documents",
+      "description": "创建或编辑 Word 文档（.docx）：正文样式、标题层级、目录、表格、页眉页脚、批注与修订。用户提到 Word、docx、写公文/方案文档时使用。",
+      "tags": [
+        "docx",
+        "word",
+        "documents"
+      ],
+      "path": "skills/docx-documents/SKILL.md"
+    },
+    {
+      "id": "find-skills",
+      "name": "find-skills",
+      "description": "发现、筛选并安装合适的 Agent Skill。用户说找不到 skill、有没有某某能力、帮我搜 skill、skills.sh / npx skills、或不知道该装哪个 skill 时使用。",
+      "tags": [
+        "skills",
+        "discovery",
+        "catalog",
+        "install"
+      ],
+      "path": "skills/find-skills/SKILL.md"
+    },
+    {
       "id": "flowchart-mermaid",
       "name": "flowchart-mermaid",
       "description": "用 Mermaid 画清晰、可渲染的流程图与相关示意图。用户提到画流程图、流程、决策树、工作流、架构示意、时序图、状态机、ER/类图，或要把过程可视化成 diagram-as-code 时使用。",
@@ -15,6 +50,31 @@
       "path": "skills/flowchart-mermaid/SKILL.md"
     },
     {
+      "id": "frontend-design",
+      "name": "frontend-design",
+      "description": "做有辨识度的前端视觉与界面，避免千篇一律的 AI 默认审美。新建页面、改版 UI、落地页、仪表盘皮肤，或用户抱怨「看起来像模板」时使用。",
+      "tags": [
+        "frontend",
+        "ui",
+        "design",
+        "css",
+        "web"
+      ],
+      "path": "skills/frontend-design/SKILL.md"
+    },
+    {
+      "id": "grill-me",
+      "name": "grill-me",
+      "description": "对计划或设计做高压追问，直到决策树走通、双方理解一致。用户说 grill me、拷问一下方案、帮我抠需求、压力测试设计、把计划问清楚时使用。",
+      "tags": [
+        "requirements",
+        "planning",
+        "interview",
+        "design"
+      ],
+      "path": "skills/grill-me/SKILL.md"
+    },
+    {
       "id": "hello-world",
       "name": "hello-world",
       "description": "示例技能：演示 skills-collection 的目录与 frontmatter 约定；新技能可复制此模板改写。",
@@ -23,6 +83,27 @@
         "starter"
       ],
       "path": "skills/hello-world/SKILL.md"
+    },
+    {
+      "id": "improve-codebase-architecture",
+      "name": "improve-codebase-architecture",
+      "description": "诊断并改进代码库架构：边界、模块化、依赖方向与可测性。用户说架构混乱、拆模块、减耦合、理清分层、改进 codebase architecture 时使用。",
+      "tags": [
+        "architecture",
+        "refactor",
+        "modularity"
+      ],
+      "path": "skills/improve-codebase-architecture/SKILL.md"
+    },
+    {
+      "id": "pdf-documents",
+      "name": "pdf-documents",
+      "description": "创建、阅读、拆合或填写 PDF。用户提到 PDF、导出说明书、合并拆分页面、提取表格/文字、加水印、填表时使用。",
+      "tags": [
+        "pdf",
+        "documents"
+      ],
+      "path": "skills/pdf-documents/SKILL.md"
     },
     {
       "id": "poster-design",
@@ -51,6 +132,17 @@
       "path": "skills/pptx-deck/SKILL.md"
     },
     {
+      "id": "skill-creator",
+      "name": "skill-creator",
+      "description": "从零编写、改写并打磨 Agent Skill（SKILL.md）。用户要创建 skill、优化 description 触发、给 skill 加评测、或把一段工作流沉淀成 skill 时使用。",
+      "tags": [
+        "skills",
+        "authoring",
+        "eval"
+      ],
+      "path": "skills/skill-creator/SKILL.md"
+    },
+    {
       "id": "spreadsheet-xlsx",
       "name": "spreadsheet-xlsx",
       "description": "创建、编辑、分析或美化电子表格（.xlsx / .csv / .tsv）。用户提到做表、改 Excel、透视、公式、清洗脏表、从数据出报表或图表时使用。",
@@ -62,6 +154,29 @@
         "data"
       ],
       "path": "skills/spreadsheet-xlsx/SKILL.md"
+    },
+    {
+      "id": "tdd",
+      "name": "tdd",
+      "description": "用测试驱动实现功能：先写失败测试，再写最小实现，再重构。用户要求 TDD、先写测试、红绿重构、或实现前先定行为规格时使用。",
+      "tags": [
+        "tdd",
+        "testing",
+        "red-green-refactor"
+      ],
+      "path": "skills/tdd/SKILL.md"
+    },
+    {
+      "id": "webapp-testing",
+      "name": "webapp-testing",
+      "description": "为 Web 应用设计并运行可靠的 UI/端到端测试与冒烟检查。用户要测页面、写 Playwright/Cypress 测试、加回归、验证修复是否生效时使用。",
+      "tags": [
+        "testing",
+        "e2e",
+        "playwright",
+        "webapp"
+      ],
+      "path": "skills/webapp-testing/SKILL.md"
     }
   ]
 }
