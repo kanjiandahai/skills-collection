@@ -45,11 +45,15 @@ END = "<!-- END_CATALOG_BROWSE -->"
 COUNT_BEGIN = "<!-- BEGIN_SKILL_COUNT -->"
 COUNT_END = "<!-- END_SKILL_COUNT -->"
 
+# Keep README 说明 cells short; soft target ~100, hard cut ~120.
+DESC_SOFT = 100
+DESC_HARD = 120
 
-def parse_frontmatter(text: str) -> dict:
+
+def parse_frontmatter(text: str) -> tuple[dict, str]:
     match = FRONTMATTER.match(text)
     if not match:
-        return {}
+        return {}, text
     data: dict = {}
     for line in match.group(1).splitlines():
         line = line.strip()
@@ -67,18 +71,63 @@ def parse_frontmatter(text: str) -> dict:
             ]
         else:
             data[key] = value.strip("'\"")
-    return data
+    body = text[match.end() :]
+    return data, body
+
+
+def first_useful_body_line(body: str) -> str:
+    for raw in body.splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        if line.startswith("#"):
+            # Prefer prose over a heading that just repeats the name.
+            continue
+        if line.startswith("```") or line.startswith("|"):
+            continue
+        if line.startswith("- ") or line.startswith("* ") or line.startswith(">"):
+            line = line.lstrip("-*> ").strip()
+        if line:
+            return line
+    return ""
+
+
+def shorten_description(text: str, soft: int = DESC_SOFT, hard: int = DESC_HARD) -> str:
+    text = re.sub(r"\s+", " ", (text or "").strip())
+    if not text:
+        return ""
+    if len(text) <= hard:
+        return text
+    cut = text[:soft].rstrip()
+    # Prefer breaking at punctuation / space near the soft limit.
+    for sep in ("。", "；", ";", "，", ",", "、", " ", "·"):
+        idx = cut.rfind(sep)
+        if idx >= soft // 2:
+            cut = cut[: idx + (1 if sep in "。；;" else 0)].rstrip()
+            break
+    if not cut.endswith(("…", "...", "。")):
+        cut = cut.rstrip("，,;；、 ") + "…"
+    return cut
+
+
+def md_cell(text: str) -> str:
+    """Escape pipe/newlines so a value is safe inside a markdown table cell."""
+    return (text or "").replace("|", "\\|").replace("\n", " ").strip()
 
 
 def load_entries() -> list[dict]:
     entries = []
     for skill_md in sorted(SKILLS_DIR.glob("*/SKILL.md")):
         skill_id = skill_md.parent.name
-        meta = parse_frontmatter(skill_md.read_text(encoding="utf-8"))
+        raw = skill_md.read_text(encoding="utf-8")
+        meta, body = parse_frontmatter(raw)
+        description = (meta.get("description") or "").strip()
+        if not description:
+            description = first_useful_body_line(body)
         entry = {
             "id": skill_id,
             "name": meta.get("name", skill_id),
-            "description": meta.get("description", ""),
+            "description": description,
             "tags": meta.get("tags", []),
             "category": meta.get("category", "meta"),
             "path": str(skill_md.relative_to(ROOT).as_posix()),
@@ -151,14 +200,15 @@ def render_browse(entries: list[dict]) -> str:
         lines.append(f'<a id="category-{cat}"></a>')
         lines.append(f"### `{cat}` · {label}（{len(items)}）")
         lines.append("")
-        lines.append("| Rank | Skill | Source | Installs |")
-        lines.append("|-----:|-------|--------|---------:|")
+        lines.append("| Rank | Skill | Source | Installs | 说明 |")
+        lines.append("|-----:|-------|--------|---------:|------|")
         for e in items:
             rank = e["rank"] if isinstance(e.get("rank"), int) else "—"
             source = f"`{e['source']}`" if e.get("source") else "—"
             installs = fmt_int(e.get("installs"))
+            blurb = md_cell(shorten_description(e.get("description", ""))) or "—"
             lines.append(
-                f"| {rank} | [`{e['id']}`]({e['path']}) | {source} | {installs} |"
+                f"| {rank} | [`{e['id']}`]({e['path']}) | {source} | {installs} | {blurb} |"
             )
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
