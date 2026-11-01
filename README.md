@@ -11,7 +11,7 @@
 3. **元数据刷新**：对已有 skill，用新快照更新 `rank` / `installs`（以及缺失的 `source`），**不覆盖**更丰富的 description 与正文。
 4. **单调增长**：已入库 skill 默认保留；刷新脚本**不会**为了「对齐 Top N」而删卡。
 
-当前收录 <!-- BEGIN_SKILL_COUNT -->157<!-- END_SKILL_COUNT --> 个 skill（计数由 `scripts/build-catalog.py` 维护）。
+当前收录 <!-- BEGIN_SKILL_COUNT -->169<!-- END_SKILL_COUNT --> 个 skill（计数由 `scripts/build-catalog.py` 维护）。
 
 <!-- BEGIN_CATALOG_BROWSE -->
 ## 分类一览
@@ -26,9 +26,10 @@
 | [`collaboration`](#category-collaboration) | **27** | 协作套件（飞书 / Lark） |
 | [`cloud`](#category-cloud) | **21** | 云平台（Azure / Foundry 等） |
 | [`documents`](#category-documents) | **6** | 文档与办公格式 |
+| [`finance`](#category-finance) | **12** | 金融 |
 | [`engineering`](#category-engineering) | **30** | 工程实现 |
 
-合计：**157** 个 skill。完整机器索引见 [`catalog.json`](catalog.json)。
+合计：**169** 个 skill。完整机器索引见 [`catalog.json`](catalog.json)。
 
 ## 按分类浏览
 
@@ -207,6 +208,24 @@
 | — | [`pptx-deck`](skills/pptx-deck/SKILL.md) | — | — | 制作或改写 PowerPoint / .pptx 幻灯片（路演、汇报、培训、方案）。用户提到做 PPT、幻灯片、presentation、deck、pitch，或要生成/修改 .pptx 时使用。 |
 | — | [`spreadsheet-xlsx`](skills/spreadsheet-xlsx/SKILL.md) | — | — | 创建、编辑、分析或美化电子表格（.xlsx / .csv / .tsv）。用户提到做表、改 Excel、透视、公式、清洗脏表、从数据出报表或图表时使用。 |
 
+<a id="category-finance"></a>
+### `finance` · 金融（12）
+
+| Rank | Skill | Source | Installs | 说明 |
+|-----:|-------|--------|---------:|------|
+| — | [`company-tearsheet`](skills/company-tearsheet/SKILL.md) | — | — | 做公司一页纸：业务、财务快照、竞争要点、近期催化与开放问题。用户要快速熟悉标的时使用。 |
+| — | [`crypto-market-watch`](skills/crypto-market-watch/SKILL.md) | — | — | 加密市场观察笔记：价格区间、主导叙事、链上/衍生品公开指标与风险事件。用户要加密周报骨架时使用。 |
+| — | [`earnings-digest`](skills/earnings-digest/SKILL.md) | — | — | 提炼财报/业绩发布要点：收入利润、指引、分部与管理层口径。用户要看季报、听会纪要摘要时使用。 |
+| — | [`fund-flow-notes`](skills/fund-flow-notes/SKILL.md) | — | — | 整理资金流向笔记：北向/ETF/期货持仓等公开流向的记录模板。用户要跟踪资金面变化时使用。 |
+| — | [`investment-memo`](skills/investment-memo/SKILL.md) | — | — | 起草投资备忘录骨架：论点、证据、反方、催化剂与监控指标。用户要写内部 memo 时使用。 |
+| — | [`macro-calendar`](skills/macro-calendar/SKILL.md) | — | — | 解读宏观数据与央行日历：为何重要、市场常关注什么、如何记录预期差。用户看非农、CPI、利率决议时使用。 |
+| — | [`market-brief`](skills/market-brief/SKILL.md) | — | — | 整理当日/当周行情简报：指数、板块、重要个股与事件一览。用户要晨报、收盘总结、市场速览时使用。 |
+| — | [`portfolio-review`](skills/portfolio-review/SKILL.md) | — | — | 按用户提供的持仓做结构化回顾：权重、盈亏、集中度与待办。用户要复盘组合、月度检视时使用。 |
+| — | [`quant-research-notes`](skills/quant-research-notes/SKILL.md) | — | — | 整理量化研究笔记：假设、数据、特征、回测设置与失效条件。用户要沉淀实验或读论文时使用。 |
+| — | [`risk-checklist`](skills/risk-checklist/SKILL.md) | — | — | 交易/投资决策前的风险检查清单：流动性、杠杆、事件、操作与合规。用户要下单前自检或复盘失误时使用。 |
+| — | [`sec-filing-skim`](skills/sec-filing-skim/SKILL.md) | — | — | 速读监管公告与长篇披露（如 10-K/10-Q/年报）：风险因素、MD&A、重大合同。用户要啃文件时使用。 |
+| — | [`valuation-sanity`](skills/valuation-sanity/SKILL.md) | — | — | 对估值假设做 sanity check：倍数、增长与情景是否自洽。用户要检查模型或街头倍数时使用。 |
+
 <a id="category-engineering"></a>
 ### `engineering` · 工程实现（30）
 
@@ -299,7 +318,7 @@ installs: 4143610            # 可选，随快照刷新
 
 正文写清：何时用、工作流、成功标准。保持通用；上游细节以 `source` 仓库为准。自动灌入的 stub 可后续人工加厚。
 
-分类取值：`discovery` / `planning` / `browser` / `design` / `media` / `collaboration` / `cloud` / `documents` / `engineering` / `meta`。
+分类取值：`discovery` / `planning` / `browser` / `design` / `media` / `collaboration` / `cloud` / `documents` / `finance` / `engineering` / `meta`。
 
 ## 贡献
 

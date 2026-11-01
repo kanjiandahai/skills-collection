@@ -23,6 +23,7 @@ CATEGORY_ORDER = [
     "collaboration",
     "cloud",
     "documents",
+    "finance",
     "engineering",
     "meta",
 ]
@@ -36,6 +37,7 @@ CATEGORY_LABELS = {
     "collaboration": "协作套件（飞书 / Lark）",
     "cloud": "云平台（Azure / Foundry 等）",
     "documents": "文档与办公格式",
+    "finance": "金融",
     "engineering": "工程实现",
     "meta": "元 / 其它",
 }

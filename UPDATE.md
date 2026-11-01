@@ -35,3 +35,7 @@ python3 scripts/build-catalog.py
 1. 新建 `skills/<id>/SKILL.md`，填写 frontmatter（含 `category`）与正文
 2. `python3 scripts/build-catalog.py`
 3. 提交 PR
+
+## 分类
+
+常用 `category`：`discovery` / `planning` / `browser` / `design` / `media` / `collaboration` / `cloud` / `documents` / `finance` / `engineering` / `meta`。展示名由 `scripts/build-catalog.py` 的 `CATEGORY_LABELS` 维护（`finance` → 金融）。

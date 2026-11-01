@@ -490,6 +490,30 @@
       "installs": 891203
     },
     {
+      "id": "company-tearsheet",
+      "name": "company-tearsheet",
+      "description": "做公司一页纸：业务、财务快照、竞争要点、近期催化与开放问题。用户要快速熟悉标的时使用。",
+      "tags": [
+        "finance",
+        "company",
+        "tearsheet"
+      ],
+      "category": "finance",
+      "path": "skills/company-tearsheet/SKILL.md"
+    },
+    {
+      "id": "crypto-market-watch",
+      "name": "crypto-market-watch",
+      "description": "加密市场观察笔记：价格区间、主导叙事、链上/衍生品公开指标与风险事件。用户要加密周报骨架时使用。",
+      "tags": [
+        "finance",
+        "crypto",
+        "market"
+      ],
+      "category": "finance",
+      "path": "skills/crypto-market-watch/SKILL.md"
+    },
+    {
       "id": "design-mobile-apps",
       "name": "design-mobile-apps",
       "description": "移动端 App UI/交互设计指导。用户做 iOS/Android/跨端界面时使用。",
@@ -564,6 +588,18 @@
       "source": "mattpocock/skills",
       "rank": 26,
       "installs": 915974
+    },
+    {
+      "id": "earnings-digest",
+      "name": "earnings-digest",
+      "description": "提炼财报/业绩发布要点：收入利润、指引、分部与管理层口径。用户要看季报、听会纪要摘要时使用。",
+      "tags": [
+        "finance",
+        "earnings",
+        "digest"
+      ],
+      "category": "finance",
+      "path": "skills/earnings-digest/SKILL.md"
     },
     {
       "id": "embedded-captions",
@@ -702,6 +738,18 @@
       "source": "anthropics/skills",
       "rank": 15,
       "installs": 1058803
+    },
+    {
+      "id": "fund-flow-notes",
+      "name": "fund-flow-notes",
+      "description": "整理资金流向笔记：北向/ETF/期货持仓等公开流向的记录模板。用户要跟踪资金面变化时使用。",
+      "tags": [
+        "finance",
+        "fund-flow",
+        "notes"
+      ],
+      "category": "finance",
+      "path": "skills/fund-flow-notes/SKILL.md"
     },
     {
       "id": "general-video",
@@ -1157,6 +1205,18 @@
       "installs": 1204860
     },
     {
+      "id": "investment-memo",
+      "name": "investment-memo",
+      "description": "起草投资备忘录骨架：论点、证据、反方、催化剂与监控指标。用户要写内部 memo 时使用。",
+      "tags": [
+        "finance",
+        "memo",
+        "investment"
+      ],
+      "category": "finance",
+      "path": "skills/investment-memo/SKILL.md"
+    },
+    {
       "id": "ios-design",
       "name": "ios-design",
       "description": "来自 skills.sh 的 design 向 skill「ios-design」。安装量信号约 417,203；详情见上游 uizze.sh。",
@@ -1609,6 +1669,30 @@
       "installs": 462645
     },
     {
+      "id": "macro-calendar",
+      "name": "macro-calendar",
+      "description": "解读宏观数据与央行日历：为何重要、市场常关注什么、如何记录预期差。用户看非农、CPI、利率决议时使用。",
+      "tags": [
+        "finance",
+        "macro",
+        "calendar"
+      ],
+      "category": "finance",
+      "path": "skills/macro-calendar/SKILL.md"
+    },
+    {
+      "id": "market-brief",
+      "name": "market-brief",
+      "description": "整理当日/当周行情简报：指数、板块、重要个股与事件一览。用户要晨报、收盘总结、市场速览时使用。",
+      "tags": [
+        "finance",
+        "market",
+        "brief"
+      ],
+      "category": "finance",
+      "path": "skills/market-brief/SKILL.md"
+    },
+    {
       "id": "media-use",
       "name": "media-use",
       "description": "选择与运用媒体资源（图/音/视频）完成创作任务。用户纠结媒体素材用法时使用。",
@@ -1770,6 +1854,18 @@
       "path": "skills/pdf-documents/SKILL.md"
     },
     {
+      "id": "portfolio-review",
+      "name": "portfolio-review",
+      "description": "按用户提供的持仓做结构化回顾：权重、盈亏、集中度与待办。用户要复盘组合、月度检视时使用。",
+      "tags": [
+        "finance",
+        "portfolio",
+        "review"
+      ],
+      "category": "finance",
+      "path": "skills/portfolio-review/SKILL.md"
+    },
+    {
       "id": "poster-design",
       "name": "poster-design",
       "description": "设计海报、静态视觉稿、活动宣传图或单页艺术构图。用户提到做海报、宣传图、视觉设计、静态画面、PNG/PDF 海报时使用；输出以画面为主，文案极少。",
@@ -1843,6 +1939,18 @@
       "source": "mattpocock/skills",
       "rank": 18,
       "installs": 1021735
+    },
+    {
+      "id": "quant-research-notes",
+      "name": "quant-research-notes",
+      "description": "整理量化研究笔记：假设、数据、特征、回测设置与失效条件。用户要沉淀实验或读论文时使用。",
+      "tags": [
+        "finance",
+        "quant",
+        "research"
+      ],
+      "category": "finance",
+      "path": "skills/quant-research-notes/SKILL.md"
     },
     {
       "id": "reddit-automation",
@@ -1956,6 +2064,18 @@
       "installs": 551138
     },
     {
+      "id": "risk-checklist",
+      "name": "risk-checklist",
+      "description": "交易/投资决策前的风险检查清单：流动性、杠杆、事件、操作与合规。用户要下单前自检或复盘失误时使用。",
+      "tags": [
+        "finance",
+        "risk",
+        "checklist"
+      ],
+      "category": "finance",
+      "path": "skills/risk-checklist/SKILL.md"
+    },
+    {
       "id": "scaffold-exercises",
       "name": "scaffold-exercises",
       "description": "来自 skills.sh 的 planning 向 skill「scaffold-exercises」。安装量信号约 502,451；详情见上游 mattpocock/skills。",
@@ -1969,6 +2089,18 @@
       "source": "mattpocock/skills",
       "rank": 121,
       "installs": 502451
+    },
+    {
+      "id": "sec-filing-skim",
+      "name": "sec-filing-skim",
+      "description": "速读监管公告与长篇披露（如 10-K/10-Q/年报）：风险因素、MD&A、重大合同。用户要啃文件时使用。",
+      "tags": [
+        "finance",
+        "filing",
+        "sec"
+      ],
+      "category": "finance",
+      "path": "skills/sec-filing-skim/SKILL.md"
     },
     {
       "id": "seedance-v2",
@@ -2210,6 +2342,18 @@
       "source": "nextlevelbuilder/ui-ux-pro-max-skill",
       "rank": 182,
       "installs": 427165
+    },
+    {
+      "id": "valuation-sanity",
+      "name": "valuation-sanity",
+      "description": "对估值假设做 sanity check：倍数、增长与情景是否自洽。用户要检查模型或街头倍数时使用。",
+      "tags": [
+        "finance",
+        "valuation",
+        "sanity"
+      ],
+      "category": "finance",
+      "path": "skills/valuation-sanity/SKILL.md"
     },
     {
       "id": "vercel-composition-patterns",

@@ -43,6 +43,7 @@ CATEGORY_LABELS = {
     "collaboration": "协作套件（飞书 / Lark）",
     "cloud": "云平台（Azure / Foundry 等）",
     "documents": "文档与办公格式",
+    "finance": "金融",
     "engineering": "工程实现",
     "meta": "元 / 其它",
 }
@@ -169,6 +170,32 @@ def guess_category(name: str, source: str) -> str:
         )
     ):
         return "documents"
+    finance_keys = (
+        "finance",
+        "financial",
+        "trading",
+        "portfolio",
+        "earnings",
+        "valuation",
+        "tearsheet",
+        "fund-flow",
+        "macro-calendar",
+        "sec-filing",
+        "10-k",
+        "10k",
+        "market-brief",
+        "market-watch",
+        "crypto-market",
+        "quant-research",
+        "investment",
+        "risk-checklist",
+        "risk-manage",
+        "stock-picker",
+        "equity-research",
+        "hedge-fund",
+    )
+    if any(k in n for k in finance_keys) or "fintech" in n:
+        return "finance"
     planning_keys = (
         "grill",
         "tdd",
