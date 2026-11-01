@@ -27,7 +27,7 @@ Top 100 里协作套件、媒体管线、云技能扎堆，扁平列表很难扫
 | [`engineering`](#category-engineering) | **8** | 工程实现（其余技术向） |
 | `meta` | 0 | 元 / 其它（Top100 未命中；本仓额外文档类见下） |
 
-Top100 合计：**100**。另有本仓额外技能 **9** 个（见文末）。
+Top100 合计：**100**。另有本仓额外技能 **8** 个（见文末）。
 
 ## 按分类浏览（Top 100）
 
@@ -187,7 +187,6 @@ Top100 合计：**100**。另有本仓额外技能 **9** 个（见文末）。
 |-------|----------|------|
 | [`docx-documents`](skills/docx-documents/SKILL.md) | `documents` | 创建或编辑 Word 文档（.docx）：正文样式、标题层级、目录、表格、页眉页脚、批注与修订 |
 | [`flowchart-mermaid`](skills/flowchart-mermaid/SKILL.md) | `documents` | 用 Mermaid 画清晰、可渲染的流程图与相关示意图 |
-| [`hello-world`](skills/hello-world/SKILL.md) | `meta` | 示例技能：演示 skills-collection 的目录与 frontmatter 约定；新技能可复制此模板改写 |
 | [`pdf-documents`](skills/pdf-documents/SKILL.md) | `documents` | 创建、阅读、拆合或填写 PDF |
 | [`poster-design`](skills/poster-design/SKILL.md) | `documents` | 设计海报、静态视觉稿、活动宣传图或单页艺术构图 |
 | [`pptx-deck`](skills/pptx-deck/SKILL.md) | `documents` | 制作或改写 PowerPoint / .pptx 幻灯片（路演、汇报、培训、方案） |

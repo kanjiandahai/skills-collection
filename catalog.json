@@ -685,17 +685,6 @@
       "installs": 1077247
     },
     {
-      "id": "hello-world",
-      "name": "hello-world",
-      "description": "示例技能：演示 skills-collection 的目录与 frontmatter 约定；新技能可复制此模板改写。",
-      "tags": [
-        "example",
-        "starter"
-      ],
-      "category": "meta",
-      "path": "skills/hello-world/SKILL.md"
-    },
-    {
       "id": "hyperframes",
       "name": "hyperframes",
       "description": "Hyperframes 视频创作总技能。用户要做 AI 视频/成片流水线且提到 Hyperframes 时使用。",
