@@ -25,6 +25,19 @@
       "path": "skills/hello-world/SKILL.md"
     },
     {
+      "id": "poster-design",
+      "name": "poster-design",
+      "description": "设计海报、静态视觉稿、活动宣传图或单页艺术构图。用户提到做海报、宣传图、视觉设计、静态画面、PNG/PDF 海报时使用；输出以画面为主，文案极少。",
+      "tags": [
+        "poster",
+        "design",
+        "visual",
+        "png",
+        "pdf"
+      ],
+      "path": "skills/poster-design/SKILL.md"
+    },
+    {
       "id": "pptx-deck",
       "name": "pptx-deck",
       "description": "制作或改写 PowerPoint / .pptx 幻灯片（路演、汇报、培训、方案）。用户提到做 PPT、幻灯片、presentation、deck、pitch，或要生成/修改 .pptx 时使用。",
@@ -36,6 +49,19 @@
         "deck"
       ],
       "path": "skills/pptx-deck/SKILL.md"
+    },
+    {
+      "id": "spreadsheet-xlsx",
+      "name": "spreadsheet-xlsx",
+      "description": "创建、编辑、分析或美化电子表格（.xlsx / .csv / .tsv）。用户提到做表、改 Excel、透视、公式、清洗脏表、从数据出报表或图表时使用。",
+      "tags": [
+        "xlsx",
+        "excel",
+        "spreadsheet",
+        "csv",
+        "data"
+      ],
+      "path": "skills/spreadsheet-xlsx/SKILL.md"
     }
   ]
 }

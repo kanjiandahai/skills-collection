@@ -8,6 +8,8 @@
 |-------|------|
 | [`flowchart-mermaid`](skills/flowchart-mermaid/SKILL.md) | Mermaid 流程图 / 时序 / 状态等 diagram-as-code |
 | [`pptx-deck`](skills/pptx-deck/SKILL.md) | 做或改 PowerPoint（`.pptx`）演示文稿 |
+| [`poster-design`](skills/poster-design/SKILL.md) | 海报 / 静态视觉稿（PNG、单页 PDF） |
+| [`spreadsheet-xlsx`](skills/spreadsheet-xlsx/SKILL.md) | Excel / CSV 表格创建、编辑与分析 |
 
 完整机器索引见 [`catalog.json`](catalog.json)。
 
