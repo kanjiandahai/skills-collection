@@ -1,6 +1,12 @@
 {
+  "schema_version": 1,
   "name": "skills-collection",
   "description": "Growing public index of reusable agent skills (aggregated from skills.sh signals + manual contrib; categories)",
+  "description_zh": "持续增长的公开 Agent Skills 索引仓：聚合 + 分类 + 可滚动更新",
+  "homepage": "https://github.com/kanjiandahai/skills-collection",
+  "install": "npx skills add kanjiandahai/skills-collection",
+  "updated_at": "2026-11-01T12:13:47Z",
+  "skill_count": 169,
   "skills": [
     {
       "id": "agent-browser",
@@ -14,6 +20,8 @@
       ],
       "category": "browser",
       "path": "skills/agent-browser/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/agent-browser/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/agent-browser/SKILL.md",
       "source": "vercel-labs/agent-browser",
       "rank": 4,
       "installs": 1324536
@@ -30,6 +38,8 @@
       ],
       "category": "media",
       "path": "skills/ai-avatar-video/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/ai-avatar-video/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/ai-avatar-video/SKILL.md",
       "source": "101-skills/superpowers",
       "rank": 24,
       "installs": 917307
@@ -46,6 +56,8 @@
       ],
       "category": "media",
       "path": "skills/ai-image-generation/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/ai-image-generation/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/ai-image-generation/SKILL.md",
       "source": "101-skills/superpowers",
       "rank": 22,
       "installs": 917955
@@ -62,6 +74,8 @@
       ],
       "category": "media",
       "path": "skills/ai-video-generation/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/ai-video-generation/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/ai-video-generation/SKILL.md",
       "source": "101-skills/superpowers",
       "rank": 21,
       "installs": 919308
@@ -78,6 +92,8 @@
       ],
       "category": "cloud",
       "path": "skills/appinsights-instrumentation/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/appinsights-instrumentation/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/appinsights-instrumentation/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 90,
       "installs": 572490
@@ -94,6 +110,8 @@
       ],
       "category": "planning",
       "path": "skills/ask-matt/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/ask-matt/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/ask-matt/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 63,
       "installs": 799120
@@ -109,6 +127,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-ai/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-ai/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-ai/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 85,
       "installs": 574510
@@ -125,6 +145,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-aigateway/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-aigateway/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-aigateway/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 95,
       "installs": 571711
@@ -140,6 +162,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-cloud-migrate/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-cloud-migrate/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-cloud-migrate/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 115,
       "installs": 520963
@@ -156,6 +180,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-compliance/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-compliance/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-compliance/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 89,
       "installs": 572695
@@ -172,6 +198,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-compute/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-compute/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-compute/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 112,
       "installs": 528193
@@ -188,6 +216,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-deploy/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-deploy/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-deploy/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 86,
       "installs": 574261
@@ -204,6 +234,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-diagnostics/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-diagnostics/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-diagnostics/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 83,
       "installs": 576049
@@ -219,6 +251,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-enterprise-infra-planner/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-enterprise-infra-planner/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-enterprise-infra-planner/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 162,
       "installs": 446495
@@ -234,6 +268,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-kubernetes/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-kubernetes/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-kubernetes/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 166,
       "installs": 440788
@@ -250,6 +286,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-kusto/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-kusto/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-kusto/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 94,
       "installs": 572108
@@ -266,6 +304,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-messaging/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-messaging/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-messaging/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 96,
       "installs": 563365
@@ -282,6 +322,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-prepare/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-prepare/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-prepare/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 84,
       "installs": 575222
@@ -297,6 +339,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-quotas/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-quotas/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-quotas/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 135,
       "installs": 476733
@@ -314,6 +358,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-resource-lookup/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-resource-lookup/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-resource-lookup/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 91,
       "installs": 572439
@@ -331,6 +377,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-resource-visualizer/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-resource-visualizer/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-resource-visualizer/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 92,
       "installs": 572399
@@ -347,6 +395,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-storage/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-storage/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-storage/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 88,
       "installs": 573090
@@ -362,6 +412,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-upgrade/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-upgrade/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-upgrade/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 146,
       "installs": 469874
@@ -378,6 +430,8 @@
       ],
       "category": "cloud",
       "path": "skills/azure-validate/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/azure-validate/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/azure-validate/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 87,
       "installs": 573818
@@ -393,6 +447,8 @@
       ],
       "category": "engineering",
       "path": "skills/caveman/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/caveman/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/caveman/SKILL.md",
       "source": "juliusbrussee/caveman",
       "rank": 76,
       "installs": 603221
@@ -408,6 +464,8 @@
       ],
       "category": "engineering",
       "path": "skills/caveman-commit/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/caveman-commit/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/caveman-commit/SKILL.md",
       "source": "juliusbrussee/caveman",
       "rank": 185,
       "installs": 422405
@@ -423,6 +481,8 @@
       ],
       "category": "engineering",
       "path": "skills/caveman-compress/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/caveman-compress/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/caveman-compress/SKILL.md",
       "source": "juliusbrussee/caveman",
       "rank": 189,
       "installs": 418533
@@ -438,6 +498,8 @@
       ],
       "category": "engineering",
       "path": "skills/caveman-review/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/caveman-review/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/caveman-review/SKILL.md",
       "source": "juliusbrussee/caveman",
       "rank": 190,
       "installs": 418371
@@ -453,6 +515,8 @@
       ],
       "category": "planning",
       "path": "skills/claude-handoff/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/claude-handoff/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/claude-handoff/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 164,
       "installs": 444437
@@ -469,6 +533,8 @@
       ],
       "category": "planning",
       "path": "skills/code-review/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/code-review/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/code-review/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 54,
       "installs": 829992
@@ -485,6 +551,8 @@
       ],
       "category": "planning",
       "path": "skills/codebase-design/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/codebase-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/codebase-design/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 28,
       "installs": 891203
@@ -499,7 +567,9 @@
         "tearsheet"
       ],
       "category": "finance",
-      "path": "skills/company-tearsheet/SKILL.md"
+      "path": "skills/company-tearsheet/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/company-tearsheet/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/company-tearsheet/SKILL.md"
     },
     {
       "id": "crypto-market-watch",
@@ -511,7 +581,9 @@
         "market"
       ],
       "category": "finance",
-      "path": "skills/crypto-market-watch/SKILL.md"
+      "path": "skills/crypto-market-watch/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/crypto-market-watch/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/crypto-market-watch/SKILL.md"
     },
     {
       "id": "design-mobile-apps",
@@ -525,6 +597,8 @@
       ],
       "category": "design",
       "path": "skills/design-mobile-apps/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/design-mobile-apps/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/design-mobile-apps/SKILL.md",
       "source": "designed-by-ai/skills",
       "rank": 11,
       "installs": 1152654
@@ -541,6 +615,8 @@
       ],
       "category": "design",
       "path": "skills/design-taste-frontend/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/design-taste-frontend/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/design-taste-frontend/SKILL.md",
       "source": "leonxlnx/taste-skill",
       "rank": 72,
       "installs": 711387
@@ -557,6 +633,8 @@
       ],
       "category": "planning",
       "path": "skills/diagnosing-bugs/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/diagnosing-bugs/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/diagnosing-bugs/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 30,
       "installs": 872766
@@ -571,7 +649,9 @@
         "documents"
       ],
       "category": "documents",
-      "path": "skills/docx-documents/SKILL.md"
+      "path": "skills/docx-documents/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/docx-documents/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/docx-documents/SKILL.md"
     },
     {
       "id": "domain-modeling",
@@ -585,6 +665,8 @@
       ],
       "category": "planning",
       "path": "skills/domain-modeling/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/domain-modeling/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/domain-modeling/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 26,
       "installs": 915974
@@ -599,7 +681,9 @@
         "digest"
       ],
       "category": "finance",
-      "path": "skills/earnings-digest/SKILL.md"
+      "path": "skills/earnings-digest/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/earnings-digest/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/earnings-digest/SKILL.md"
     },
     {
       "id": "embedded-captions",
@@ -612,6 +696,8 @@
       ],
       "category": "media",
       "path": "skills/embedded-captions/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/embedded-captions/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/embedded-captions/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 155,
       "installs": 453600
@@ -629,6 +715,8 @@
       ],
       "category": "cloud",
       "path": "skills/entra-app-registration/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/entra-app-registration/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/entra-app-registration/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 93,
       "installs": 572356
@@ -644,6 +732,8 @@
       ],
       "category": "engineering",
       "path": "skills/env-and-assets-bootstrap/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/env-and-assets-bootstrap/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/env-and-assets-bootstrap/SKILL.md",
       "source": "lllllllama/rigorpilot-skills",
       "rank": 128,
       "installs": 482769
@@ -659,6 +749,8 @@
       ],
       "category": "media",
       "path": "skills/faceless-explainer/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/faceless-explainer/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/faceless-explainer/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 114,
       "installs": 521688
@@ -675,6 +767,8 @@
       ],
       "category": "discovery",
       "path": "skills/find-skills/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/find-skills/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/find-skills/SKILL.md",
       "source": "vercel-labs/skills",
       "rank": 1,
       "installs": 4143610
@@ -690,7 +784,9 @@
         "visualization"
       ],
       "category": "documents",
-      "path": "skills/flowchart-mermaid/SKILL.md"
+      "path": "skills/flowchart-mermaid/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/flowchart-mermaid/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/flowchart-mermaid/SKILL.md"
     },
     {
       "id": "flux-2-klein",
@@ -703,6 +799,8 @@
       ],
       "category": "engineering",
       "path": "skills/flux-2-klein/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/flux-2-klein/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/flux-2-klein/SKILL.md",
       "source": "prime-skills/runcomfy-agent-skills",
       "rank": 176,
       "installs": 438466
@@ -718,6 +816,8 @@
       ],
       "category": "engineering",
       "path": "skills/flux-kontext/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/flux-kontext/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/flux-kontext/SKILL.md",
       "source": "prime-skills/runcomfy-agent-skills",
       "rank": 171,
       "installs": 439432
@@ -735,6 +835,8 @@
       ],
       "category": "design",
       "path": "skills/frontend-design/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/frontend-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/frontend-design/SKILL.md",
       "source": "anthropics/skills",
       "rank": 15,
       "installs": 1058803
@@ -749,7 +851,9 @@
         "notes"
       ],
       "category": "finance",
-      "path": "skills/fund-flow-notes/SKILL.md"
+      "path": "skills/fund-flow-notes/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/fund-flow-notes/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/fund-flow-notes/SKILL.md"
     },
     {
       "id": "general-video",
@@ -763,6 +867,8 @@
       ],
       "category": "media",
       "path": "skills/general-video/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/general-video/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/general-video/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 74,
       "installs": 661428
@@ -778,6 +884,8 @@
       ],
       "category": "planning",
       "path": "skills/git-guardrails-claude-code/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/git-guardrails-claude-code/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/git-guardrails-claude-code/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 113,
       "installs": 522531
@@ -794,6 +902,8 @@
       ],
       "category": "engineering",
       "path": "skills/google-agents-cli-adk-code/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/google-agents-cli-adk-code/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/google-agents-cli-adk-code/SKILL.md",
       "source": "google/agents-cli",
       "rank": 104,
       "installs": 532028
@@ -810,6 +920,8 @@
       ],
       "category": "engineering",
       "path": "skills/google-agents-cli-deploy/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/google-agents-cli-deploy/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/google-agents-cli-deploy/SKILL.md",
       "source": "google/agents-cli",
       "rank": 105,
       "installs": 531355
@@ -826,6 +938,8 @@
       ],
       "category": "engineering",
       "path": "skills/google-agents-cli-eval/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/google-agents-cli-eval/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/google-agents-cli-eval/SKILL.md",
       "source": "google/agents-cli",
       "rank": 108,
       "installs": 530507
@@ -842,6 +956,8 @@
       ],
       "category": "engineering",
       "path": "skills/google-agents-cli-observability/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/google-agents-cli-observability/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/google-agents-cli-observability/SKILL.md",
       "source": "google/agents-cli",
       "rank": 110,
       "installs": 530360
@@ -858,6 +974,8 @@
       ],
       "category": "engineering",
       "path": "skills/google-agents-cli-publish/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/google-agents-cli-publish/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/google-agents-cli-publish/SKILL.md",
       "source": "google/agents-cli",
       "rank": 106,
       "installs": 531146
@@ -874,6 +992,8 @@
       ],
       "category": "engineering",
       "path": "skills/google-agents-cli-scaffold/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/google-agents-cli-scaffold/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/google-agents-cli-scaffold/SKILL.md",
       "source": "google/agents-cli",
       "rank": 109,
       "installs": 530391
@@ -890,6 +1010,8 @@
       ],
       "category": "engineering",
       "path": "skills/google-agents-cli-workflow/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/google-agents-cli-workflow/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/google-agents-cli-workflow/SKILL.md",
       "source": "google/agents-cli",
       "rank": 107,
       "installs": 530523
@@ -905,6 +1027,8 @@
       ],
       "category": "engineering",
       "path": "skills/gpt-image-edit/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/gpt-image-edit/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/gpt-image-edit/SKILL.md",
       "source": "prime-skills/runcomfy-agent-skills",
       "rank": 174,
       "installs": 438712
@@ -921,6 +1045,8 @@
       ],
       "category": "planning",
       "path": "skills/grill-me/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/grill-me/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/grill-me/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 2,
       "installs": 1472219
@@ -938,6 +1064,8 @@
       ],
       "category": "planning",
       "path": "skills/grill-with-docs/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/grill-with-docs/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/grill-with-docs/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 6,
       "installs": 1260788
@@ -953,6 +1081,8 @@
       ],
       "category": "planning",
       "path": "skills/grilling/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/grilling/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/grilling/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 16,
       "installs": 1028898
@@ -968,6 +1098,8 @@
       ],
       "category": "planning",
       "path": "skills/handoff/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/handoff/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/handoff/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 14,
       "installs": 1077247
@@ -983,6 +1115,8 @@
       ],
       "category": "engineering",
       "path": "skills/happyhorse-1-0/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/happyhorse-1-0/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/happyhorse-1-0/SKILL.md",
       "source": "prime-skills/runcomfy-agent-skills",
       "rank": 175,
       "installs": 438632
@@ -998,6 +1132,8 @@
       ],
       "category": "design",
       "path": "skills/high-end-visual-design/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/high-end-visual-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/high-end-visual-design/SKILL.md",
       "source": "leonxlnx/taste-skill",
       "rank": 152,
       "installs": 458850
@@ -1013,6 +1149,8 @@
       ],
       "category": "media",
       "path": "skills/hyperframes/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/hyperframes/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/hyperframes/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 5,
       "installs": 1319943
@@ -1029,6 +1167,8 @@
       ],
       "category": "media",
       "path": "skills/hyperframes-animation/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/hyperframes-animation/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/hyperframes-animation/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 19,
       "installs": 1005059
@@ -1045,6 +1185,8 @@
       ],
       "category": "media",
       "path": "skills/hyperframes-audio/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/hyperframes-audio/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/hyperframes-audio/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 73,
       "installs": 663547
@@ -1061,6 +1203,8 @@
       ],
       "category": "media",
       "path": "skills/hyperframes-cli/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/hyperframes-cli/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/hyperframes-cli/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 3,
       "installs": 1357195
@@ -1077,6 +1221,8 @@
       ],
       "category": "media",
       "path": "skills/hyperframes-core/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/hyperframes-core/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/hyperframes-core/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 20,
       "installs": 930744
@@ -1093,6 +1239,8 @@
       ],
       "category": "media",
       "path": "skills/hyperframes-creative/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/hyperframes-creative/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/hyperframes-creative/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 25,
       "installs": 916794
@@ -1109,6 +1257,8 @@
       ],
       "category": "media",
       "path": "skills/hyperframes-keyframes/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/hyperframes-keyframes/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/hyperframes-keyframes/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 65,
       "installs": 754477
@@ -1125,6 +1275,8 @@
       ],
       "category": "media",
       "path": "skills/hyperframes-registry/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/hyperframes-registry/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/hyperframes-registry/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 12,
       "installs": 1116775
@@ -1140,6 +1292,8 @@
       ],
       "category": "media",
       "path": "skills/hyperframes-studio/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/hyperframes-studio/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/hyperframes-studio/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 156,
       "installs": 451321
@@ -1155,6 +1309,8 @@
       ],
       "category": "engineering",
       "path": "skills/image-edit/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/image-edit/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/image-edit/SKILL.md",
       "source": "prime-skills/runcomfy-agent-skills",
       "rank": 169,
       "installs": 439802
@@ -1170,6 +1326,8 @@
       ],
       "category": "media",
       "path": "skills/image-to-video/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/image-to-video/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/image-to-video/SKILL.md",
       "source": "prime-skills/runcomfy-agent-skills",
       "rank": 167,
       "installs": 440560
@@ -1185,6 +1343,8 @@
       ],
       "category": "planning",
       "path": "skills/implement/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/implement/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/implement/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 58,
       "installs": 808925
@@ -1200,6 +1360,8 @@
       ],
       "category": "planning",
       "path": "skills/improve-codebase-architecture/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/improve-codebase-architecture/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/improve-codebase-architecture/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 8,
       "installs": 1204860
@@ -1214,7 +1376,9 @@
         "investment"
       ],
       "category": "finance",
-      "path": "skills/investment-memo/SKILL.md"
+      "path": "skills/investment-memo/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/investment-memo/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/investment-memo/SKILL.md"
     },
     {
       "id": "ios-design",
@@ -1227,6 +1391,8 @@
       ],
       "category": "design",
       "path": "skills/ios-design/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/ios-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/ios-design/SKILL.md",
       "source": "uizze.sh",
       "rank": 191,
       "installs": 417203
@@ -1242,6 +1408,8 @@
       ],
       "category": "engineering",
       "path": "skills/kling-3-0/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/kling-3-0/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/kling-3-0/SKILL.md",
       "source": "prime-skills/runcomfy-agent-skills",
       "rank": 192,
       "installs": 415690
@@ -1257,6 +1425,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-approval/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-approval/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-approval/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 39,
       "installs": 836415
@@ -1272,6 +1442,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-apps/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-apps/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-apps/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 69,
       "installs": 746736
@@ -1287,6 +1459,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-attendance/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-attendance/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-attendance/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 48,
       "installs": 834696
@@ -1302,6 +1476,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-base/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-base/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-base/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 33,
       "installs": 837904
@@ -1317,6 +1493,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-calendar/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-calendar/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-calendar/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 37,
       "installs": 836540
@@ -1332,6 +1510,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-contact/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-contact/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-contact/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 41,
       "installs": 835567
@@ -1347,6 +1527,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-doc/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-doc/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-doc/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 32,
       "installs": 838580
@@ -1362,6 +1544,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-drive/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-drive/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-drive/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 34,
       "installs": 837894
@@ -1377,6 +1561,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-event/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-event/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-event/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 46,
       "installs": 835035
@@ -1391,6 +1577,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-im/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-im/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-im/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 36,
       "installs": 836933
@@ -1406,6 +1594,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-mail/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-mail/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-mail/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 44,
       "installs": 835281
@@ -1421,6 +1611,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-markdown/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-markdown/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-markdown/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 62,
       "installs": 801529
@@ -1436,6 +1628,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-minutes/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-minutes/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-minutes/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 51,
       "installs": 833986
@@ -1451,6 +1645,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-note/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-note/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-note/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 75,
       "installs": 618126
@@ -1466,6 +1662,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-okr/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-okr/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-okr/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 55,
       "installs": 815656
@@ -1482,6 +1680,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-openapi-explorer/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-openapi-explorer/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-openapi-explorer/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 47,
       "installs": 834796
@@ -1497,6 +1697,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-shared/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-shared/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-shared/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 35,
       "installs": 837674
@@ -1512,6 +1714,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-sheets/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-sheets/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-sheets/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 38,
       "installs": 836441
@@ -1528,6 +1732,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-skill-maker/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-skill-maker/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-skill-maker/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 49,
       "installs": 834326
@@ -1543,6 +1749,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-slides/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-slides/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-slides/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 43,
       "installs": 835323
@@ -1558,6 +1766,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-task/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-task/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-task/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 42,
       "installs": 835460
@@ -1572,6 +1782,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-vc/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-vc/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-vc/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 53,
       "installs": 833251
@@ -1587,6 +1799,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-vc-agent/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-vc-agent/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-vc-agent/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 64,
       "installs": 777869
@@ -1602,6 +1816,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-whiteboard/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-whiteboard/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-whiteboard/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 45,
       "installs": 835125
@@ -1617,6 +1833,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-wiki/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-wiki/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-wiki/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 40,
       "installs": 836338
@@ -1633,6 +1851,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-workflow-meeting-summary/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-workflow-meeting-summary/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-workflow-meeting-summary/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 50,
       "installs": 834184
@@ -1649,6 +1869,8 @@
       ],
       "category": "collaboration",
       "path": "skills/lark-workflow-standup-report/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-workflow-standup-report/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/lark-workflow-standup-report/SKILL.md",
       "source": "open.feishu.cn",
       "rank": 52,
       "installs": 833899
@@ -1664,6 +1886,8 @@
       ],
       "category": "planning",
       "path": "skills/loop-me/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/loop-me/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/loop-me/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 151,
       "installs": 462645
@@ -1678,7 +1902,9 @@
         "calendar"
       ],
       "category": "finance",
-      "path": "skills/macro-calendar/SKILL.md"
+      "path": "skills/macro-calendar/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/macro-calendar/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/macro-calendar/SKILL.md"
     },
     {
       "id": "market-brief",
@@ -1690,7 +1916,9 @@
         "brief"
       ],
       "category": "finance",
-      "path": "skills/market-brief/SKILL.md"
+      "path": "skills/market-brief/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/market-brief/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/market-brief/SKILL.md"
     },
     {
       "id": "media-use",
@@ -1703,6 +1931,8 @@
       ],
       "category": "media",
       "path": "skills/media-use/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/media-use/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/media-use/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 7,
       "installs": 1228258
@@ -1718,6 +1948,8 @@
       ],
       "category": "cloud",
       "path": "skills/microsoft-foundry/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/microsoft-foundry/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/microsoft-foundry/SKILL.md",
       "source": "microsoft/azure-skills",
       "rank": 81,
       "installs": 585309
@@ -1733,6 +1965,8 @@
       ],
       "category": "planning",
       "path": "skills/migrate-to-shoehorn/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/migrate-to-shoehorn/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/migrate-to-shoehorn/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 123,
       "installs": 498439
@@ -1748,6 +1982,8 @@
       ],
       "category": "engineering",
       "path": "skills/minimal-run-and-audit/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/minimal-run-and-audit/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/minimal-run-and-audit/SKILL.md",
       "source": "lllllllama/rigorpilot-skills",
       "rank": 127,
       "installs": 482882
@@ -1763,6 +1999,8 @@
       ],
       "category": "engineering",
       "path": "skills/minimalist-ui/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/minimalist-ui/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/minimalist-ui/SKILL.md",
       "source": "leonxlnx/taste-skill",
       "rank": 184,
       "installs": 425120
@@ -1778,6 +2016,8 @@
       ],
       "category": "media",
       "path": "skills/motion-graphics/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/motion-graphics/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/motion-graphics/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 116,
       "installs": 514007
@@ -1793,6 +2033,8 @@
       ],
       "category": "media",
       "path": "skills/music-to-video/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/music-to-video/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/music-to-video/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 188,
       "installs": 418974
@@ -1808,6 +2050,8 @@
       ],
       "category": "engineering",
       "path": "skills/nano-banana-2/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/nano-banana-2/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/nano-banana-2/SKILL.md",
       "source": "prime-skills/runcomfy-agent-skills",
       "rank": 168,
       "installs": 440246
@@ -1823,6 +2067,8 @@
       ],
       "category": "engineering",
       "path": "skills/nano-banana-edit/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/nano-banana-edit/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/nano-banana-edit/SKILL.md",
       "source": "prime-skills/runcomfy-agent-skills",
       "rank": 170,
       "installs": 439642
@@ -1838,6 +2084,8 @@
       ],
       "category": "engineering",
       "path": "skills/paper-context-resolver/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/paper-context-resolver/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/paper-context-resolver/SKILL.md",
       "source": "lllllllama/rigorpilot-skills",
       "rank": 124,
       "installs": 483766
@@ -1851,7 +2099,9 @@
         "documents"
       ],
       "category": "documents",
-      "path": "skills/pdf-documents/SKILL.md"
+      "path": "skills/pdf-documents/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/pdf-documents/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/pdf-documents/SKILL.md"
     },
     {
       "id": "portfolio-review",
@@ -1863,7 +2113,9 @@
         "review"
       ],
       "category": "finance",
-      "path": "skills/portfolio-review/SKILL.md"
+      "path": "skills/portfolio-review/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/portfolio-review/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/portfolio-review/SKILL.md"
     },
     {
       "id": "poster-design",
@@ -1877,7 +2129,9 @@
         "pdf"
       ],
       "category": "documents",
-      "path": "skills/poster-design/SKILL.md"
+      "path": "skills/poster-design/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/poster-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/poster-design/SKILL.md"
     },
     {
       "id": "pptx-deck",
@@ -1891,7 +2145,9 @@
         "deck"
       ],
       "category": "documents",
-      "path": "skills/pptx-deck/SKILL.md"
+      "path": "skills/pptx-deck/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/pptx-deck/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/pptx-deck/SKILL.md"
     },
     {
       "id": "pr-to-video",
@@ -1904,6 +2160,8 @@
       ],
       "category": "media",
       "path": "skills/pr-to-video/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/pr-to-video/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/pr-to-video/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 161,
       "installs": 448935
@@ -1921,6 +2179,8 @@
       ],
       "category": "media",
       "path": "skills/product-launch-video/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/product-launch-video/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/product-launch-video/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 103,
       "installs": 538990
@@ -1936,6 +2196,8 @@
       ],
       "category": "planning",
       "path": "skills/prototype/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/prototype/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/prototype/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 18,
       "installs": 1021735
@@ -1950,7 +2212,9 @@
         "research"
       ],
       "category": "finance",
-      "path": "skills/quant-research-notes/SKILL.md"
+      "path": "skills/quant-research-notes/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/quant-research-notes/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/quant-research-notes/SKILL.md"
     },
     {
       "id": "reddit-automation",
@@ -1964,6 +2228,8 @@
       ],
       "category": "browser",
       "path": "skills/reddit-automation/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/reddit-automation/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/reddit-automation/SKILL.md",
       "source": "flowkit-labs/skills",
       "rank": 9,
       "installs": 1186465
@@ -1979,6 +2245,8 @@
       ],
       "category": "design",
       "path": "skills/redesign-existing-projects/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/redesign-existing-projects/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/redesign-existing-projects/SKILL.md",
       "source": "leonxlnx/taste-skill",
       "rank": 153,
       "installs": 458719
@@ -1996,6 +2264,8 @@
       ],
       "category": "media",
       "path": "skills/remotion-best-practices/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/remotion-best-practices/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/remotion-best-practices/SKILL.md",
       "source": "remotion-dev/skills",
       "rank": 71,
       "installs": 722049
@@ -2012,6 +2282,8 @@
       ],
       "category": "media",
       "path": "skills/remotion-to-hyperframes/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/remotion-to-hyperframes/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/remotion-to-hyperframes/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 98,
       "installs": 548464
@@ -2027,6 +2299,8 @@
       ],
       "category": "engineering",
       "path": "skills/repo-intake-and-plan/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/repo-intake-and-plan/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/repo-intake-and-plan/SKILL.md",
       "source": "lllllllama/rigorpilot-skills",
       "rank": 126,
       "installs": 482959
@@ -2042,6 +2316,8 @@
       ],
       "category": "planning",
       "path": "skills/research/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/research/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/research/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 68,
       "installs": 747235
@@ -2059,6 +2335,8 @@
       ],
       "category": "planning",
       "path": "skills/resolving-merge-conflicts/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/resolving-merge-conflicts/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/resolving-merge-conflicts/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 97,
       "installs": 551138
@@ -2073,7 +2351,9 @@
         "checklist"
       ],
       "category": "finance",
-      "path": "skills/risk-checklist/SKILL.md"
+      "path": "skills/risk-checklist/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/risk-checklist/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/risk-checklist/SKILL.md"
     },
     {
       "id": "scaffold-exercises",
@@ -2086,6 +2366,8 @@
       ],
       "category": "planning",
       "path": "skills/scaffold-exercises/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/scaffold-exercises/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/scaffold-exercises/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 121,
       "installs": 502451
@@ -2100,7 +2382,9 @@
         "sec"
       ],
       "category": "finance",
-      "path": "skills/sec-filing-skim/SKILL.md"
+      "path": "skills/sec-filing-skim/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/sec-filing-skim/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/sec-filing-skim/SKILL.md"
     },
     {
       "id": "seedance-v2",
@@ -2113,6 +2397,8 @@
       ],
       "category": "engineering",
       "path": "skills/seedance-v2/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/seedance-v2/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/seedance-v2/SKILL.md",
       "source": "prime-skills/runcomfy-agent-skills",
       "rank": 173,
       "installs": 438719
@@ -2130,6 +2416,8 @@
       ],
       "category": "discovery",
       "path": "skills/setup-matt-pocock-skills/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/setup-matt-pocock-skills/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/setup-matt-pocock-skills/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 13,
       "installs": 1090554
@@ -2145,6 +2433,8 @@
       ],
       "category": "discovery",
       "path": "skills/setup-pre-commit/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/setup-pre-commit/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/setup-pre-commit/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 117,
       "installs": 511903
@@ -2160,6 +2450,8 @@
       ],
       "category": "discovery",
       "path": "skills/skill-creator/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/skill-creator/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/skill-creator/SKILL.md",
       "source": "anthropics/skills",
       "rank": 187,
       "installs": 420614
@@ -2175,6 +2467,8 @@
       ],
       "category": "media",
       "path": "skills/slideshow/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/slideshow/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/slideshow/SKILL.md",
       "source": "heygen-com/hyperframes",
       "rank": 154,
       "installs": 455786
@@ -2191,7 +2485,9 @@
         "data"
       ],
       "category": "documents",
-      "path": "skills/spreadsheet-xlsx/SKILL.md"
+      "path": "skills/spreadsheet-xlsx/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/spreadsheet-xlsx/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/spreadsheet-xlsx/SKILL.md"
     },
     {
       "id": "supabase-postgres-best-practices",
@@ -2204,6 +2500,8 @@
       ],
       "category": "engineering",
       "path": "skills/supabase-postgres-best-practices/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/supabase-postgres-best-practices/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/supabase-postgres-best-practices/SKILL.md",
       "source": "supabase/agent-skills",
       "rank": 150,
       "installs": 468744
@@ -2219,6 +2517,8 @@
       ],
       "category": "planning",
       "path": "skills/tdd/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/tdd/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/tdd/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 10,
       "installs": 1178984
@@ -2234,6 +2534,8 @@
       ],
       "category": "planning",
       "path": "skills/teach/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/teach/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/teach/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 27,
       "installs": 896162
@@ -2249,6 +2551,8 @@
       ],
       "category": "planning",
       "path": "skills/to-questionnaire/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/to-questionnaire/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/to-questionnaire/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 111,
       "installs": 528458
@@ -2264,6 +2568,8 @@
       ],
       "category": "planning",
       "path": "skills/to-spec/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/to-spec/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/to-spec/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 67,
       "installs": 749744
@@ -2279,6 +2585,8 @@
       ],
       "category": "planning",
       "path": "skills/to-tickets/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/to-tickets/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/to-tickets/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 70,
       "installs": 746330
@@ -2294,6 +2602,8 @@
       ],
       "category": "planning",
       "path": "skills/triage/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/triage/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/triage/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 17,
       "installs": 1022814
@@ -2310,6 +2620,8 @@
       ],
       "category": "browser",
       "path": "skills/twitter-automation/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/twitter-automation/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/twitter-automation/SKILL.md",
       "source": "101-skills/superpowers",
       "rank": 23,
       "installs": 917570
@@ -2324,6 +2636,8 @@
       ],
       "category": "design",
       "path": "skills/ui-taste/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/ui-taste/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/ui-taste/SKILL.md",
       "source": "uizze.sh",
       "rank": 29,
       "installs": 874987
@@ -2339,6 +2653,8 @@
       ],
       "category": "engineering",
       "path": "skills/ui-ux-pro-max/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/ui-ux-pro-max/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/ui-ux-pro-max/SKILL.md",
       "source": "nextlevelbuilder/ui-ux-pro-max-skill",
       "rank": 182,
       "installs": 427165
@@ -2353,7 +2669,9 @@
         "sanity"
       ],
       "category": "finance",
-      "path": "skills/valuation-sanity/SKILL.md"
+      "path": "skills/valuation-sanity/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/valuation-sanity/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/valuation-sanity/SKILL.md"
     },
     {
       "id": "vercel-composition-patterns",
@@ -2366,6 +2684,8 @@
       ],
       "category": "engineering",
       "path": "skills/vercel-composition-patterns/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/vercel-composition-patterns/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/vercel-composition-patterns/SKILL.md",
       "source": "vercel-labs/agent-skills",
       "rank": 181,
       "installs": 430333
@@ -2383,6 +2703,8 @@
       ],
       "category": "design",
       "path": "skills/vercel-react-best-practices/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/vercel-react-best-practices/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/vercel-react-best-practices/SKILL.md",
       "source": "vercel-labs/agent-skills",
       "rank": 31,
       "installs": 858669
@@ -2398,6 +2720,8 @@
       ],
       "category": "media",
       "path": "skills/video-edit/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/video-edit/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/video-edit/SKILL.md",
       "source": "prime-skills/runcomfy-agent-skills",
       "rank": 165,
       "installs": 442344
@@ -2413,6 +2737,8 @@
       ],
       "category": "planning",
       "path": "skills/wait-what/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/wait-what/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/wait-what/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 131,
       "installs": 479572
@@ -2428,6 +2754,8 @@
       ],
       "category": "engineering",
       "path": "skills/wan-2-7/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/wan-2-7/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/wan-2-7/SKILL.md",
       "source": "prime-skills/runcomfy-agent-skills",
       "rank": 172,
       "installs": 438872
@@ -2443,6 +2771,8 @@
       ],
       "category": "planning",
       "path": "skills/wayfinder/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/wayfinder/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/wayfinder/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 66,
       "installs": 754357
@@ -2459,6 +2789,8 @@
       ],
       "category": "design",
       "path": "skills/web-design-guidelines/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/web-design-guidelines/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/web-design-guidelines/SKILL.md",
       "source": "vercel-labs/agent-skills",
       "rank": 57,
       "installs": 809234
@@ -2474,7 +2806,9 @@
         "webapp"
       ],
       "category": "engineering",
-      "path": "skills/webapp-testing/SKILL.md"
+      "path": "skills/webapp-testing/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/webapp-testing/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/webapp-testing/SKILL.md"
     },
     {
       "id": "wizard",
@@ -2487,6 +2821,8 @@
       ],
       "category": "planning",
       "path": "skills/wizard/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/wizard/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/wizard/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 82,
       "installs": 584449
@@ -2502,6 +2838,8 @@
       ],
       "category": "planning",
       "path": "skills/writing-beats/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/writing-beats/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/writing-beats/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 118,
       "installs": 505261
@@ -2517,6 +2855,8 @@
       ],
       "category": "planning",
       "path": "skills/writing-for-agents/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/writing-for-agents/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/writing-for-agents/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 122,
       "installs": 500813
@@ -2532,6 +2872,8 @@
       ],
       "category": "planning",
       "path": "skills/writing-fragments/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/writing-fragments/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/writing-fragments/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 120,
       "installs": 504164
@@ -2547,6 +2889,8 @@
       ],
       "category": "planning",
       "path": "skills/writing-shape/SKILL.md",
+      "url": "https://github.com/kanjiandahai/skills-collection/blob/main/skills/writing-shape/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/skills/writing-shape/SKILL.md",
       "source": "mattpocock/skills",
       "rank": 119,
       "installs": 504850

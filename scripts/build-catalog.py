@@ -6,13 +6,20 @@ from __future__ import annotations
 import json
 import re
 from collections import defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS_DIR = ROOT / "skills"
 OUT = ROOT / "catalog.json"
 README = ROOT / "README.md"
+LLMS = ROOT / "llms.txt"
 FRONTMATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*\n?", re.DOTALL)
+
+REPO_SLUG = "kanjiandahai/skills-collection"
+REPO_WEB = f"https://github.com/{REPO_SLUG}"
+REPO_RAW = f"https://raw.githubusercontent.com/{REPO_SLUG}/main"
+SCHEMA_VERSION = 1
 
 CATEGORY_ORDER = [
     "discovery",
@@ -126,13 +133,16 @@ def load_entries() -> list[dict]:
         description = (meta.get("description") or "").strip()
         if not description:
             description = first_useful_body_line(body)
+        rel = str(skill_md.relative_to(ROOT).as_posix())
         entry = {
             "id": skill_id,
             "name": meta.get("name", skill_id),
             "description": description,
             "tags": meta.get("tags", []),
             "category": meta.get("category", "meta"),
-            "path": str(skill_md.relative_to(ROOT).as_posix()),
+            "path": rel,
+            "url": f"{REPO_WEB}/blob/main/{rel}",
+            "raw_url": f"{REPO_RAW}/{rel}",
         }
         if "source" in meta:
             entry["source"] = meta["source"]
@@ -238,14 +248,78 @@ def update_readme(entries: list[dict]) -> None:
     README.write_text(text, encoding="utf-8")
 
 
+def render_llms(entries: list[dict], updated_at: str) -> str:
+    """Write an llms.txt index (https://llmstxt.org/) for agents/crawlers."""
+    by_cat: dict[str, list[dict]] = defaultdict(list)
+    for e in entries:
+        by_cat[e.get("category") or "meta"].append(e)
+
+    lines: list[str] = []
+    lines.append("# skills-collection")
+    lines.append("")
+    lines.append(
+        "> 持续增长的公开 Agent Skills 索引仓（聚合 + 分类 + 可滚动更新）。"
+        " Growing public index of reusable agent skills."
+    )
+    lines.append("")
+    lines.append(f"- Repo: {REPO_WEB}")
+    lines.append(f"- Catalog: {REPO_RAW}/catalog.json")
+    lines.append(f"- Install: `npx skills add {REPO_SLUG}`")
+    lines.append(f"- Updated: {updated_at}")
+    lines.append(f"- Skills: {len(entries)}")
+    lines.append("")
+    lines.append("## Categories")
+    lines.append("")
+    cats = [c for c in CATEGORY_ORDER if by_cat.get(c)]
+    cats += sorted(c for c in by_cat if c not in CATEGORY_ORDER)
+    for cat in cats:
+        label = CATEGORY_LABELS.get(cat, cat)
+        lines.append(f"- `{cat}` — {label} ({len(by_cat[cat])})")
+    lines.append("")
+
+    for cat in cats:
+        items = sorted(
+            by_cat[cat],
+            key=lambda e: (
+                e["rank"] if isinstance(e.get("rank"), int) else 10**9,
+                e["id"],
+            ),
+        )
+        label = CATEGORY_LABELS.get(cat, cat)
+        lines.append(f"## {cat} · {label}")
+        lines.append("")
+        for e in items:
+            url = e.get("url") or f"{REPO_WEB}/blob/main/{e['path']}"
+            desc = shorten_description(e.get("description", ""), soft=140, hard=180)
+            desc = desc.replace("\n", " ").strip() or "(no description)"
+            lines.append(f"- [{e['id']}]({url}): {desc}")
+        lines.append("")
+    lines.append("## Optional")
+    lines.append("")
+    lines.append(f"- [README]({REPO_WEB}/blob/main/README.md): 人类可读索引与安装说明")
+    lines.append(f"- [CONTRIBUTING]({REPO_WEB}/blob/main/CONTRIBUTING.md): 如何贡献新 skill")
+    lines.append(f"- [UPDATE]({REPO_WEB}/blob/main/UPDATE.md): 刷新与维护流程")
+    lines.append("")
+    return "\n".join(lines)
+
+
 def main() -> None:
     entries = load_entries()
+    updated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     catalog = {
+        "schema_version": SCHEMA_VERSION,
         "name": "skills-collection",
         "description": (
             "Growing public index of reusable agent skills "
             "(aggregated from skills.sh signals + manual contrib; categories)"
         ),
+        "description_zh": (
+            "持续增长的公开 Agent Skills 索引仓：聚合 + 分类 + 可滚动更新"
+        ),
+        "homepage": REPO_WEB,
+        "install": f"npx skills add {REPO_SLUG}",
+        "updated_at": updated_at,
+        "skill_count": len(entries),
         "skills": entries,
     }
     OUT.write_text(
@@ -253,8 +327,10 @@ def main() -> None:
         encoding="utf-8",
     )
     update_readme(entries)
+    LLMS.write_text(render_llms(entries, updated_at), encoding="utf-8")
     print(f"Wrote {OUT.relative_to(ROOT)} ({len(entries)} skills)")
     print(f"Updated {README.relative_to(ROOT)} browse tables")
+    print(f"Wrote {LLMS.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

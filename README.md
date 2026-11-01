@@ -1,8 +1,24 @@
 # skills-collection
 
+[![GitHub stars](https://img.shields.io/github/stars/kanjiandahai/skills-collection?style=social)](https://github.com/kanjiandahai/skills-collection/stargazers)
+[![License: MIT](https://img.shields.io/github/license/kanjiandahai/skills-collection)](LICENSE)
+[![Skills](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkanjiandahai%2Fskills-collection%2Fmain%2Fcatalog.json&query=%24.skill_count&label=skills)](catalog.json)
+[![Catalog CI](https://github.com/kanjiandahai/skills-collection/actions/workflows/catalog.yml/badge.svg)](https://github.com/kanjiandahai/skills-collection/actions/workflows/catalog.yml)
+[![Install](https://img.shields.io/badge/install-npx%20skills%20add-black)](#安装)
+
 持续增长的公开 **Skills 索引仓**：**聚合 + 分类 + 可滚动更新**。
 
+Growing public index of reusable agent skills — aggregate, categorize, and keep updating (not a frozen Top-N list).
+
 目标不是钉死一份 Top N 榜单，而是维护一份**只增不减**（除非主动删除）的能力索引：从 [skills.sh](https://www.skills.sh/) 等公开信号发现候选，用分类消化同质簇，并保留可运行的 `SKILL.md` 摘要或正文。
+
+## 安装
+
+```bash
+npx skills add kanjiandahai/skills-collection
+```
+
+机器可读索引：[`catalog.json`](catalog.json) · [`llms.txt`](llms.txt)
 
 ## 增长模型
 
@@ -294,9 +310,13 @@ skills/
   <skill-id>/
     SKILL.md                 # YAML frontmatter + Markdown
 scripts/
-  build-catalog.py           # catalog.json + README 分类表
+  build-catalog.py           # catalog.json + README 分类表 + llms.txt
+  check-catalog.py           # CI：目录 / catalog / README 一致性
   refresh-from-skills-sh.py  # 榜单发现 / 热度刷新
+.github/workflows/catalog.yml
 catalog.json
+llms.txt
+CONTRIBUTING.md
 UPDATE.md
 ```
 
@@ -322,11 +342,13 @@ installs: 4143610            # 可选，随快照刷新
 
 ## 贡献
 
+完整约定见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。简要步骤：
+
 1. 在 `skills/` 下新增目录与 `SKILL.md`（务必带 `category`）
-2. 运行 `python3 scripts/build-catalog.py`
+2. 运行 `python3 scripts/build-catalog.py` 与 `python3 scripts/check-catalog.py`
 3. 开 PR 说明用途；若来自榜单请附 `source`（`rank` / `installs` 可留给刷新脚本）
 
-也可用刷新脚本批量补洞，再开 PR 审 stub 质量。
+也可用刷新脚本批量补洞，再开 PR 审 stub 质量。新手任务见 Issues 标签 `good first issue`。
 
 ## License
 

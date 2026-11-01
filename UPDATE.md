@@ -30,6 +30,15 @@ python3 scripts/refresh-from-skills-sh.py --day 2026-11-01
 python3 scripts/build-catalog.py
 ```
 
+会同步更新 `catalog.json`（含 `schema_version` / `updated_at` / 每项 `url`）、README 分类表与根目录 `llms.txt`。
+
+提交前建议：
+
+```bash
+python3 scripts/check-catalog.py
+```
+
+
 ## 手工新增一个 skill
 
 1. 新建 `skills/<id>/SKILL.md`，填写 frontmatter（含 `category`）与正文
