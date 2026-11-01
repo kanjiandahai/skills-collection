@@ -2,6 +2,15 @@
 
 公开的 **Skills 索引仓**：用统一的 `SKILL.md` 格式收集、整理可复用的助手技能说明，方便人和各类 agent 直接浏览、复制或二次分发。
 
+## 已收录（精选）
+
+| Skill | 用途 |
+|-------|------|
+| [`flowchart-mermaid`](skills/flowchart-mermaid/SKILL.md) | Mermaid 流程图 / 时序 / 状态等 diagram-as-code |
+| [`pptx-deck`](skills/pptx-deck/SKILL.md) | 做或改 PowerPoint（`.pptx`）演示文稿 |
+
+完整机器索引见 [`catalog.json`](catalog.json)。
+
 ## 目录结构
 
 ```text
