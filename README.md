@@ -20,6 +20,8 @@ npx skills add kanjiandahai/skills-collection
 
 机器可读索引：[`catalog.json`](catalog.json) · [`llms.txt`](llms.txt)
 
+相关演示：[visual-agents-workflow](https://github.com/kanjiandahai/visual-agents-workflow)（可点击多 Agent 工作流沙盘 / [Live demo](https://kanjiandahai.github.io/visual-agents-workflow/)）。
+
 ## 增长模型
 
 1. **Bootstrap**：用 skills.sh All-Time 去重热度灌入一批种子（本仓曾在 2026-11-01 做过 Top100-unique 灌入）。
