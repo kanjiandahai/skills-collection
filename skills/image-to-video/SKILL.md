@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 media 向 skill「image-to-video」。安装�
 tags: [media, skills-sh, stub]
 category: media
 source: prime-skills/runcomfy-agent-skills
-rank: 167
-installs: 440560
+rank: 160
+installs: 477717
 ---
 # image-to-video
 

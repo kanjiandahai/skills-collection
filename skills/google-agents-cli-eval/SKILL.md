@@ -4,8 +4,8 @@ description: 评估 Agent 质量。用户要 eval/打分时使用。
 tags: [engineering, google, agents, cli]
 category: engineering
 source: google/agents-cli
-rank: 108
-installs: 530507
+rank: 109
+installs: 556052
 ---
 
 # google-agents-cli-eval

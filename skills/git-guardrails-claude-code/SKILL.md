@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 planning 向 skill「git-guardrails-claude-cod
 tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
-rank: 113
-installs: 522531
+rank: 115
+installs: 545398
 ---
 # git-guardrails-claude-code
 

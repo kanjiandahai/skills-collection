@@ -4,8 +4,8 @@ description: 用 Google Agents CLI / ADK 编写 Agent 代码。用户做 ADK 开
 tags: [engineering, google, agents, cli]
 category: engineering
 source: google/agents-cli
-rank: 104
-installs: 532028
+rank: 105
+installs: 557858
 ---
 
 # google-agents-cli-adk-code

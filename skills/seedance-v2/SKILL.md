@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「seedance-v2」。安�
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: prime-skills/runcomfy-agent-skills
-rank: 173
-installs: 438719
+rank: 184
+installs: 442223
 ---
 # seedance-v2
 

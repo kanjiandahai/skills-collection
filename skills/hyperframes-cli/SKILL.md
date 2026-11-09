@@ -5,7 +5,7 @@ tags: [media, heygen-com, hyperframes, cli]
 category: media
 source: heygen-com/hyperframes
 rank: 3
-installs: 1357195
+installs: 1474944
 ---
 
 # hyperframes-cli

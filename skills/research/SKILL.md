@@ -5,7 +5,7 @@ tags: [planning, mattpocock, research]
 category: planning
 source: mattpocock/skills
 rank: 68
-installs: 747235
+installs: 782015
 ---
 
 # research

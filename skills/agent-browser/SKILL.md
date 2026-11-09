@@ -4,8 +4,8 @@ description: 指导助手用浏览器完成页面操作、抓取与验证（打�
 tags: [browser, automation, testing, scraping]
 category: browser
 source: vercel-labs/agent-browser
-rank: 4
-installs: 1324536
+rank: 5
+installs: 1435926
 ---
 
 # agent-browser

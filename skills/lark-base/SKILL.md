@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：base。用户要在飞书生态完成�
 tags: [collaboration, lark, base]
 category: collaboration
 source: open.feishu.cn
-rank: 33
-installs: 837904
+rank: 38
+installs: 874007
 ---
 
 # lark-base

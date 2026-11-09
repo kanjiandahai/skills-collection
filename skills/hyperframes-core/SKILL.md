@@ -4,8 +4,8 @@ description: Hyperframes 核心概念与基础构图。用户入门或排查基�
 tags: [media, heygen-com, hyperframes, core]
 category: media
 source: heygen-com/hyperframes
-rank: 20
-installs: 930744
+rank: 26
+installs: 931005
 ---
 
 # hyperframes-core

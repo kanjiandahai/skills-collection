@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 planning 向 skill「writing-fragments」。�
 tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
-rank: 120
-installs: 504164
+rank: 121
+installs: 526833
 ---
 # writing-fragments
 

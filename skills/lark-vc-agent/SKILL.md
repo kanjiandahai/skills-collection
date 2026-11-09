@@ -5,7 +5,7 @@ tags: [collaboration, lark, agent]
 category: collaboration
 source: open.feishu.cn
 rank: 64
-installs: 777869
+installs: 813022
 ---
 
 # lark-vc-agent

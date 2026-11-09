@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 planning 向 skill「migrate-to-shoehorn」。
 tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
-rank: 123
-installs: 498439
+rank: 129
+installs: 520856
 ---
 # migrate-to-shoehorn
 

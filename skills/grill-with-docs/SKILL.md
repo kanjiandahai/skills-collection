@@ -4,8 +4,8 @@ description: 结合文档资料做高压方案追问。用户要边读文档边�
 tags: [planning, mattpocock, grill, with, docs]
 category: planning
 source: mattpocock/skills
-rank: 6
-installs: 1260788
+rank: 9
+installs: 1300218
 ---
 
 # grill-with-docs

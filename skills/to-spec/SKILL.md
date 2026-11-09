@@ -4,8 +4,8 @@ description: 把讨论收敛成规格说明。用户要写 spec 时使用。
 tags: [planning, mattpocock, spec]
 category: planning
 source: mattpocock/skills
-rank: 67
-installs: 749744
+rank: 66
+installs: 784632
 ---
 
 # to-spec

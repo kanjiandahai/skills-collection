@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：minutes。用户要在飞书生态完�
 tags: [collaboration, lark, minutes]
 category: collaboration
 source: open.feishu.cn
-rank: 51
-installs: 833986
+rank: 56
+installs: 869167
 ---
 
 # lark-minutes

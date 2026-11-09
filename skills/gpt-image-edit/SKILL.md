@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「gpt-image-edit」。�
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: prime-skills/runcomfy-agent-skills
-rank: 174
-installs: 438712
+rank: 183
+installs: 442226
 ---
 # gpt-image-edit
 

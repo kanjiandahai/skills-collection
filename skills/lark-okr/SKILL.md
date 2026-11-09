@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：okr。用户要在飞书生态完成�
 tags: [collaboration, lark, okr]
 category: collaboration
 source: open.feishu.cn
-rank: 55
-installs: 815656
+rank: 59
+installs: 851670
 ---
 
 # lark-okr

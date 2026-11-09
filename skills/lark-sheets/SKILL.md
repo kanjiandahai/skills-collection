@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：sheets。用户要在飞书生态完�
 tags: [collaboration, lark, sheets]
 category: collaboration
 source: open.feishu.cn
-rank: 38
-installs: 836441
+rank: 42
+installs: 872502
 ---
 
 # lark-sheets

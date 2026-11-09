@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 planning 向 skill「writing-shape」。安装
 tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
-rank: 119
-installs: 504850
+rank: 120
+installs: 527600
 ---
 # writing-shape
 

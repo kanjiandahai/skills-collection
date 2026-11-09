@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：note。用户要在飞书生态完成�
 tags: [collaboration, lark, note]
 category: collaboration
 source: open.feishu.cn
-rank: 75
-installs: 618126
+rank: 84
+installs: 653291
 ---
 
 # lark-note

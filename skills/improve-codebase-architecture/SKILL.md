@@ -4,8 +4,8 @@ description: 诊断并改进代码库架构：边界、模块化、依赖方向�
 tags: [architecture, refactor, modularity]
 category: planning
 source: mattpocock/skills
-rank: 8
-installs: 1204860
+rank: 10
+installs: 1242646
 ---
 
 # improve-codebase-architecture

@@ -4,8 +4,8 @@ description: 查找与复用 Hyperframes 注册表中的模板/组件。用户�
 tags: [media, heygen-com, hyperframes, registry]
 category: media
 source: heygen-com/hyperframes
-rank: 12
-installs: 1116775
+rank: 11
+installs: 1228300
 ---
 
 # hyperframes-registry

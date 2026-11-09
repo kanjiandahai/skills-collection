@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 cloud 向 skill「azure-enterprise-infra-plann
 tags: [cloud, skills-sh, stub]
 category: cloud
 source: microsoft/azure-skills
-rank: 162
-installs: 446495
+rank: 127
+installs: 522276
 ---
 # azure-enterprise-infra-planner
 

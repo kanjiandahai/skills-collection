@@ -4,8 +4,8 @@ description: 编排 Agents CLI 工作流。用户要多步 Agent 流水线时使
 tags: [engineering, google, agents, cli]
 category: engineering
 source: google/agents-cli
-rank: 107
-installs: 530523
+rank: 108
+installs: 556060
 ---
 
 # google-agents-cli-workflow

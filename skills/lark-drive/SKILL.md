@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：drive。用户要在飞书生态完成
 tags: [collaboration, lark, drive]
 category: collaboration
 source: open.feishu.cn
-rank: 34
-installs: 837894
+rank: 37
+installs: 874041
 ---
 
 # lark-drive

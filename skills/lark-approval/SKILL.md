@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：approval。用户要在飞书生态完
 tags: [collaboration, lark, approval]
 category: collaboration
 source: open.feishu.cn
-rank: 39
-installs: 836415
+rank: 43
+installs: 872452
 ---
 
 # lark-approval

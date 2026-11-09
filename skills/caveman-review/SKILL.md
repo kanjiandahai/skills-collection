@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「caveman-review」。�
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: juliusbrussee/caveman
-rank: 190
-installs: 418371
+rank: 195
+installs: 426460
 ---
 # caveman-review
 

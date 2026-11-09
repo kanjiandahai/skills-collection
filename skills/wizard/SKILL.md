@@ -4,8 +4,8 @@ description: 用向导式步骤带用户做完复杂配置。用户要一步步�
 tags: [planning, mattpocock, wizard]
 category: planning
 source: mattpocock/skills
-rank: 82
-installs: 584449
+rank: 100
+installs: 614487
 ---
 
 # wizard

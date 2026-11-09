@@ -5,7 +5,7 @@ tags: [collaboration, lark, markdown]
 category: collaboration
 source: open.feishu.cn
 rank: 62
-installs: 801529
+installs: 837574
 ---
 
 # lark-markdown

@@ -4,8 +4,8 @@ description: Azure 云场景：resource lookup。用户要在 Azure 上完成相
 tags: [cloud, microsoft, azure, resource, lookup]
 category: cloud
 source: microsoft/azure-skills
-rank: 91
-installs: 572439
+rank: 93
+installs: 648214
 ---
 
 # azure-resource-lookup

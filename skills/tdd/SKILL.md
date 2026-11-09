@@ -4,8 +4,8 @@ description: 用测试驱动实现功能：先写失败测试，再写最小实�
 tags: [tdd, testing, red-green-refactor]
 category: planning
 source: mattpocock/skills
-rank: 10
-installs: 1178984
+rank: 12
+installs: 1215700
 ---
 
 # tdd

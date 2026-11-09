@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「minimalist-ui」。安
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: leonxlnx/taste-skill
-rank: 184
-installs: 425120
+rank: 196
+installs: 425147
 ---
 # minimalist-ui
 

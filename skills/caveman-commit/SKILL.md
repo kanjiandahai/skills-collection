@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「caveman-commit」。�
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: juliusbrussee/caveman
-rank: 185
-installs: 422405
+rank: 190
+installs: 430499
 ---
 # caveman-commit
 

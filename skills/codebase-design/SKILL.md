@@ -4,8 +4,8 @@ description: 从零或重构时设计代码库结构。用户要定目录/模块
 tags: [planning, mattpocock, codebase, design]
 category: planning
 source: mattpocock/skills
-rank: 28
-installs: 891203
+rank: 27
+installs: 929365
 ---
 
 # codebase-design

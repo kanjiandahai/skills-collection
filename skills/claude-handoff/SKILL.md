@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 planning 向 skill「claude-handoff」。安�
 tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
-rank: 164
-installs: 444437
+rank: 168
+installs: 467322
 ---
 # claude-handoff
 

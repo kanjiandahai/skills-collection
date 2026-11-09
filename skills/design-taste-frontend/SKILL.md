@@ -4,8 +4,8 @@ description: 设计与前端体验相关技能 `design-taste-frontend`。当任�
 tags: [design, leonxlnx, taste, frontend]
 category: design
 source: leonxlnx/taste-skill
-rank: 72
-installs: 711387
+rank: 76
+installs: 750235
 ---
 
 # design-taste-frontend

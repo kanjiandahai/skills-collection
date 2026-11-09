@@ -4,8 +4,8 @@ description: 选择与运用媒体资源（图/音/视频）完成创作任务�
 tags: [media, heygen-com, use]
 category: media
 source: heygen-com/hyperframes
-rank: 7
-installs: 1228258
+rank: 6
+installs: 1347181
 ---
 
 # media-use

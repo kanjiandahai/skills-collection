@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 cloud 向 skill「azure-cloud-migrate」。安
 tags: [cloud, skills-sh, stub]
 category: cloud
 source: microsoft/azure-skills
-rank: 115
-installs: 520963
+rank: 102
+installs: 596726
 ---
 # azure-cloud-migrate
 

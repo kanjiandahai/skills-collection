@@ -4,8 +4,8 @@ description: 为 Agent 加观测（日志/追踪/指标）。用户要可观测�
 tags: [engineering, google, agents, cli]
 category: engineering
 source: google/agents-cli
-rank: 110
-installs: 530360
+rank: 111
+installs: 555896
 ---
 
 # google-agents-cli-observability

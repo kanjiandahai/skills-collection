@@ -4,8 +4,8 @@ description: 自动化 Reddit 浏览、发帖或互动流程（需遵守平台�
 tags: [browser, flowkit-labs, reddit, automation]
 category: browser
 source: flowkit-labs/skills
-rank: 9
-installs: 1186465
+rank: 8
+installs: 1300419
 ---
 
 # reddit-automation

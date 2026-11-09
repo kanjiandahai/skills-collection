@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「env-and-assets-bootstr
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: lllllllama/rigorpilot-skills
-rank: 128
-installs: 482769
+rank: 140
+installs: 491516
 ---
 # env-and-assets-bootstrap
 

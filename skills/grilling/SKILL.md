@@ -5,7 +5,7 @@ tags: [planning, mattpocock, grilling]
 category: planning
 source: mattpocock/skills
 rank: 16
-installs: 1028898
+installs: 1074638
 ---
 
 # grilling

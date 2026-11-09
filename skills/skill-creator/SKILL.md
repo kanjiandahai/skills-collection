@@ -3,8 +3,8 @@ name: skill-creator
 description: 从零编写、改写并打磨 Agent Skill（SKILL.md）。用户要创建 skill、优化 description 触发、给 skill 加评测、或把一段工作流沉淀成 skill 时使用。
 tags: [skills, authoring, eval]
 category: discovery
-rank: 187
-installs: 420614
+rank: 194
+installs: 427265
 source: anthropics/skills
 ---
 

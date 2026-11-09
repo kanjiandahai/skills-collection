@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 cloud 向 skill「azure-upgrade」。安装量
 tags: [cloud, skills-sh, stub]
 category: cloud
 source: microsoft/azure-skills
-rank: 146
-installs: 469874
+rank: 114
+installs: 545650
 ---
 # azure-upgrade
 

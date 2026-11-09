@@ -4,8 +4,8 @@ description: Hyperframes 体系技能 `hyperframes-audio`。用户在 Hyperframe
 tags: [media, heygen-com, hyperframes, audio]
 category: media
 source: heygen-com/hyperframes
-rank: 73
-installs: 663547
+rank: 81
+installs: 663806
 ---
 
 # hyperframes-audio

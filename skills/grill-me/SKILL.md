@@ -5,7 +5,7 @@ tags: [requirements, planning, interview, design]
 category: planning
 source: mattpocock/skills
 rank: 2
-installs: 1472219
+installs: 1517927
 ---
 
 # grill-me

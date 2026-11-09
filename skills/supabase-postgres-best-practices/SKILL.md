@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「supabase-postgres-best
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: supabase/agent-skills
-rank: 150
-installs: 468744
+rank: 156
+installs: 478483
 ---
 # supabase-postgres-best-practices
 

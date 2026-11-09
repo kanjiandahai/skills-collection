@@ -5,7 +5,7 @@ tags: [browser, 101-skills, twitter, automation]
 category: browser
 source: 101-skills/superpowers
 rank: 23
-installs: 917570
+installs: 994971
 ---
 
 # twitter-automation

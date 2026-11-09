@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：calendar。用户要在飞书生态完
 tags: [collaboration, lark, calendar]
 category: collaboration
 source: open.feishu.cn
-rank: 37
-installs: 836540
+rank: 41
+installs: 872595
 ---
 
 # lark-calendar

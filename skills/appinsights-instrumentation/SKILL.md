@@ -4,8 +4,8 @@ description: 云平台与基础设施相关技能 `appinsights-instrumentation`�
 tags: [cloud, microsoft, appinsights, instrumentation]
 category: cloud
 source: microsoft/azure-skills
-rank: 90
-installs: 572490
+rank: 92
+installs: 648263
 ---
 
 # appinsights-instrumentation

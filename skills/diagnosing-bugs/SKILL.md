@@ -5,7 +5,7 @@ tags: [planning, mattpocock, diagnosing, bugs]
 category: planning
 source: mattpocock/skills
 rank: 30
-installs: 872766
+installs: 908441
 ---
 
 # diagnosing-bugs

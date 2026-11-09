@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「caveman-compress」。
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: juliusbrussee/caveman
-rank: 189
-installs: 418533
+rank: 193
+installs: 427844
 ---
 # caveman-compress
 

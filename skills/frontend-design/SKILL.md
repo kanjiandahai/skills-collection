@@ -5,7 +5,7 @@ tags: [frontend, ui, design, css, web]
 category: design
 source: anthropics/skills
 rank: 15
-installs: 1058803
+installs: 1093510
 ---
 
 # frontend-design

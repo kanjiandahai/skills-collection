@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：shared。用户要在飞书生态完�
 tags: [collaboration, lark, shared]
 category: collaboration
 source: open.feishu.cn
-rank: 35
-installs: 837674
+rank: 39
+installs: 873899
 ---
 
 # lark-shared

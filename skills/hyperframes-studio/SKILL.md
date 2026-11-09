@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 media 向 skill「hyperframes-studio」。安�
 tags: [media, skills-sh, stub]
 category: media
 source: heygen-com/hyperframes
-rank: 156
-installs: 451321
+rank: 172
+installs: 451579
 ---
 # hyperframes-studio
 

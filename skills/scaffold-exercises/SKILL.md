@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 planning 向 skill「scaffold-exercises」。�
 tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
-rank: 121
-installs: 502451
+rank: 126
+installs: 524928
 ---
 # scaffold-exercises
 

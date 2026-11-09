@@ -4,8 +4,8 @@ description: Hyperframes 视频创作总技能。用户要做 AI 视频/成片�
 tags: [media, heygen-com, hyperframes]
 category: media
 source: heygen-com/hyperframes
-rank: 5
-installs: 1319943
+rank: 4
+installs: 1436657
 ---
 
 # hyperframes

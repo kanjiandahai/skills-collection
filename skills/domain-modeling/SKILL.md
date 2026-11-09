@@ -4,8 +4,8 @@ description: 梳理领域模型与边界上下文。用户要 DDD/领域语言/�
 tags: [planning, mattpocock, domain, modeling]
 category: planning
 source: mattpocock/skills
-rank: 26
-installs: 915974
+rank: 25
+installs: 953493
 ---
 
 # domain-modeling

@@ -4,8 +4,8 @@ description: 结构化代码审查。用户要 review PR/改动时使用。
 tags: [planning, mattpocock, code, review]
 category: planning
 source: mattpocock/skills
-rank: 54
-installs: 829992
+rank: 58
+installs: 867964
 ---
 
 # code-review

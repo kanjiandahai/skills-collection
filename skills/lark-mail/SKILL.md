@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：mail。用户要在飞书生态完成�
 tags: [collaboration, lark, mail]
 category: collaboration
 source: open.feishu.cn
-rank: 44
-installs: 835281
+rank: 48
+installs: 871305
 ---
 
 # lark-mail

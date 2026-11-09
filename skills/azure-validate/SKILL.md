@@ -4,8 +4,8 @@ description: Azure 云场景：validate。用户要在 Azure 上完成相关配�
 tags: [cloud, microsoft, azure, validate]
 category: cloud
 source: microsoft/azure-skills
-rank: 87
-installs: 573818
+rank: 89
+installs: 649729
 ---
 
 # azure-validate

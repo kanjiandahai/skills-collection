@@ -4,8 +4,8 @@ description: 移动端 App UI/交互设计指导。用户做 iOS/Android/跨端�
 tags: [design, designed-by-ai, mobile, apps]
 category: design
 source: designed-by-ai/skills
-rank: 11
-installs: 1152654
+rank: 7
+installs: 1308072
 ---
 
 # design-mobile-apps

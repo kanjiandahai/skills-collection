@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：openapi explorer。用户要在飞书�
 tags: [collaboration, lark, openapi, explorer]
 category: collaboration
 source: open.feishu.cn
-rank: 47
-installs: 834796
+rank: 51
+installs: 870819
 ---
 
 # lark-openapi-explorer
