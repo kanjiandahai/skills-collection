@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「image-edit」。安装
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: prime-skills/runcomfy-agent-skills
-rank: 179
-installs: 443327
+rank: 183
+installs: 446340
 ---
 # image-edit
 

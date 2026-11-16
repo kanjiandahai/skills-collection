@@ -5,7 +5,7 @@ tags: [planning, mattpocock, domain, modeling]
 category: planning
 source: mattpocock/skills
 rank: 25
-installs: 953493
+installs: 983760
 ---
 
 # domain-modeling

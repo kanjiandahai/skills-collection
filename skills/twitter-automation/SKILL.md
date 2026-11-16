@@ -4,8 +4,8 @@ description: 自动化 X/Twitter 浏览与操作（遵守平台规则）。用�
 tags: [browser, 101-skills, twitter, automation]
 category: browser
 source: 101-skills/superpowers
-rank: 23
-installs: 994971
+rank: 22
+installs: 1030850
 ---
 
 # twitter-automation

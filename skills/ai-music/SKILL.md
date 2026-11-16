@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「ai-music」。安装�
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: gencraft-labs/skills
-rank: 153
-installs: 479098
+rank: 116
+installs: 576225
 ---
 # ai-music
 

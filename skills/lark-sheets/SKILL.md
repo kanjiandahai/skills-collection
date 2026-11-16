@@ -5,7 +5,7 @@ tags: [collaboration, lark, sheets]
 category: collaboration
 source: open.feishu.cn
 rank: 42
-installs: 872502
+installs: 906339
 ---
 
 # lark-sheets

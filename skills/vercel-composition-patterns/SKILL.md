@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「vercel-composition-pat
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: vercel-labs/agent-skills
-rank: 176
-installs: 444409
+rank: 174
+installs: 456365
 ---
 # vercel-composition-patterns
 

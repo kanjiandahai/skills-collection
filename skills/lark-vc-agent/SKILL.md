@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：vc agent。用户要在飞书生态完
 tags: [collaboration, lark, agent]
 category: collaboration
 source: open.feishu.cn
-rank: 64
-installs: 813022
+rank: 66
+installs: 845735
 ---
 
 # lark-vc-agent

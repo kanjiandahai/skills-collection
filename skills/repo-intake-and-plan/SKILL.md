@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「repo-intake-and-plan�
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: lllllllama/rigorpilot-skills
-rank: 138
-installs: 491712
+rank: 145
+installs: 498432
 ---
 # repo-intake-and-plan
 

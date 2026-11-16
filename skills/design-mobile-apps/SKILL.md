@@ -5,7 +5,7 @@ tags: [design, designed-by-ai, mobile, apps]
 category: design
 source: designed-by-ai/skills
 rank: 7
-installs: 1308072
+installs: 1444639
 ---
 
 # design-mobile-apps

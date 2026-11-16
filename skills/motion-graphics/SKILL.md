@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 media 向 skill「motion-graphics」。安装�
 tags: [media, skills-sh, stub]
 category: media
 source: heygen-com/hyperframes
-rank: 131
-installs: 514270
+rank: 142
+installs: 514488
 ---
 # motion-graphics
 

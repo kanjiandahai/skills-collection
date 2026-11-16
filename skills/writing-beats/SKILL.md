@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 planning 向 skill「writing-beats」。安装
 tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
-rank: 119
-installs: 527978
+rank: 133
+installs: 544686
 ---
 # writing-beats
 

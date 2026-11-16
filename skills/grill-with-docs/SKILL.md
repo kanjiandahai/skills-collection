@@ -5,7 +5,7 @@ tags: [planning, mattpocock, grill, with, docs]
 category: planning
 source: mattpocock/skills
 rank: 9
-installs: 1300218
+installs: 1331137
 ---
 
 # grill-with-docs

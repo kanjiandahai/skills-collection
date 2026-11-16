@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：attendance。用户要在飞书生态�
 tags: [collaboration, lark, attendance]
 category: collaboration
 source: open.feishu.cn
-rank: 52
-installs: 870714
+rank: 51
+installs: 904467
 ---
 
 # lark-attendance

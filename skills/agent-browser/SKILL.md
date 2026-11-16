@@ -5,7 +5,7 @@ tags: [browser, automation, testing, scraping]
 category: browser
 source: vercel-labs/agent-browser
 rank: 5
-installs: 1435926
+installs: 1539065
 ---
 
 # agent-browser

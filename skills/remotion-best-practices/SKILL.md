@@ -4,8 +4,8 @@ description: 音视频与媒体生成相关技能 `remotion-best-practices`。�
 tags: [media, remotion-dev, remotion, best, practices]
 category: media
 source: remotion-dev/skills
-rank: 70
-installs: 775546
+rank: 69
+installs: 831659
 ---
 
 # remotion-best-practices

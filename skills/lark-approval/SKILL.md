@@ -5,7 +5,7 @@ tags: [collaboration, lark, approval]
 category: collaboration
 source: open.feishu.cn
 rank: 43
-installs: 872452
+installs: 906235
 ---
 
 # lark-approval

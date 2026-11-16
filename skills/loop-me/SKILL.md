@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 planning 向 skill「loop-me」。安装量信
 tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
-rank: 145
-installs: 485522
+rank: 143
+installs: 502373
 ---
 # loop-me
 

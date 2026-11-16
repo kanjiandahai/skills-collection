@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「paper-context-resolver
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: lllllllama/rigorpilot-skills
-rank: 137
-installs: 492530
+rank: 144
+installs: 499252
 ---
 # paper-context-resolver
 

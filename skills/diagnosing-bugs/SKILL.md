@@ -4,8 +4,8 @@ description: 系统化定位缺陷根因。用户卡在诡异 bug 时使用。
 tags: [planning, mattpocock, diagnosing, bugs]
 category: planning
 source: mattpocock/skills
-rank: 30
-installs: 908441
+rank: 28
+installs: 935789
 ---
 
 # diagnosing-bugs

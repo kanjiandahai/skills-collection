@@ -4,8 +4,8 @@ description: 通过 Hyperframes CLI 创建/渲染视频相关工作流。用户�
 tags: [media, heygen-com, hyperframes, cli]
 category: media
 source: heygen-com/hyperframes
-rank: 3
-installs: 1474944
+rank: 2
+installs: 1578855
 ---
 
 # hyperframes-cli

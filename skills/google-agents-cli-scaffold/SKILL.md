@@ -4,8 +4,8 @@ description: 脚手架生成 Agent 项目。用户要快速起项目时使用。
 tags: [engineering, google, agents, cli]
 category: engineering
 source: google/agents-cli
-rank: 110
-installs: 555929
+rank: 127
+installs: 572831
 ---
 
 # google-agents-cli-scaffold

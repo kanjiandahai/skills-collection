@@ -5,7 +5,7 @@ tags: [discovery, mattpocock, setup, matt, pocock]
 category: discovery
 source: mattpocock/skills
 rank: 13
-installs: 1124745
+installs: 1151467
 ---
 
 # setup-matt-pocock-skills

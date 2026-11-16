@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 media 向 skill「embedded-captions」。安�
 tags: [media, skills-sh, stub]
 category: media
 source: heygen-com/hyperframes
-rank: 171
-installs: 453862
+rank: 175
+installs: 454084
 ---
 # embedded-captions
 

@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：whiteboard。用户要在飞书生态�
 tags: [collaboration, lark, whiteboard]
 category: collaboration
 source: open.feishu.cn
-rank: 49
-installs: 871140
+rank: 48
+installs: 904933
 ---
 
 # lark-whiteboard

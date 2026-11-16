@@ -5,7 +5,7 @@ tags: [collaboration, lark, minutes]
 category: collaboration
 source: open.feishu.cn
 rank: 56
-installs: 869167
+installs: 901879
 ---
 
 # lark-minutes

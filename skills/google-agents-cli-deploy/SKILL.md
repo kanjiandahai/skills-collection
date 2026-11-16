@@ -4,8 +4,8 @@ description: 部署 Google Agents CLI 相关 Agent。用户要发布到运行环
 tags: [engineering, google, agents, cli]
 category: engineering
 source: google/agents-cli
-rank: 106
-installs: 557106
+rank: 122
+installs: 574203
 ---
 
 # google-agents-cli-deploy

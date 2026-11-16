@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 cloud 向 skill「azure-quotas」。安装量�
 tags: [cloud, skills-sh, stub]
 category: cloud
 source: microsoft/azure-skills
-rank: 112
-installs: 552503
+rank: 108
+installs: 608736
 ---
 # azure-quotas
 

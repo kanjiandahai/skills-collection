@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「ui-ux-pro-max」。安
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: nextlevelbuilder/ui-ux-pro-max-skill
-rank: 188
-installs: 441566
+rank: 176
+installs: 453788
 ---
 # ui-ux-pro-max
 

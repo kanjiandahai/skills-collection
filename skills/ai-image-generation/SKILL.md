@@ -4,8 +4,8 @@ description: 用 AI 生成或迭代图像。用户要文生图、改图、出视
 tags: [media, 101-skills, image, generation]
 category: media
 source: 101-skills/superpowers
-rank: 22
-installs: 995417
+rank: 21
+installs: 1031341
 ---
 
 # ai-image-generation

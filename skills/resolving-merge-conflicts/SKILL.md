@@ -4,8 +4,8 @@ description: 解决 Git 合并冲突。用户遇到 conflict 时使用。
 tags: [planning, mattpocock, resolving, merge, conflicts]
 category: planning
 source: mattpocock/skills
-rank: 113
-installs: 551197
+rank: 132
+installs: 551232
 ---
 
 # resolving-merge-conflicts

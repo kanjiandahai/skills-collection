@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「minimal-run-and-audit�
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: lllllllama/rigorpilot-skills
-rank: 139
-installs: 491641
+rank: 146
+installs: 498357
 ---
 # minimal-run-and-audit
 

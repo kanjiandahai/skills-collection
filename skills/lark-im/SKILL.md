@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：im。用户要在飞书生态完成相
 tags: [collaboration, lark]
 category: collaboration
 source: open.feishu.cn
-rank: 40
-installs: 873006
+rank: 39
+installs: 906834
 ---
 
 # lark-im

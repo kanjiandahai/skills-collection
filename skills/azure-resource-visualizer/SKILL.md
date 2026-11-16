@@ -4,8 +4,8 @@ description: Azure 云场景：resource visualizer。用户要在 Azure 上完�
 tags: [cloud, microsoft, azure, resource, visualizer]
 category: cloud
 source: microsoft/azure-skills
-rank: 94
-installs: 648172
+rank: 91
+installs: 704406
 ---
 
 # azure-resource-visualizer

@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 media 向 skill「pr-to-video」。安装量�
 tags: [media, skills-sh, stub]
 category: media
 source: heygen-com/hyperframes
-rank: 174
-installs: 449193
+rank: 179
+installs: 449409
 ---
 # pr-to-video
 

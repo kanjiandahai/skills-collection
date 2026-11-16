@@ -4,8 +4,8 @@ description: 把复杂主题教给用户或写成教程。用户说「教我」�
 tags: [planning, mattpocock, teach]
 category: planning
 source: mattpocock/skills
-rank: 28
-installs: 929060
+rank: 27
+installs: 954921
 ---
 
 # teach

@@ -4,8 +4,8 @@ description: 云平台与基础设施相关技能 `entra-app-registration`。当
 tags: [cloud, microsoft, entra, app, registration]
 category: cloud
 source: microsoft/azure-skills
-rank: 95
-installs: 648140
+rank: 92
+installs: 704380
 ---
 
 # entra-app-registration

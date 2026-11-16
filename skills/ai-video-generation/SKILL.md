@@ -4,8 +4,8 @@ description: 用 AI 生成视频成片或片段。用户要文生视频/脚本�
 tags: [media, 101-skills, video, generation]
 category: media
 source: 101-skills/superpowers
-rank: 21
-installs: 997110
+rank: 20
+installs: 1033359
 ---
 
 # ai-video-generation

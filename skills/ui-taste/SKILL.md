@@ -5,7 +5,7 @@ tags: [design, taste]
 category: design
 source: uizze.sh
 rank: 17
-installs: 1063609
+installs: 1096266
 ---
 
 # ui-taste

@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 media 向 skill「video-edit」。安装量信
 tags: [media, skills-sh, stub]
 category: media
 source: prime-skills/runcomfy-agent-skills
-rank: 154
-installs: 478622
+rank: 117
+installs: 575601
 ---
 # video-edit
 

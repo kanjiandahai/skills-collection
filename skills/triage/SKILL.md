@@ -5,7 +5,7 @@ tags: [planning, mattpocock, triage]
 category: planning
 source: mattpocock/skills
 rank: 19
-installs: 1054145
+installs: 1078676
 ---
 
 # triage

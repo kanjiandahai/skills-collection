@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「flux-kontext」。安�
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: prime-skills/runcomfy-agent-skills
-rank: 181
-installs: 442938
+rank: 185
+installs: 445942
 ---
 # flux-kontext
 

@@ -5,7 +5,7 @@ tags: [collaboration, lark, base]
 category: collaboration
 source: open.feishu.cn
 rank: 38
-installs: 874007
+installs: 907885
 ---
 
 # lark-base

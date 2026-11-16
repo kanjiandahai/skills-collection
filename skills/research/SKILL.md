@@ -4,8 +4,8 @@ description: 针对技术/产品问题做有出处的调研。用户要调研对
 tags: [planning, mattpocock, research]
 category: planning
 source: mattpocock/skills
-rank: 68
-installs: 782015
+rank: 73
+installs: 808499
 ---
 
 # research

@@ -5,7 +5,7 @@ tags: [collaboration, lark, drive]
 category: collaboration
 source: open.feishu.cn
 rank: 37
-installs: 874041
+installs: 907989
 ---
 
 # lark-drive

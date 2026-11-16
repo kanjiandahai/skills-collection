@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 cloud 向 skill「airunway-aks-setup」。安�
 tags: [cloud, skills-sh, stub]
 category: cloud
 source: microsoft/azure-skills
-rank: 187
-installs: 441817
+rank: 148
+installs: 498046
 ---
 # airunway-aks-setup
 

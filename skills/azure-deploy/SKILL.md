@@ -4,8 +4,8 @@ description: Azure 云场景：deploy。用户要在 Azure 上完成相关配置
 tags: [cloud, microsoft, azure, deploy]
 category: cloud
 source: microsoft/azure-skills
-rank: 88
-installs: 650047
+rank: 85
+installs: 706287
 ---
 
 # azure-deploy

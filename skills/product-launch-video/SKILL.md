@@ -4,8 +4,8 @@ description: 音视频与媒体生成相关技能 `product-launch-video`。当�
 tags: [media, heygen-com, product, launch, video]
 category: media
 source: heygen-com/hyperframes
-rank: 116
-installs: 539257
+rank: 137
+installs: 539474
 ---
 
 # product-launch-video

@@ -5,7 +5,7 @@ tags: [media, heygen-com, remotion, hyperframes]
 category: media
 source: heygen-com/hyperframes
 rank: 103
-installs: 585527
+installs: 623831
 ---
 
 # remotion-to-hyperframes

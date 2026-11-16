@@ -4,8 +4,8 @@ description: 生成数字人/口播类 Avatar 视频。用户要数字人讲解�
 tags: [media, 101-skills, avatar, video]
 category: media
 source: 101-skills/superpowers
-rank: 24
-installs: 994722
+rank: 23
+installs: 1030613
 ---
 
 # ai-avatar-video

@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 discovery 向 skill「setup-pre-commit」。�
 tags: [discovery, skills-sh, stub]
 category: discovery
 source: mattpocock/skills
-rank: 118
-installs: 534672
+rank: 131
+installs: 551549
 ---
 # setup-pre-commit
 

@@ -5,7 +5,7 @@ tags: [planning, mattpocock, code, review]
 category: planning
 source: mattpocock/skills
 rank: 58
-installs: 867964
+installs: 896371
 ---
 
 # code-review

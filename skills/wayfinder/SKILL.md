@@ -4,8 +4,8 @@ description: 在未知代码库里找路：定位模块与改动点。用户「�
 tags: [planning, mattpocock, wayfinder]
 category: planning
 source: mattpocock/skills
-rank: 65
-installs: 788171
+rank: 71
+installs: 813958
 ---
 
 # wayfinder

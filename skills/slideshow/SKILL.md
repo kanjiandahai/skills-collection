@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 media 向 skill「slideshow」。安装量信�
 tags: [media, skills-sh, stub]
 category: media
 source: heygen-com/hyperframes
-rank: 141
-installs: 491284
+rank: 140
+installs: 528733
 ---
 # slideshow
 
