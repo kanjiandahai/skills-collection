@@ -5,7 +5,7 @@ tags: [cloud, skills-sh, stub]
 category: cloud
 source: microsoft/azure-skills
 rank: 115
-installs: 578515
+installs: 631831
 ---
 # azure-enterprise-infra-planner
 

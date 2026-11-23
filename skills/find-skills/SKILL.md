@@ -5,7 +5,7 @@ tags: [skills, discovery, catalog, install]
 category: discovery
 source: vercel-labs/skills
 rank: 1
-installs: 4377540
+installs: 4489381
 ---
 
 # find-skills

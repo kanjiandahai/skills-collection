@@ -5,7 +5,7 @@ tags: [architecture, refactor, modularity]
 category: planning
 source: mattpocock/skills
 rank: 11
-installs: 1270912
+installs: 1297246
 ---
 
 # improve-codebase-architecture

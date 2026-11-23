@@ -4,8 +4,8 @@ description: 音视频与媒体生成相关技能 `general-video`。当任务匹
 tags: [media, heygen-com, general, video]
 category: media
 source: heygen-com/hyperframes
-rank: 98
-installs: 661914
+rank: 106
+installs: 662038
 ---
 
 # general-video

@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 planning 向 skill「wait-what」。安装量�
 tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
-rank: 139
-installs: 533742
+rank: 137
+installs: 556134
 ---
 # wait-what
 

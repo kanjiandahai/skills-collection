@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 media 向 skill「faceless-explainer」。安�
 tags: [media, skills-sh, stub]
 category: media
 source: heygen-com/hyperframes
-rank: 141
-installs: 522189
+rank: 143
+installs: 522313
 ---
 # faceless-explainer
 

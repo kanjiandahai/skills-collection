@@ -5,7 +5,7 @@ tags: [planning, mattpocock, codebase, design]
 category: planning
 source: mattpocock/skills
 rank: 26
-installs: 957934
+installs: 985376
 ---
 
 # codebase-design

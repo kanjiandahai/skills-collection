@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「wan-2-7」。安装量
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: prime-skills/runcomfy-agent-skills
-rank: 186
-installs: 445372
+rank: 188
+installs: 448102
 ---
 # wan-2-7
 

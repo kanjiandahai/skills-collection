@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：workflow meeting summary。用户要�
 tags: [collaboration, lark, workflow, meeting]
 category: collaboration
 source: open.feishu.cn
-rank: 53
-installs: 903917
+rank: 52
+installs: 926646
 ---
 
 # lark-workflow-meeting-summary

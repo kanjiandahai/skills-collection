@@ -5,7 +5,7 @@ tags: [planning, mattpocock, spec]
 category: planning
 source: mattpocock/skills
 rank: 72
-installs: 811999
+installs: 838117
 ---
 
 # to-spec

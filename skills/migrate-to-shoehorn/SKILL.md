@@ -5,7 +5,7 @@ tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
 rank: 138
-installs: 537426
+installs: 553140
 ---
 # migrate-to-shoehorn
 

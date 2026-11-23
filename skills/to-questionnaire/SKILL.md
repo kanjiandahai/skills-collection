@@ -4,8 +4,8 @@ description: 把模糊需求变成问卷/检查表。用户要收集决策信息
 tags: [planning, mattpocock, questionnaire]
 category: planning
 source: mattpocock/skills
-rank: 113
-installs: 582429
+rank: 121
+installs: 604619
 ---
 
 # to-questionnaire

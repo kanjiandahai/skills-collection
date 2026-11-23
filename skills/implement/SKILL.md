@@ -4,8 +4,8 @@ description: 把已澄清的规格落地为实现。用户说「按方案实现�
 tags: [planning, mattpocock, implement]
 category: planning
 source: mattpocock/skills
-rank: 61
-installs: 868723
+rank: 66
+installs: 893409
 ---
 
 # implement

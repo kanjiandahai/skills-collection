@@ -5,7 +5,7 @@ tags: [discovery, skills-sh, stub]
 category: discovery
 source: mattpocock/skills
 rank: 131
-installs: 551549
+installs: 567512
 ---
 # setup-pre-commit
 

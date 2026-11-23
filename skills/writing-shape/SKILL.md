@@ -5,7 +5,7 @@ tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
 rank: 134
-installs: 544324
+installs: 560094
 ---
 # writing-shape
 

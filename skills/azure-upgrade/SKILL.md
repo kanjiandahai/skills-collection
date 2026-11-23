@@ -5,7 +5,7 @@ tags: [cloud, skills-sh, stub]
 category: cloud
 source: microsoft/azure-skills
 rank: 109
-installs: 601882
+installs: 655198
 ---
 # azure-upgrade
 

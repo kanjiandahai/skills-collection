@@ -4,8 +4,8 @@ description: Microsoft Foundry / Azure AI 相关项目引导。用户提到 Foun
 tags: [cloud, microsoft, foundry]
 category: cloud
 source: microsoft/azure-skills
-rank: 81
-installs: 717535
+rank: 80
+installs: 770915
 ---
 
 # microsoft-foundry

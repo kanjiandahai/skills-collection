@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 design 向 skill「high-end-visual-design」�
 tags: [design, skills-sh, stub]
 category: design
 source: leonxlnx/taste-skill
-rank: 171
-installs: 458902
+rank: 177
+installs: 458916
 ---
 # high-end-visual-design
 

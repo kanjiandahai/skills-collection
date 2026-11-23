@@ -4,8 +4,8 @@ description: Azure 云场景：diagnostics。用户要在 Azure 上完成相关�
 tags: [cloud, microsoft, azure, diagnostics]
 category: cloud
 source: microsoft/azure-skills
-rank: 82
-installs: 708232
+rank: 81
+installs: 761560
 ---
 
 # azure-diagnostics

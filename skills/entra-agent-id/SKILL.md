@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 cloud 向 skill「entra-agent-id」。安装�
 tags: [cloud, skills-sh, stub]
 category: cloud
 source: microsoft/azure-skills
-rank: 170
-installs: 474150
+rank: 142
+installs: 527465
 ---
 # entra-agent-id
 

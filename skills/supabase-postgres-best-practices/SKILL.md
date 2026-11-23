@@ -5,7 +5,7 @@ tags: [engineering, skills-sh, stub]
 category: engineering
 source: supabase/agent-skills
 rank: 156
-installs: 487114
+installs: 494965
 ---
 # supabase-postgres-best-practices
 

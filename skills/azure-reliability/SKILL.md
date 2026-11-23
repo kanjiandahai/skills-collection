@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 cloud 向 skill「azure-reliability」。安�
 tags: [cloud, skills-sh, stub]
 category: cloud
 source: microsoft/azure-skills
-rank: 193
-installs: 437497
+rank: 162
+installs: 490808
 ---
 # azure-reliability
 

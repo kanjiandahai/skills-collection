@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 media 向 skill「figma」。安装量信号�
 tags: [media, skills-sh, stub]
 category: media
 source: heygen-com/hyperframes
-rank: 191
-installs: 440112
+rank: 172
+installs: 473893
 ---
 # figma
 

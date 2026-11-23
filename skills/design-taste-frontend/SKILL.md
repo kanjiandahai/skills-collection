@@ -5,7 +5,7 @@ tags: [design, leonxlnx, taste, frontend]
 category: design
 source: leonxlnx/taste-skill
 rank: 75
-installs: 782811
+installs: 813587
 ---
 
 # design-taste-frontend

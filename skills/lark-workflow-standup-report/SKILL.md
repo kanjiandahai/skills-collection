@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：workflow standup report。用户要在
 tags: [collaboration, lark, workflow, standup]
 category: collaboration
 source: open.feishu.cn
-rank: 54
-installs: 903628
+rank: 53
+installs: 926347
 ---
 
 # lark-workflow-standup-report

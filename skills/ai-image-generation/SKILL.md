@@ -5,7 +5,7 @@ tags: [media, 101-skills, image, generation]
 category: media
 source: 101-skills/superpowers
 rank: 21
-installs: 1031341
+installs: 1063258
 ---
 
 # ai-image-generation

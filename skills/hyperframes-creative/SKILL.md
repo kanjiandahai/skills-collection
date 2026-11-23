@@ -4,8 +4,8 @@ description: Hyperframes 创意方向与叙事包装。用户要定视频创意�
 tags: [media, heygen-com, hyperframes, creative]
 category: media
 source: heygen-com/hyperframes
-rank: 34
-installs: 917278
+rank: 58
+installs: 917398
 ---
 
 # hyperframes-creative

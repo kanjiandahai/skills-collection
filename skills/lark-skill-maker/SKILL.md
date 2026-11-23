@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：skill maker。用户要在飞书生态
 tags: [collaboration, lark, skill, maker]
 category: collaboration
 source: open.feishu.cn
-rank: 52
-installs: 904084
+rank: 51
+installs: 926812
 ---
 
 # lark-skill-maker

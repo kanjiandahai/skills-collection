@@ -4,8 +4,8 @@ description: Azure 云场景：aigateway。用户要在 Azure 上完成相关配
 tags: [cloud, microsoft, azure, aigateway]
 category: cloud
 source: microsoft/azure-skills
-rank: 94
-installs: 703706
+rank: 93
+installs: 757018
 ---
 
 # azure-aigateway

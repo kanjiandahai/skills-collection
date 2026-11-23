@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：slides。用户要在飞书生态完�
 tags: [collaboration, lark, slides]
 category: collaboration
 source: open.feishu.cn
-rank: 46
-installs: 905113
+rank: 45
+installs: 927839
 ---
 
 # lark-slides

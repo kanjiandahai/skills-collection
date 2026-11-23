@@ -4,8 +4,8 @@ description: Hyperframes 体系技能 `hyperframes-keyframes`。用户在 Hyperf
 tags: [media, heygen-com, hyperframes, keyframes]
 category: media
 source: heygen-com/hyperframes
-rank: 76
-installs: 754956
+rank: 94
+installs: 755074
 ---
 
 # hyperframes-keyframes

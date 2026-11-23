@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「flux-2-klein」。安�
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: prime-skills/runcomfy-agent-skills
-rank: 190
-installs: 444968
+rank: 192
+installs: 447698
 ---
 # flux-2-klein
 

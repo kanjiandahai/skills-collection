@@ -4,8 +4,8 @@ description: 快速做出可验证原型。用户要先跑通 demo 再谈完美�
 tags: [planning, mattpocock, prototype]
 category: planning
 source: mattpocock/skills
-rank: 18
-installs: 1082678
+rank: 17
+installs: 1108129
 ---
 
 # prototype

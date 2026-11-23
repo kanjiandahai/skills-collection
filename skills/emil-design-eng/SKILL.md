@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 design 向 skill「emil-design-eng」。安装
 tags: [design, skills-sh, stub]
 category: design
 source: emilkowalski/skills
-rank: 177
-installs: 451947
+rank: 173
+installs: 471990
 ---
 # emil-design-eng
 

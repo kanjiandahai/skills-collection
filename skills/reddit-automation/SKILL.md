@@ -5,7 +5,7 @@ tags: [browser, flowkit-labs, reddit, automation]
 category: browser
 source: flowkit-labs/skills
 rank: 8
-installs: 1397677
+installs: 1502420
 ---
 
 # reddit-automation

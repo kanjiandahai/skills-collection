@@ -4,8 +4,8 @@ description: 把规格拆成可执行工单。用户要拆任务/issue 时使用
 tags: [planning, mattpocock, tickets]
 category: planning
 source: mattpocock/skills
-rank: 74
-installs: 808010
+rank: 73
+installs: 833636
 ---
 
 # to-tickets

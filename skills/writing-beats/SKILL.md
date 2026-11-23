@@ -5,7 +5,7 @@ tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
 rank: 133
-installs: 544686
+installs: 560433
 ---
 # writing-beats
 

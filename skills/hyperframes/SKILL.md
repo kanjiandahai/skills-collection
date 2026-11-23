@@ -5,7 +5,7 @@ tags: [media, heygen-com, hyperframes]
 category: media
 source: heygen-com/hyperframes
 rank: 4
-installs: 1541802
+installs: 1638548
 ---
 
 # hyperframes

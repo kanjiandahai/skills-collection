@@ -4,8 +4,8 @@ description: Azure 云场景：ai。用户要在 Azure 上完成相关配置、�
 tags: [cloud, microsoft, azure]
 category: cloud
 source: microsoft/azure-skills
-rank: 84
-installs: 706619
+rank: 83
+installs: 759981
 ---
 
 # azure-ai

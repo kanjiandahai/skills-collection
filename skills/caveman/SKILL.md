@@ -4,8 +4,8 @@ description: Caveman：极简/直给的工程沟通与实现风格。用户要�
 tags: [engineering, juliusbrussee, caveman]
 category: engineering
 source: juliusbrussee/caveman
-rank: 102
-installs: 628796
+rank: 114
+installs: 642410
 ---
 
 # caveman

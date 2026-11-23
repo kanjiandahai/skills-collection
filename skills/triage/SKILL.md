@@ -4,8 +4,8 @@ description: 对问题/任务做分流定级。用户一堆 issue/bug 不知先�
 tags: [planning, mattpocock, triage]
 category: planning
 source: mattpocock/skills
-rank: 19
-installs: 1078676
+rank: 18
+installs: 1101948
 ---
 
 # triage

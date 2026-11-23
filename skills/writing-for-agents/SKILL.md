@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 planning 向 skill「writing-for-agents」。�
 tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
-rank: 130
-installs: 561023
+rank: 129
+installs: 586202
 ---
 # writing-for-agents
 

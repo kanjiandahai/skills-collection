@@ -4,8 +4,8 @@ description: 发布 Agent 包或制品。用户要 publish 时使用。
 tags: [engineering, google, agents, cli]
 category: engineering
 source: google/agents-cli
-rank: 123
-installs: 574004
+rank: 124
+installs: 588818
 ---
 
 # google-agents-cli-publish

@@ -4,8 +4,8 @@ description: Azure 云场景：kusto。用户要在 Azure 上完成相关配置�
 tags: [cloud, microsoft, azure, kusto]
 category: cloud
 source: microsoft/azure-skills
-rank: 93
-installs: 704108
+rank: 92
+installs: 757418
 ---
 
 # azure-kusto

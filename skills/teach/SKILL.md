@@ -5,7 +5,7 @@ tags: [planning, mattpocock, teach]
 category: planning
 source: mattpocock/skills
 rank: 27
-installs: 954921
+installs: 979147
 ---
 
 # teach

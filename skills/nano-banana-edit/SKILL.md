@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「nano-banana-edit」。
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: prime-skills/runcomfy-agent-skills
-rank: 184
-installs: 446147
+rank: 186
+installs: 448878
 ---
 # nano-banana-edit
 

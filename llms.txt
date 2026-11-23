@@ -5,7 +5,7 @@
 - Repo: https://github.com/kanjiandahai/skills-collection
 - Catalog: https://raw.githubusercontent.com/kanjiandahai/skills-collection/main/catalog.json
 - Install: `npx skills add kanjiandahai/skills-collection`
-- Updated: 2026-11-16T01:24:19Z
+- Updated: 2026-11-23T01:17:39Z
 - Skills: 175
 
 ## Categories
@@ -47,19 +47,19 @@
 - [ask-matt](https://github.com/kanjiandahai/skills-collection/blob/main/skills/ask-matt/SKILL.md): 以 Matt 风格答疑或给工程建议。用户要该系列方法论建议时使用。
 - [wayfinder](https://github.com/kanjiandahai/skills-collection/blob/main/skills/wayfinder/SKILL.md): 在未知代码库里找路：定位模块与改动点。用户「从哪改」时使用。
 - [to-spec](https://github.com/kanjiandahai/skills-collection/blob/main/skills/to-spec/SKILL.md): 把讨论收敛成规格说明。用户要写 spec 时使用。
-- [research](https://github.com/kanjiandahai/skills-collection/blob/main/skills/research/SKILL.md): 针对技术/产品问题做有出处的调研。用户要调研对比时使用。
 - [to-tickets](https://github.com/kanjiandahai/skills-collection/blob/main/skills/to-tickets/SKILL.md): 把规格拆成可执行工单。用户要拆任务/issue 时使用。
+- [research](https://github.com/kanjiandahai/skills-collection/blob/main/skills/research/SKILL.md): 针对技术/产品问题做有出处的调研。用户要调研对比时使用。
 - [wizard](https://github.com/kanjiandahai/skills-collection/blob/main/skills/wizard/SKILL.md): 用向导式步骤带用户做完复杂配置。用户要一步步引导时使用。
 - [to-questionnaire](https://github.com/kanjiandahai/skills-collection/blob/main/skills/to-questionnaire/SKILL.md): 把模糊需求变成问卷/检查表。用户要收集决策信息时使用。
-- [git-guardrails-claude-code](https://github.com/kanjiandahai/skills-collection/blob/main/skills/git-guardrails-claude-code/SKILL.md): 来自 skills.sh 的 planning 向 skill「git-guardrails-claude-code」。安装量信号约 522,531；详情见上游 mattpocock/skills。
 - [writing-for-agents](https://github.com/kanjiandahai/skills-collection/blob/main/skills/writing-for-agents/SKILL.md): 来自 skills.sh 的 planning 向 skill「writing-for-agents」。安装量信号约 500,813；详情见上游 mattpocock/skills。
-- [resolving-merge-conflicts](https://github.com/kanjiandahai/skills-collection/blob/main/skills/resolving-merge-conflicts/SKILL.md): 解决 Git 合并冲突。用户遇到 conflict 时使用。
+- [git-guardrails-claude-code](https://github.com/kanjiandahai/skills-collection/blob/main/skills/git-guardrails-claude-code/SKILL.md): 来自 skills.sh 的 planning 向 skill「git-guardrails-claude-code」。安装量信号约 522,531；详情见上游 mattpocock/skills。
 - [writing-beats](https://github.com/kanjiandahai/skills-collection/blob/main/skills/writing-beats/SKILL.md): 来自 skills.sh 的 planning 向 skill「writing-beats」。安装量信号约 505,261；详情见上游 mattpocock/skills。
 - [writing-shape](https://github.com/kanjiandahai/skills-collection/blob/main/skills/writing-shape/SKILL.md): 来自 skills.sh 的 planning 向 skill「writing-shape」。安装量信号约 504,850；详情见上游 mattpocock/skills。
 - [writing-fragments](https://github.com/kanjiandahai/skills-collection/blob/main/skills/writing-fragments/SKILL.md): 来自 skills.sh 的 planning 向 skill「writing-fragments」。安装量信号约 504,164；详情见上游 mattpocock/skills。
 - [scaffold-exercises](https://github.com/kanjiandahai/skills-collection/blob/main/skills/scaffold-exercises/SKILL.md): 来自 skills.sh 的 planning 向 skill「scaffold-exercises」。安装量信号约 502,451；详情见上游 mattpocock/skills。
-- [migrate-to-shoehorn](https://github.com/kanjiandahai/skills-collection/blob/main/skills/migrate-to-shoehorn/SKILL.md): 来自 skills.sh 的 planning 向 skill「migrate-to-shoehorn」。安装量信号约 498,439；详情见上游 mattpocock/skills。
 - [wait-what](https://github.com/kanjiandahai/skills-collection/blob/main/skills/wait-what/SKILL.md): 来自 skills.sh 的 planning 向 skill「wait-what」。安装量信号约 479,572；详情见上游 mattpocock/skills。
+- [migrate-to-shoehorn](https://github.com/kanjiandahai/skills-collection/blob/main/skills/migrate-to-shoehorn/SKILL.md): 来自 skills.sh 的 planning 向 skill「migrate-to-shoehorn」。安装量信号约 498,439；详情见上游 mattpocock/skills。
+- [resolving-merge-conflicts](https://github.com/kanjiandahai/skills-collection/blob/main/skills/resolving-merge-conflicts/SKILL.md): 解决 Git 合并冲突。用户遇到 conflict 时使用。
 - [loop-me](https://github.com/kanjiandahai/skills-collection/blob/main/skills/loop-me/SKILL.md): 来自 skills.sh 的 planning 向 skill「loop-me」。安装量信号约 462,645；详情见上游 mattpocock/skills。
 - [claude-handoff](https://github.com/kanjiandahai/skills-collection/blob/main/skills/claude-handoff/SKILL.md): 来自 skills.sh 的 planning 向 skill「claude-handoff」。安装量信号约 444,437；详情见上游 mattpocock/skills。
 
@@ -77,9 +77,9 @@
 - [vercel-react-best-practices](https://github.com/kanjiandahai/skills-collection/blob/main/skills/vercel-react-best-practices/SKILL.md): 按 Vercel 倡导的 React/Next 最佳实践检查与改写。用户做 React/Next 优化时使用。
 - [web-design-guidelines](https://github.com/kanjiandahai/skills-collection/blob/main/skills/web-design-guidelines/SKILL.md): 对照现代 Web 设计准则检查页面。用户要可用性/无障碍/视觉规范时使用。
 - [design-taste-frontend](https://github.com/kanjiandahai/skills-collection/blob/main/skills/design-taste-frontend/SKILL.md): 设计与前端体验相关技能 `design-taste-frontend`。当任务匹配该上游 skill 名称与场景时使用。
+- [emil-design-eng](https://github.com/kanjiandahai/skills-collection/blob/main/skills/emil-design-eng/SKILL.md): 来自 skills.sh 的 design 向 skill「emil-design-eng」。安装量信号约 429,310；详情见上游 emilkowalski/skills。
 - [high-end-visual-design](https://github.com/kanjiandahai/skills-collection/blob/main/skills/high-end-visual-design/SKILL.md): 来自 skills.sh 的 design 向 skill「high-end-visual-design」。安装量信号约 458,850；详情见上游 leonxlnx/taste-skill。
 - [redesign-existing-projects](https://github.com/kanjiandahai/skills-collection/blob/main/skills/redesign-existing-projects/SKILL.md): 来自 skills.sh 的 design 向 skill「redesign-existing-projects」。安装量信号约 458,719；详情见上游 leonxlnx/taste-skill。
-- [emil-design-eng](https://github.com/kanjiandahai/skills-collection/blob/main/skills/emil-design-eng/SKILL.md): 来自 skills.sh 的 design 向 skill「emil-design-eng」。安装量信号约 429,310；详情见上游 emilkowalski/skills。
 - [ios-design](https://github.com/kanjiandahai/skills-collection/blob/main/skills/ios-design/SKILL.md): 来自 skills.sh 的 design 向 skill「ios-design」。安装量信号约 417,203；详情见上游 uizze.sh。
 
 ## media · 媒体与视频
@@ -96,20 +96,20 @@
 - [hyperframes-creative](https://github.com/kanjiandahai/skills-collection/blob/main/skills/hyperframes-creative/SKILL.md): Hyperframes 创意方向与叙事包装。用户要定视频创意时使用。
 - [remotion-best-practices](https://github.com/kanjiandahai/skills-collection/blob/main/skills/remotion-best-practices/SKILL.md): 音视频与媒体生成相关技能 `remotion-best-practices`。当任务匹配该上游 skill 名称与场景时使用。
 - [hyperframes-keyframes](https://github.com/kanjiandahai/skills-collection/blob/main/skills/hyperframes-keyframes/SKILL.md): Hyperframes 体系技能 `hyperframes-keyframes`。用户在 Hyperframes 视频工作流中需要该能力时使用。
+- [video-edit](https://github.com/kanjiandahai/skills-collection/blob/main/skills/video-edit/SKILL.md): 来自 skills.sh 的 media 向 skill「video-edit」。安装量信号约 442,344；详情见上游 prime-skills/runcomfy-agent-skills。
+- [image-to-video](https://github.com/kanjiandahai/skills-collection/blob/main/skills/image-to-video/SKILL.md): 来自 skills.sh 的 media 向 skill「image-to-video」。安装量信号约 440,560；详情见上游 prime-skills/runcomfy-agent-skills。
 - [hyperframes-audio](https://github.com/kanjiandahai/skills-collection/blob/main/skills/hyperframes-audio/SKILL.md): Hyperframes 体系技能 `hyperframes-audio`。用户在 Hyperframes 视频工作流中需要该能力时使用。
 - [general-video](https://github.com/kanjiandahai/skills-collection/blob/main/skills/general-video/SKILL.md): 音视频与媒体生成相关技能 `general-video`。当任务匹配该上游 skill 名称与场景时使用。
 - [remotion-to-hyperframes](https://github.com/kanjiandahai/skills-collection/blob/main/skills/remotion-to-hyperframes/SKILL.md): 音视频与媒体生成相关技能 `remotion-to-hyperframes`。当任务匹配该上游 skill 名称与场景时使用。
-- [video-edit](https://github.com/kanjiandahai/skills-collection/blob/main/skills/video-edit/SKILL.md): 来自 skills.sh 的 media 向 skill「video-edit」。安装量信号约 442,344；详情见上游 prime-skills/runcomfy-agent-skills。
-- [image-to-video](https://github.com/kanjiandahai/skills-collection/blob/main/skills/image-to-video/SKILL.md): 来自 skills.sh 的 media 向 skill「image-to-video」。安装量信号约 440,560；详情见上游 prime-skills/runcomfy-agent-skills。
-- [product-launch-video](https://github.com/kanjiandahai/skills-collection/blob/main/skills/product-launch-video/SKILL.md): 音视频与媒体生成相关技能 `product-launch-video`。当任务匹配该上游 skill 名称与场景时使用。
 - [slideshow](https://github.com/kanjiandahai/skills-collection/blob/main/skills/slideshow/SKILL.md): 来自 skills.sh 的 media 向 skill「slideshow」。安装量信号约 455,786；详情见上游 heygen-com/hyperframes。
+- [product-launch-video](https://github.com/kanjiandahai/skills-collection/blob/main/skills/product-launch-video/SKILL.md): 音视频与媒体生成相关技能 `product-launch-video`。当任务匹配该上游 skill 名称与场景时使用。
 - [faceless-explainer](https://github.com/kanjiandahai/skills-collection/blob/main/skills/faceless-explainer/SKILL.md): 来自 skills.sh 的 media 向 skill「faceless-explainer」。安装量信号约 521,688；详情见上游 heygen-com/hyperframes。
 - [motion-graphics](https://github.com/kanjiandahai/skills-collection/blob/main/skills/motion-graphics/SKILL.md): 来自 skills.sh 的 media 向 skill「motion-graphics」。安装量信号约 514,007；详情见上游 heygen-com/hyperframes。
+- [figma](https://github.com/kanjiandahai/skills-collection/blob/main/skills/figma/SKILL.md): 来自 skills.sh 的 media 向 skill「figma」。安装量信号约 440,112；详情见上游 heygen-com/hyperframes。
 - [embedded-captions](https://github.com/kanjiandahai/skills-collection/blob/main/skills/embedded-captions/SKILL.md): 来自 skills.sh 的 media 向 skill「embedded-captions」。安装量信号约 453,600；详情见上游 heygen-com/hyperframes。
 - [hyperframes-studio](https://github.com/kanjiandahai/skills-collection/blob/main/skills/hyperframes-studio/SKILL.md): 来自 skills.sh 的 media 向 skill「hyperframes-studio」。安装量信号约 451,321；详情见上游 heygen-com/hyperframes。
 - [pr-to-video](https://github.com/kanjiandahai/skills-collection/blob/main/skills/pr-to-video/SKILL.md): 来自 skills.sh 的 media 向 skill「pr-to-video」。安装量信号约 448,935；详情见上游 heygen-com/hyperframes。
 - [music-to-video](https://github.com/kanjiandahai/skills-collection/blob/main/skills/music-to-video/SKILL.md): 来自 skills.sh 的 media 向 skill「music-to-video」。安装量信号约 418,974；详情见上游 heygen-com/hyperframes。
-- [figma](https://github.com/kanjiandahai/skills-collection/blob/main/skills/figma/SKILL.md): 来自 skills.sh 的 media 向 skill「figma」。安装量信号约 440,112；详情见上游 heygen-com/hyperframes。
 
 ## collaboration · 协作套件（飞书 / Lark）
 
@@ -118,9 +118,9 @@
 - [lark-drive](https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-drive/SKILL.md): 飞书/Lark OpenAPI 场景：drive。用户要在飞书生态完成相关自动化或集成时使用。
 - [lark-base](https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-base/SKILL.md): 飞书/Lark OpenAPI 场景：base。用户要在飞书生态完成相关自动化或集成时使用。
 - [lark-im](https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-im/SKILL.md): 飞书/Lark OpenAPI 场景：im。用户要在飞书生态完成相关自动化或集成时使用。
-- [lark-calendar](https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-calendar/SKILL.md): 飞书/Lark OpenAPI 场景：calendar。用户要在飞书生态完成相关自动化或集成时使用。
-- [lark-wiki](https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-wiki/SKILL.md): 飞书/Lark OpenAPI 场景：wiki。用户要在飞书生态完成相关自动化或集成时使用。
 - [lark-sheets](https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-sheets/SKILL.md): 飞书/Lark OpenAPI 场景：sheets。用户要在飞书生态完成相关自动化或集成时使用。
+- [lark-wiki](https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-wiki/SKILL.md): 飞书/Lark OpenAPI 场景：wiki。用户要在飞书生态完成相关自动化或集成时使用。
+- [lark-calendar](https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-calendar/SKILL.md): 飞书/Lark OpenAPI 场景：calendar。用户要在飞书生态完成相关自动化或集成时使用。
 - [lark-approval](https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-approval/SKILL.md): 飞书/Lark OpenAPI 场景：approval。用户要在飞书生态完成相关自动化或集成时使用。
 - [lark-contact](https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-contact/SKILL.md): 飞书/Lark OpenAPI 场景：contact。用户要在飞书生态完成相关自动化或集成时使用。
 - [lark-task](https://github.com/kanjiandahai/skills-collection/blob/main/skills/lark-task/SKILL.md): 飞书/Lark OpenAPI 场景：task。用户要在飞书生态完成相关自动化或集成时使用。
@@ -194,8 +194,8 @@
 
 ## engineering · 工程实现
 
-- [caveman](https://github.com/kanjiandahai/skills-collection/blob/main/skills/caveman/SKILL.md): Caveman：极简/直给的工程沟通与实现风格。用户要该技能工作流时使用。
 - [ai-music](https://github.com/kanjiandahai/skills-collection/blob/main/skills/ai-music/SKILL.md): 来自 skills.sh 的 engineering 向 skill「ai-music」。安装量信号约 479,098；详情见上游 gencraft-labs/skills。
+- [caveman](https://github.com/kanjiandahai/skills-collection/blob/main/skills/caveman/SKILL.md): Caveman：极简/直给的工程沟通与实现风格。用户要该技能工作流时使用。
 - [google-agents-cli-adk-code](https://github.com/kanjiandahai/skills-collection/blob/main/skills/google-agents-cli-adk-code/SKILL.md): 用 Google Agents CLI / ADK 编写 Agent 代码。用户做 ADK 开发时使用。
 - [google-agents-cli-deploy](https://github.com/kanjiandahai/skills-collection/blob/main/skills/google-agents-cli-deploy/SKILL.md): 部署 Google Agents CLI 相关 Agent。用户要发布到运行环境时使用。
 - [google-agents-cli-publish](https://github.com/kanjiandahai/skills-collection/blob/main/skills/google-agents-cli-publish/SKILL.md): 发布 Agent 包或制品。用户要 publish 时使用。
@@ -219,9 +219,9 @@
 - [seedance-v2](https://github.com/kanjiandahai/skills-collection/blob/main/skills/seedance-v2/SKILL.md): 来自 skills.sh 的 engineering 向 skill「seedance-v2」。安装量信号约 438,719；详情见上游 prime-skills/runcomfy-agent-skills。
 - [happyhorse-1-0](https://github.com/kanjiandahai/skills-collection/blob/main/skills/happyhorse-1-0/SKILL.md): 来自 skills.sh 的 engineering 向 skill「happyhorse-1-0」。安装量信号约 438,632；详情见上游 prime-skills/runcomfy-agent-skills。
 - [flux-2-klein](https://github.com/kanjiandahai/skills-collection/blob/main/skills/flux-2-klein/SKILL.md): 来自 skills.sh 的 engineering 向 skill「flux-2-klein」。安装量信号约 438,466；详情见上游 prime-skills/runcomfy-agent-skills。
-- [caveman-commit](https://github.com/kanjiandahai/skills-collection/blob/main/skills/caveman-commit/SKILL.md): 来自 skills.sh 的 engineering 向 skill「caveman-commit」。安装量信号约 422,405；详情见上游 juliusbrussee/caveman。
 - [kling-3-0](https://github.com/kanjiandahai/skills-collection/blob/main/skills/kling-3-0/SKILL.md): 来自 skills.sh 的 engineering 向 skill「kling-3-0」。安装量信号约 415,690；详情见上游 prime-skills/runcomfy-agent-skills。
 - [caveman-compress](https://github.com/kanjiandahai/skills-collection/blob/main/skills/caveman-compress/SKILL.md): 来自 skills.sh 的 engineering 向 skill「caveman-compress」。安装量信号约 418,533；详情见上游 juliusbrussee/caveman。
+- [caveman-commit](https://github.com/kanjiandahai/skills-collection/blob/main/skills/caveman-commit/SKILL.md): 来自 skills.sh 的 engineering 向 skill「caveman-commit」。安装量信号约 422,405；详情见上游 juliusbrussee/caveman。
 - [caveman-review](https://github.com/kanjiandahai/skills-collection/blob/main/skills/caveman-review/SKILL.md): 来自 skills.sh 的 engineering 向 skill「caveman-review」。安装量信号约 418,371；详情见上游 juliusbrussee/caveman。
 - [minimalist-ui](https://github.com/kanjiandahai/skills-collection/blob/main/skills/minimalist-ui/SKILL.md): 来自 skills.sh 的 engineering 向 skill「minimalist-ui」。安装量信号约 425,120；详情见上游 leonxlnx/taste-skill。
 - [webapp-testing](https://github.com/kanjiandahai/skills-collection/blob/main/skills/webapp-testing/SKILL.md): 为 Web 应用设计并运行可靠的 UI/端到端测试与冒烟检查。用户要测页面、写 Playwright/Cypress 测试、加回归、验证修复是否生效时使用。

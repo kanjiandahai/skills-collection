@@ -5,7 +5,7 @@ tags: [engineering, google, agents, cli]
 category: engineering
 source: google/agents-cli
 rank: 127
-installs: 572831
+installs: 587435
 ---
 
 # google-agents-cli-scaffold

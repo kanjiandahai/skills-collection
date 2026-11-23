@@ -4,8 +4,8 @@ description: Azure 云场景：storage。用户要在 Azure 上完成相关配�
 tags: [cloud, microsoft, azure, storage]
 category: cloud
 source: microsoft/azure-skills
-rank: 87
-installs: 705115
+rank: 86
+installs: 758437
 ---
 
 # azure-storage

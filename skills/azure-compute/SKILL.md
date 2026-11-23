@@ -4,8 +4,8 @@ description: Azure 云场景：compute。用户要在 Azure 上完成相关配�
 tags: [cloud, microsoft, azure, compute]
 category: cloud
 source: microsoft/azure-skills
-rank: 99
-installs: 660191
+rank: 96
+installs: 713504
 ---
 
 # azure-compute

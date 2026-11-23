@@ -5,7 +5,7 @@ tags: [media, 101-skills, avatar, video]
 category: media
 source: 101-skills/superpowers
 rank: 23
-installs: 1030613
+installs: 1062501
 ---
 
 # ai-avatar-video

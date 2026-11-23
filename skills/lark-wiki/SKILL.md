@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：wiki。用户要在飞书生态完成�
 tags: [collaboration, lark, wiki]
 category: collaboration
 source: open.feishu.cn
-rank: 41
-installs: 906374
+rank: 40
+installs: 929284
 ---
 
 # lark-wiki

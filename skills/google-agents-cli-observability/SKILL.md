@@ -5,7 +5,7 @@ tags: [engineering, google, agents, cli]
 category: engineering
 source: google/agents-cli
 rank: 128
-installs: 572799
+installs: 587400
 ---
 
 # google-agents-cli-observability

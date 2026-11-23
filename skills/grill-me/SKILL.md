@@ -4,8 +4,8 @@ description: 对计划或设计做高压追问，直到决策树走通、双方�
 tags: [requirements, planning, interview, design]
 category: planning
 source: mattpocock/skills
-rank: 3
-installs: 1556610
+rank: 5
+installs: 1594347
 ---
 
 # grill-me

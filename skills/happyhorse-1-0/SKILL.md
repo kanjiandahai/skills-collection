@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 engineering 向 skill「happyhorse-1-0」。�
 tags: [engineering, skills-sh, stub]
 category: engineering
 source: prime-skills/runcomfy-agent-skills
-rank: 189
-installs: 445131
+rank: 191
+installs: 447860
 ---
 # happyhorse-1-0
 

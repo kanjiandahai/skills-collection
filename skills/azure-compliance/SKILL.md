@@ -4,8 +4,8 @@ description: Azure 云场景：compliance。用户要在 Azure 上完成相关�
 tags: [cloud, microsoft, azure, compliance]
 category: cloud
 source: microsoft/azure-skills
-rank: 88
-installs: 704724
+rank: 87
+installs: 758040
 ---
 
 # azure-compliance

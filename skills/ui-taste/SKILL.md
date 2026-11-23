@@ -4,8 +4,8 @@ description: 提升 UI 品味与细节一致性。用户觉得界面「土/乱/�
 tags: [design, taste]
 category: design
 source: uizze.sh
-rank: 17
-installs: 1096266
+rank: 19
+installs: 1097689
 ---
 
 # ui-taste

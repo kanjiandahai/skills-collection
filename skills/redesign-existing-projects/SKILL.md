@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 design 向 skill「redesign-existing-projects�
 tags: [design, skills-sh, stub]
 category: design
 source: leonxlnx/taste-skill
-rank: 172
-installs: 458786
+rank: 178
+installs: 458801
 ---
 # redesign-existing-projects
 

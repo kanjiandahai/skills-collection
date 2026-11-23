@@ -5,7 +5,7 @@ tags: [engineering, skills-sh, stub]
 category: engineering
 source: vercel-labs/agent-skills
 rank: 174
-installs: 456365
+installs: 467867
 ---
 # vercel-composition-patterns
 

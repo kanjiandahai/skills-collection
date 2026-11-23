@@ -4,8 +4,8 @@ description: 对照现代 Web 设计准则检查页面。用户要可用性/无�
 tags: [design, vercel-labs, web, guidelines]
 category: design
 source: vercel-labs/agent-skills
-rank: 62
-installs: 866555
+rank: 65
+installs: 893653
 ---
 
 # web-design-guidelines

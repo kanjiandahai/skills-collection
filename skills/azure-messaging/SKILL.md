@@ -5,7 +5,7 @@ tags: [cloud, microsoft, azure, messaging]
 category: cloud
 source: microsoft/azure-skills
 rank: 95
-installs: 695359
+installs: 748673
 ---
 
 # azure-messaging

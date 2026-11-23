@@ -5,7 +5,7 @@ tags: [planning, skills-sh, stub]
 category: planning
 source: mattpocock/skills
 rank: 136
-installs: 541546
+installs: 557307
 ---
 # scaffold-exercises
 

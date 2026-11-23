@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：event。用户要在飞书生态完成
 tags: [collaboration, lark, event]
 category: collaboration
 source: open.feishu.cn
-rank: 49
-installs: 904838
+rank: 48
+installs: 927586
 ---
 
 # lark-event

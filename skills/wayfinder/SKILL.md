@@ -5,7 +5,7 @@ tags: [planning, mattpocock, wayfinder]
 category: planning
 source: mattpocock/skills
 rank: 71
-installs: 813958
+installs: 838180
 ---
 
 # wayfinder

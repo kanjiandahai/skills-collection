@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：contact。用户要在飞书生态完�
 tags: [collaboration, lark, contact]
 category: collaboration
 source: open.feishu.cn
-rank: 44
-installs: 905400
+rank: 43
+installs: 928164
 ---
 
 # lark-contact

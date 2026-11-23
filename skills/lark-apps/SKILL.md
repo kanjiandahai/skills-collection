@@ -5,7 +5,7 @@ tags: [collaboration, lark, apps]
 category: collaboration
 source: open.feishu.cn
 rank: 70
-installs: 816579
+installs: 839330
 ---
 
 # lark-apps

@@ -4,8 +4,8 @@ description: 飞书/Lark OpenAPI 场景：markdown。用户要在飞书生态完
 tags: [collaboration, lark, markdown]
 category: collaboration
 source: open.feishu.cn
-rank: 60
-installs: 871355
+rank: 64
+installs: 894123
 ---
 
 # lark-markdown

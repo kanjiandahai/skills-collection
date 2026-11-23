@@ -4,8 +4,8 @@ description: 来自 skills.sh 的 cloud 向 skill「azure-kubernetes」。安装
 tags: [cloud, skills-sh, stub]
 category: cloud
 source: microsoft/azure-skills
-rank: 126
-installs: 572872
+rank: 116
+installs: 626195
 ---
 # azure-kubernetes
 
